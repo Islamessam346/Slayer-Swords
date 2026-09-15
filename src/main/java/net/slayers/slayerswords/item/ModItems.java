@@ -7,6 +7,8 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.slayers.slayerswords.SlayerSwords;
 
@@ -14,6 +16,8 @@ import java.util.function.Function;
 
 public class ModItems {
     public static final Item SERPENT_NICHIRIN = registerItem( "serpent_nichirin", Item::new);
+    public  static final Item SUN_ORE = registerItem("sun_ore", Item::new);
+
 
 
 
@@ -27,6 +31,9 @@ public class ModItems {
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
             output.accept(SERPENT_NICHIRIN);
+        });
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
+            output.accept(SUN_ORE);
         });
     }
 }
