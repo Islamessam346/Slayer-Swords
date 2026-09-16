@@ -18,6 +18,10 @@ public class ModItems {
     public static final Item SERPENT_NICHIRIN = registerItem( "serpent_nichirin", Item::new);
     public  static final Item SUN_ORE = registerItem("sun_ore", Item::new);
     public  static final Item SERPENT_SCALES = registerItem("serpent_scales", Item::new);
+    public  static final Item SUN_INGOT = registerItem("sun_ingot", Item::new);
+    public  static final Item SCARLET_INGOT = registerItem("scarlet_ingot", Item::new);
+    public  static final Item SCARLET_ORE = registerItem("scarlet_ore", Item::new);
+    public  static final Item NICHIRIN_HANDLE = registerItem("nichirin_handle", Item::new);
 
 
 
@@ -35,6 +39,10 @@ public class ModItems {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
             output.accept(SUN_ORE);
             output.accept(SERPENT_SCALES);
+            output.accept(NICHIRIN_HANDLE);
+            output.accept(SCARLET_INGOT);
+            output.accept(SCARLET_ORE);
+            output.accept(SUN_INGOT);
         });
 
     }
