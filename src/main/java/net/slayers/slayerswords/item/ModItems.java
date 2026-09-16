@@ -17,7 +17,7 @@ import java.util.function.Function;
 public class ModItems {
     public static final Item SERPENT_NICHIRIN = registerItem( "serpent_nichirin", Item::new);
     public  static final Item SUN_ORE = registerItem("sun_ore", Item::new);
-
+    public  static final Item SERPENT_SCALES = registerItem("serpent_scales", Item::new);
 
 
 
@@ -34,6 +34,8 @@ public class ModItems {
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
             output.accept(SUN_ORE);
+            output.accept(SERPENT_SCALES);
         });
+
     }
 }
