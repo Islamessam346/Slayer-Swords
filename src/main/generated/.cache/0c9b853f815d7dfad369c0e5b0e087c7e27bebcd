@@ -1,5 +1,6 @@
 // 26.1.2	-999999999-01-01T00:00:00	Slayer Swords/Model Definitions
 4e7ab258f0bfc0c98efbb85fbc1c3abfa3f77e73 assets/slayerswords/items/flame_nichirin.json
+4e5659bce6338bbcf67317157148d30bc6eee4c6 assets/slayerswords/items/marine_stone.json
 eb20807b43315e2086af36ee30d4c6b9f146d65b assets/slayerswords/items/nichirin_handle.json
 c41a782f0240c1a97f595bdb44877169f580bf72 assets/slayerswords/items/scarlet_ingot.json
 a63dee15a1168f49bb4ad9040114492f1809570a assets/slayerswords/items/scarlet_ore.json
@@ -13,6 +14,7 @@ dd03b439151251021d5f46a6eba17f1e13189ce6 assets/slayerswords/items/vortex_ember.
 37ea0ea97c7b472f32f507cf2a46b8f910284040 assets/slayerswords/items/water_nichirin.json
 53c3ee13624280e1de7b403382622a4bea87d3b8 assets/slayerswords/items/wisteria_flower.json
 e38e986634acb842a41d45d4e07bf0483d966af9 assets/slayerswords/models/item/flame_nichirin.json
+23e0ef585fa2ee11094a485f83658c8f233e3471 assets/slayerswords/models/item/marine_stone.json
 82cfac28f0256ca2afd3707f1dccea5dacbb4c1c assets/slayerswords/models/item/nichirin_handle.json
 faf952871da5617307d96d22250a18ba24ab9a20 assets/slayerswords/models/item/scarlet_ingot.json
 80f8d0e99f4a30a8c1d4bbf8dd1f8e43c97f226b assets/slayerswords/models/item/scarlet_ore.json
