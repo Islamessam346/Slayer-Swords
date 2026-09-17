@@ -23,6 +23,8 @@ public class ModItems {
     public  static final Item SCARLET_ORE = registerItem("scarlet_ore", Item::new);
     public  static final Item NICHIRIN_HANDLE = registerItem("nichirin_handle", Item::new);
     public static final Item WISTERIA_FLOWER = registerItem("wisteria_flower", Item::new);
+    public static final Item FLAME_NICHIRIN = registerItem("flame_nichirin", Item::new);
+
 
 
 
@@ -45,6 +47,7 @@ public class ModItems {
             output.accept(SCARLET_ORE);
             output.accept(SUN_INGOT);
             output.accept(WISTERIA_FLOWER);
+            output.accept(FLAME_NICHIRIN);
         });
 
     }
