@@ -27,6 +27,7 @@ public class ModItems {
     public static final Item FLAME_NICHIRIN = registerItem("flame_nichirin", Item::new);
     public static final Item VOLCANIC_STONE = registerItem("volcanic_stone", Item::new);
     public static final Item VORTEX_EMBER = registerItem("vortex_ember", Item::new);
+    public static final Item WATER_NICHIRIN = registerItem("water_nichirin", Item::new);
 
 
 
@@ -54,6 +55,7 @@ public class ModItems {
             output.accept(FLAME_NICHIRIN);
             output.accept(VOLCANIC_STONE);
             output.accept(VORTEX_EMBER);
+            output.accept(WATER_NICHIRIN);
         });
 
     }
