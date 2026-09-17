@@ -29,6 +29,7 @@ public class ModItems {
     public static final Item VORTEX_EMBER = registerItem("vortex_ember", Item::new);
     public static final Item WATER_NICHIRIN = registerItem("water_nichirin", Item::new);
     public static final Item MARINE_STONE = registerItem("marine_stone", Item::new);
+    public static final Item BLACK_NICHIRIN = registerItem("black_nichirin", Item::new);
 
 
 
@@ -58,6 +59,7 @@ public class ModItems {
             output.accept(VORTEX_EMBER);
             output.accept(WATER_NICHIRIN);
             output.accept(MARINE_STONE);
+            output.accept(BLACK_NICHIRIN);
         });
 
     }
