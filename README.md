@@ -1,5 +1,5 @@
 # Slayer Swords
-        This mod is inspired by the Demon Slayer Anime. and adds multiple swords and material and crafting trees (coming soon)
+        This mod is inspired by the Demon Slayer Anime. and adds multiple swords and material and (crafting trees (coming soon))
         - water,flame,toxic,serpent, and black nichirins/swords
         - sun, scarlet Ores, and Ingots
         - wisteria, marine, volcanic, vortex ember, serpent scales materials
