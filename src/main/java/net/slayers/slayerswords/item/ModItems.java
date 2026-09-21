@@ -30,6 +30,9 @@ public class ModItems {
     public static final Item WATER_NICHIRIN = registerItem("water_nichirin", Item::new);
     public static final Item MARINE_STONE = registerItem("marine_stone", Item::new);
     public static final Item BLACK_NICHIRIN = registerItem("black_nichirin", Item::new);
+    public static final Item MOON_NICHIRIN = registerItem("moon_nichirin", Item::new);
+    public static final Item BEAST_NICHIRIN = registerItem("beast_nichirin", Item::new);
+    public static final Item FLOWER_NICHIRIN = registerItem("flower_nichirin", Item::new);
 
 
 
@@ -60,6 +63,9 @@ public class ModItems {
             output.accept(WATER_NICHIRIN);
             output.accept(MARINE_STONE);
             output.accept(BLACK_NICHIRIN);
+            output.accept(MOON_NICHIRIN);
+            output.accept(BEAST_NICHIRIN);
+            output.accept(FLOWER_NICHIRIN);
         });
 
     }
