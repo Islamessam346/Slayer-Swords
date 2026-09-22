@@ -33,6 +33,7 @@ public class ModItems {
     public static final Item MOON_NICHIRIN = registerItem("moon_nichirin", Item::new);
     public static final Item BEAST_NICHIRIN = registerItem("beast_nichirin", Item::new);
     public static final Item FLOWER_NICHIRIN = registerItem("flower_nichirin", Item::new);
+    public static final Item UPPER_MOON_1_FLESH = registerItem("upper_moon_1_flesh", Item::new);
 
 
 
@@ -66,6 +67,7 @@ public class ModItems {
             output.accept(MOON_NICHIRIN);
             output.accept(BEAST_NICHIRIN);
             output.accept(FLOWER_NICHIRIN);
+            output.accept(UPPER_MOON_1_FLESH);
         });
 
     }
