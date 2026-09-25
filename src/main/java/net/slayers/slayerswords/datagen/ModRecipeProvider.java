@@ -54,6 +54,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public String getName() {
-        return "TutorialMod Recipes";
+        return "SlayerSwords Recipes";
     }
 }
