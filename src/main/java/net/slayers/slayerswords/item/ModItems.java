@@ -34,6 +34,9 @@ public class ModItems {
     public static final Item BEAST_NICHIRIN = registerItem("beast_nichirin", Item::new);
     public static final Item FLOWER_NICHIRIN = registerItem("flower_nichirin", Item::new);
     public static final Item UPPER_MOON_1_FLESH = registerItem("upper_moon_1_flesh", Item::new);
+    public static final Item BLACK_THUNDER_NICHIRIN = registerItem("black_thunder_nichirin", Item::new);
+    public static final Item LIGHTNING_WYVERN_FANG = registerItem("lightning_wyvern_fang", Item::new);
+    public static final Item LIGHTNING_NICHIRIN = registerItem("lightning_nichirin", Item::new);
 
 
 
@@ -68,6 +71,9 @@ public class ModItems {
             output.accept(BEAST_NICHIRIN);
             output.accept(FLOWER_NICHIRIN);
             output.accept(UPPER_MOON_1_FLESH);
+            output.accept(BLACK_THUNDER_NICHIRIN);
+            output.accept(LIGHTNING_WYVERN_FANG);
+            output.accept(LIGHTNING_NICHIRIN);
         });
 
     }
