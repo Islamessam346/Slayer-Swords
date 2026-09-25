@@ -57,6 +57,7 @@ public class ModItems {
             output.accept(SERPENT_NICHIRIN);
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
+            output.accept(SERPENT_NICHIRIN);
             output.accept(SUN_ORE);
             output.accept(SERPENT_SCALES);
             output.accept(NICHIRIN_HANDLE);

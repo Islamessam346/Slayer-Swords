@@ -17,6 +17,31 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.slayerswords.slayerswords_mod"))
                     .displayItems((parameters, output) -> {
                       output.accept(ModItems.BLACK_NICHIRIN);
+                      output.accept(ModItems.LIGHTNING_NICHIRIN);
+                      output.accept(ModItems.LIGHTNING_WYVERN_FANG);
+                      output.accept(ModItems.BLACK_THUNDER_NICHIRIN);
+                      output.accept(ModItems.VORTEX_EMBER);
+                      output.accept(ModItems.TOXIC_NICHIRIN);
+                      output.accept(ModItems.NICHIRIN_HANDLE);
+                      output.accept(ModItems.SCARLET_INGOT);
+                      output.accept(ModItems.SCARLET_ORE);
+                      output.accept(ModItems.SUN_ORE);
+                      output.accept(ModItems.SUN_INGOT);
+                      output.accept(ModItems.BEAST_FANG);
+                      output.accept(ModItems.BEAST_NICHIRIN);
+                      output.accept(ModItems.FLAME_NICHIRIN);
+                      output.accept(ModItems.FLOWER_NICHIRIN);
+                      output.accept(ModItems.MARINE_STONE);
+                      output.accept(ModItems.METEORITE_CRYSTALS);
+                      output.accept(ModItems.MOON_NICHIRIN);
+                      output.accept(ModItems.RADIANT_PEONY_BLOSSOM);
+                      output.accept(ModItems.SERPENT_NICHIRIN);
+                      output.accept(ModItems.SERPENT_SCALES);
+                      output.accept(ModItems.SHINY_METEORITE_DEBRIS);
+                      output.accept(ModItems.UPPER_MOON_1_FLESH);
+                      output.accept(ModItems.VOLCANIC_STONE);
+                      output.accept(ModItems.WATER_NICHIRIN);
+                      output.accept(ModItems.WISTERIA_FLOWER);
 
 
                     }).build());
