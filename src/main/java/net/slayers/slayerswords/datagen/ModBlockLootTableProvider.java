@@ -17,6 +17,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
     public void generate() {
 
         add(ModBlocks.RAW_SUNORE_BLOCK, createOreDrop(ModBlocks.RAW_SUNORE_BLOCK, ModItems.SUN_ORE));
+        add(ModBlocks.RAW_SCARLETORE_BLOCK, createOreDrop(ModBlocks.RAW_SCARLETORE_BLOCK, ModItems.SCARLET_ORE));
 
     }
 }

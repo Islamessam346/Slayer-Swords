@@ -19,6 +19,10 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    public static final Block RAW_SCARLETORE_BLOCK = registerBlock("raw_scarletore_block",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
