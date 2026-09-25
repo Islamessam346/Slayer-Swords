@@ -37,6 +37,8 @@ public class ModItems {
     public static final Item BLACK_THUNDER_NICHIRIN = registerItem("black_thunder_nichirin", Item::new);
     public static final Item LIGHTNING_WYVERN_FANG = registerItem("lightning_wyvern_fang", Item::new);
     public static final Item LIGHTNING_NICHIRIN = registerItem("lightning_nichirin", Item::new);
+    public static final Item SHINY_METEORITE_DEBRIS = registerItem("shiny_meteorite_debris", Item::new);
+    public static final Item METEORITE_CRYSTALS = registerItem("meteorite_crystals", Item::new);
 
 
 
@@ -74,6 +76,8 @@ public class ModItems {
             output.accept(BLACK_THUNDER_NICHIRIN);
             output.accept(LIGHTNING_WYVERN_FANG);
             output.accept(LIGHTNING_NICHIRIN);
+            output.accept(SHINY_METEORITE_DEBRIS);
+            output.accept(METEORITE_CRYSTALS);
         });
 
     }
