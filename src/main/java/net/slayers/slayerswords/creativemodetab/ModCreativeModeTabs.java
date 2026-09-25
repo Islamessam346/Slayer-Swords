@@ -53,6 +53,25 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.slayerswords.slayer_swords"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.BLACK_NICHIRIN);
+                        output.accept(ModItems.SERPENT_NICHIRIN);
+                        output.accept(ModItems.WATER_NICHIRIN);
+                        output.accept(ModItems.MOON_NICHIRIN);
+                        output.accept(ModItems.FLOWER_NICHIRIN);
+                        output.accept(ModItems.FLAME_NICHIRIN);
+                        output.accept(ModItems.BEAST_NICHIRIN);
+                        output.accept(ModItems.TOXIC_NICHIRIN);
+                        output.accept(ModItems.BLACK_THUNDER_NICHIRIN);
+                        output.accept(ModItems.LIGHTNING_NICHIRIN);
+
+
+                    }).build());
+
+    public static final CreativeModeTab SLAYERSWORDS_MATERIALITEMS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "slayerswords_materialitems"),
+            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.VOLCANIC_STONE))
+                    .title(Component.translatable("creativemodetab.slayerswords.slayerswords_materialitems"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.VOLCANIC_STONE);
 
 
                     }).build());
