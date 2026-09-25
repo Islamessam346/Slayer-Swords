@@ -8,6 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.slayers.slayerswords.SlayerSwords;
+import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModItems;
 
 public class ModCreativeModeTabs {
@@ -93,10 +94,10 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab SLAYERSWORDS_BLOCKS = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "slayerswords_blocks"),
-            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.SUN_INGOT))
+            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.RAW_SUNORE_BLOCK))
                     .title(Component.translatable("creativemodetab.slayerswords.slayerswords_blocks"))
                     .displayItems((parameters, output) -> {
-
+                        output.accept(ModBlocks.RAW_SUNORE_BLOCK);
 
 
                     }).build());
