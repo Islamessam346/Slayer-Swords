@@ -91,6 +91,16 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
+    public static final CreativeModeTab SLAYERSWORDS_BLOCKS = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "slayerswords_blocks"),
+            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.SUN_INGOT))
+                    .title(Component.translatable("creativemodetab.slayerswords.slayerswords_blocks"))
+                    .displayItems((parameters, output) -> {
+
+
+
+                    }).build());
+
 
     public static void registerModCreativeModeTabs() {
         SlayerSwords.LOGGER.info("Registering Creative Mode Tabs for " + SlayerSwords.MOD_ID);
