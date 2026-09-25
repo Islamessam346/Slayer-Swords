@@ -72,6 +72,21 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.slayerswords.slayerswords_materialitems"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.VOLCANIC_STONE);
+                        output.accept(ModItems.WISTERIA_FLOWER);
+                        output.accept(ModItems.UPPER_MOON_1_FLESH);
+                        output.accept(ModItems.SHINY_METEORITE_DEBRIS);
+                        output.accept(ModItems.SERPENT_SCALES);
+                        output.accept(ModItems.METEORITE_CRYSTALS);
+                        output.accept(ModItems.RADIANT_PEONY_BLOSSOM);
+                        output.accept(ModItems.MARINE_STONE);
+                        output.accept(ModItems.BEAST_FANG);
+                        output.accept(ModItems.SUN_INGOT);
+                        output.accept(ModItems.SUN_ORE);
+                        output.accept(ModItems.SCARLET_ORE);
+                        output.accept(ModItems.SCARLET_INGOT);
+                        output.accept(ModItems.NICHIRIN_HANDLE);
+                        output.accept(ModItems.VORTEX_EMBER);
+                        output.accept(ModItems.LIGHTNING_WYVERN_FANG);
 
 
                     }).build());
