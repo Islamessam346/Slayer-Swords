@@ -16,11 +16,11 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider registries) {
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.RAW_SUNORE_BLOCK, ModBlocks.RAW_SCARLETORE_BLOCK);
+                .add(ModBlocks.RAW_SUNORE_BLOCK, ModBlocks.RAW_SCARLETORE_BLOCK, ModBlocks.METEORITE_ORE);
 
 
         valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RAW_SUNORE_BLOCK, ModBlocks.RAW_SCARLETORE_BLOCK);
+                .add(ModBlocks.RAW_SUNORE_BLOCK, ModBlocks.RAW_SCARLETORE_BLOCK, ModBlocks.METEORITE_ORE);
 
 
     }

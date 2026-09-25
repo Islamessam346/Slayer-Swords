@@ -1,4 +1,5 @@
 // 26.1.2	-999999999-01-01T00:00:00	Slayer Swords/Model Definitions
+1c47d10274d8b06ef686b75312700e60f4cfef55 assets/slayerswords/blockstates/meteorite_ore.json
 7ffa9b93a87c6dbb48022afa3bae302e324ebad3 assets/slayerswords/blockstates/raw_scarletore_block.json
 7645fd7c42356ee0f239c781fa35b6a40c9cc56a assets/slayerswords/blockstates/raw_sunore_block.json
 77fa60211c8941b865d78c1eeef8e196bb2331e0 assets/slayerswords/items/beast_fang.json
@@ -11,6 +12,7 @@ bf5aa3bf1e1b7186f0948eab987f700d85f0760a assets/slayerswords/items/black_thunder
 056b409d89e1997b95023497f60142301fba5730 assets/slayerswords/items/lightning_wyvern_fang.json
 4e5659bce6338bbcf67317157148d30bc6eee4c6 assets/slayerswords/items/marine_stone.json
 3e1c40055c49945aa3b94c5978c9d13658fb3882 assets/slayerswords/items/meteorite_crystals.json
+8c18bd372b988c3a89f724cc58f95fb94a30e2b3 assets/slayerswords/items/meteorite_ore.json
 3480c717f8548ece42696c514c93134e2dcb07db assets/slayerswords/items/moon_nichirin.json
 eb20807b43315e2086af36ee30d4c6b9f146d65b assets/slayerswords/items/nichirin_handle.json
 283f5aa28e057571229c5e97616a88b010494dc2 assets/slayerswords/items/radiant_peony_blossom.json
@@ -29,6 +31,7 @@ afecf7289a6486e9f177f55ced14911be89ae387 assets/slayerswords/items/sun_ore.json
 dd03b439151251021d5f46a6eba17f1e13189ce6 assets/slayerswords/items/vortex_ember.json
 37ea0ea97c7b472f32f507cf2a46b8f910284040 assets/slayerswords/items/water_nichirin.json
 53c3ee13624280e1de7b403382622a4bea87d3b8 assets/slayerswords/items/wisteria_flower.json
+d6f26cf66cb3daa64a394e673cb44da937683bfc assets/slayerswords/models/block/meteorite_ore.json
 46650fd484fa16200c0b5bf7a6acc69dd5300e71 assets/slayerswords/models/block/raw_scarletore_block.json
 e705bddbaf7d5b4d565fe62d6f24079992e53107 assets/slayerswords/models/block/raw_sunore_block.json
 63c0677dcd8b95e44e99cc88599e624ceb604d6a assets/slayerswords/models/item/beast_fang.json

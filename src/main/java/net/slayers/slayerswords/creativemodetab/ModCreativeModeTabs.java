@@ -43,6 +43,9 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.VOLCANIC_STONE);
                       output.accept(ModItems.WATER_NICHIRIN);
                       output.accept(ModItems.WISTERIA_FLOWER);
+                      output.accept(ModBlocks.RAW_SUNORE_BLOCK);
+                      output.accept(ModBlocks.RAW_SCARLETORE_BLOCK);
+                      output.accept(ModBlocks.METEORITE_ORE);
 
 
                     }).build());
@@ -98,6 +101,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.slayerswords.slayerswords_blocks"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.RAW_SUNORE_BLOCK);
+                        output.accept(ModBlocks.RAW_SCARLETORE_BLOCK);
+                        output.accept(ModBlocks.METEORITE_ORE);
 
 
                     }).build());
