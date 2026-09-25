@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sun_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:sun_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:sun_ingot_from_blasting_sun_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sun_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:sun_ingot_from_blasting_sun_ore"
+    ]
+  }
+}
