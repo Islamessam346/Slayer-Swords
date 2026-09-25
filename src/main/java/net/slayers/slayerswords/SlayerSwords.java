@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
 
+import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
 import net.slayers.slayerswords.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +16,10 @@ public class SlayerSwords implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.registerModCreativeModeTabs();
+
 		ModItems.registerModItems();
+
 	}
 
 	public static Identifier id(String path) {
