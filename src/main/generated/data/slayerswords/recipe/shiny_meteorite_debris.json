@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "meteorite",
+  "ingredients": [
+    "slayerswords:meteorite_ore"
+  ],
+  "result": {
+    "count": 9,
+    "id": "slayerswords:shiny_meteorite_debris"
+  }
+}

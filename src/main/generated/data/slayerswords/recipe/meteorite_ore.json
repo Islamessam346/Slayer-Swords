@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "meteorite",
+  "key": {
+    "R": "slayerswords:shiny_meteorite_debris"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:meteorite_ore"
+  }
+}

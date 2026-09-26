@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shiny_meteorite_debris": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:shiny_meteorite_debris"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:meteorite_crystals_from_smelting_shiny_meteorite_debris"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_shiny_meteorite_debris"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:meteorite_crystals_from_smelting_shiny_meteorite_debris"
+    ]
+  }
+}
