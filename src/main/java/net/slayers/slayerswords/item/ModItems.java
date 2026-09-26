@@ -41,6 +41,7 @@ public class ModItems {
     public static final Item METEORITE_CRYSTALS = registerItem("meteorite_crystals", Item::new);
     public static final Item RADIANT_PEONY_BLOSSOM = registerItem("radiant_peony_blossom", Item::new);
     public static final Item BEAST_FANG = registerItem("beast_fang", Item::new);
+    public static final Item SOUND_NICHIRIN = registerItem("sound_nichirin", Item::new);
 
 
 
@@ -83,6 +84,7 @@ public class ModItems {
             output.accept(METEORITE_CRYSTALS);
             output.accept(RADIANT_PEONY_BLOSSOM);
             output.accept(BEAST_FANG);
+            output.accept(SOUND_NICHIRIN);
         });
 
     }

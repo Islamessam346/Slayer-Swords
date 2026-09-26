@@ -49,6 +49,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.METEORITE_CRYSTALS, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.RADIANT_PEONY_BLOSSOM, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BEAST_FANG, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.SOUND_NICHIRIN, ModelTemplates.FLAT_ITEM);
 
 
 

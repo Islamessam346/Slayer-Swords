@@ -46,6 +46,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.RAW_SUNORE_BLOCK);
                       output.accept(ModBlocks.RAW_SCARLETORE_BLOCK);
                       output.accept(ModBlocks.METEORITE_ORE);
+                      output.accept(ModItems.SOUND_NICHIRIN);
 
 
                     }).build());
@@ -53,7 +54,7 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab SLAYER_SWORDS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "slayer_swords"),
-            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.BLACK_NICHIRIN))
+            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.SOUND_NICHIRIN))
                     .title(Component.translatable("creativemodetab.slayerswords.slayer_swords"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.BLACK_NICHIRIN);
@@ -66,6 +67,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOXIC_NICHIRIN);
                         output.accept(ModItems.BLACK_THUNDER_NICHIRIN);
                         output.accept(ModItems.LIGHTNING_NICHIRIN);
+                        output.accept(ModItems.SOUND_NICHIRIN);
 
 
                     }).build());
