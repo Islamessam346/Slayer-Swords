@@ -43,6 +43,7 @@ public class ModItems {
     public static final Item BEAST_FANG = registerItem("beast_fang", Item::new);
     public static final Item SOUND_NICHIRIN = registerItem("sound_nichirin", Item::new);
     public static final Item MIST_NICHIRIN = registerItem("mist_nichirin", Item::new);
+    public static final Item LOVE_NICHIRIN = registerItem("love_nichirin", Item::new);
 
 
 
@@ -86,6 +87,7 @@ public class ModItems {
             output.accept(BEAST_FANG);
             output.accept(SOUND_NICHIRIN);
             output.accept(MIST_NICHIRIN);
+            output.accept(LOVE_NICHIRIN);
         });
 
     }

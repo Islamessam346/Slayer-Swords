@@ -48,6 +48,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.METEORITE_ORE);
                       output.accept(ModItems.SOUND_NICHIRIN);
                       output.accept(ModItems.MIST_NICHIRIN);
+                      output.accept(ModItems.LOVE_NICHIRIN);
 
 
                     }).build());
@@ -70,6 +71,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LIGHTNING_NICHIRIN);
                         output.accept(ModItems.SOUND_NICHIRIN);
                         output.accept(ModItems.MIST_NICHIRIN);
+                        output.accept(ModItems.LOVE_NICHIRIN);
 
 
                     }).build());
