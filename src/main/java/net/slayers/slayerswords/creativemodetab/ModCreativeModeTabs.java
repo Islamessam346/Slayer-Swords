@@ -43,13 +43,20 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.VOLCANIC_STONE);
                       output.accept(ModItems.WATER_NICHIRIN);
                       output.accept(ModItems.WISTERIA_FLOWER);
-                      output.accept(ModBlocks.RAW_SUNORE_BLOCK);
-                      output.accept(ModBlocks.RAW_SCARLETORE_BLOCK);
-                      output.accept(ModBlocks.METEORITE_ORE);
                       output.accept(ModItems.SOUND_NICHIRIN);
                       output.accept(ModItems.MIST_NICHIRIN);
                       output.accept(ModItems.LOVE_NICHIRIN);
 
+
+
+
+
+                      output.accept(ModBlocks.WISTERIA_BUSH);
+                      output.accept(ModBlocks.RAW_SUNORE_BLOCK);
+                      output.accept(ModBlocks.RAW_SCARLETORE_BLOCK);
+                      output.accept(ModBlocks.METEORITE_ORE);
+                      output.accept(ModBlocks.BLOCK_OF_SUNORE);
+                      output.accept(ModBlocks.SUNMETAL_BLOCK);
 
                     }).build());
 
@@ -109,6 +116,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_SUNORE_BLOCK);
                         output.accept(ModBlocks.RAW_SCARLETORE_BLOCK);
                         output.accept(ModBlocks.METEORITE_ORE);
+                        output.accept(ModBlocks.WISTERIA_BUSH);
+                        output.accept(ModBlocks.BLOCK_OF_SUNORE);
+                        output.accept(ModBlocks.SUNMETAL_BLOCK);
 
 
                     }).build());

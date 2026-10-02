@@ -18,6 +18,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.RAW_SUNORE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.RAW_SCARLETORE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.METEORITE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.WISTERIA_BUSH);
+        blockModelGenerators.createTrivialCube(ModBlocks.BLOCK_OF_SUNORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.SUNMETAL_BLOCK);
 
     }
 

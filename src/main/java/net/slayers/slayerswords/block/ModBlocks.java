@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.slayers.slayerswords.SlayerSwords;
@@ -26,6 +27,20 @@ public class ModBlocks {
     public static final Block METEORITE_ORE = registerBlock("meteorite_ore",
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final Block WISTERIA_BUSH = registerBlock("wisteria_bush",
+            properties -> new Block(properties.strength(2f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AZALEA_LEAVES)));
+
+    public static final Block BLOCK_OF_SUNORE = registerBlock("block_of_sunore",
+            properties -> new Block(properties.strength(5f)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)));
+
+    public static final Block SUNMETAL_BLOCK = registerBlock("sunmetal_block",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.IRON)));
+
+
 
 
 

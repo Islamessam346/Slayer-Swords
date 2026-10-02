@@ -38,6 +38,9 @@
 
   "block.slayerswords.raw_sunore_block": "Sun Ore Block",
   "block.slayerswords.raw_scarletore_block": "Scarlet Ore Block",
-  "block.slayerswords.meteorite_ore": "Meteorite Ore"
+  "block.slayerswords.meteorite_ore": "Meteorite Ore",
+  "block.slayerswords.wisteria_bush": "Wisteria Bush",
+  "block.slayerswords.block_of_sunore": "Block of Sun Ore",
+  "block.slayerswords.sunmetal_block": "Sun Metal Block"
 
 }
