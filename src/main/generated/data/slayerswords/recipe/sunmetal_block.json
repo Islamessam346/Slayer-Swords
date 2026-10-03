@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sun ingots",
+  "key": {
+    "R": "slayerswords:sun_ingot"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:sunmetal_block"
+  }
+}

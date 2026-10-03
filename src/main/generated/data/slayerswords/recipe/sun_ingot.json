@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sun ingots",
+  "ingredients": [
+    "slayerswords:sunmetal_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "slayerswords:sun_ingot"
+  }
+}

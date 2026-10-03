@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nichirin_handle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:nichirin_handle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_serpent_scales": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:serpent_scales"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sun_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:sun_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:serpent_nichirin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sun_ingot",
+      "has_serpent_scales",
+      "has_nichirin_handle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:serpent_nichirin"
+    ]
+  }
+}

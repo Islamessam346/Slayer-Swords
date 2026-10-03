@@ -48,6 +48,7 @@ public class ModItems {
     public static final Item LOVE_NICHIRIN = registerItem("love_nichirin", Item::new);
     public static final Item STRAWBERRY = registerItem("strawberry", properties -> new Item(properties
             .food(ModFoods.STRAWBERRY, ModFoods.STRAWBERRY_CONSUMABLE)));
+    public static final Item MIST_CORE = registerItem("mist_core", Item::new);
 
 
 
@@ -89,6 +90,7 @@ public class ModItems {
             output.accept(SOUND_NICHIRIN);
             output.accept(MIST_NICHIRIN);
             output.accept(LOVE_NICHIRIN);
+            output.accept(MIST_CORE);
         });
 
     }

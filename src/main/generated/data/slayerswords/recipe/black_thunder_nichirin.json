@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "black thunder nichirin",
+  "key": {
+    "A": "slayerswords:lightning_wyvern_fang",
+    "H": "slayerswords:nichirin_handle",
+    "R": "slayerswords:sun_ingot"
+  },
+  "pattern": [
+    " R ",
+    "ARA",
+    " H "
+  ],
+  "result": {
+    "id": "slayerswords:black_thunder_nichirin"
+  }
+}

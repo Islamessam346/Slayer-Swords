@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "scarlet ores",
+  "key": {
+    "R": "slayerswords:scarlet_ore"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:block_of_scarletore"
+  }
+}

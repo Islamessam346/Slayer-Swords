@@ -46,6 +46,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.SOUND_NICHIRIN);
                       output.accept(ModItems.MIST_NICHIRIN);
                       output.accept(ModItems.LOVE_NICHIRIN);
+                      output.accept(ModItems.MIST_CORE);
 
 
 
@@ -87,6 +88,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LOVE_NICHIRIN);
 
 
+
                     }).build());
 
     public static final CreativeModeTab SLAYERSWORDS_MATERIALITEMS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -110,6 +112,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NICHIRIN_HANDLE);
                         output.accept(ModItems.VORTEX_EMBER);
                         output.accept(ModItems.LIGHTNING_WYVERN_FANG);
+                        output.accept(ModItems.MIST_CORE);
 
 
                     }).build());

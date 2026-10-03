@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "lightning nichirin",
+  "key": {
+    "A": "slayerswords:meteorite_crystals",
+    "H": "slayerswords:nichirin_handle",
+    "R": "slayerswords:sun_ingot"
+  },
+  "pattern": [
+    " R ",
+    "ARA",
+    " H "
+  ],
+  "result": {
+    "id": "slayerswords:lightning_nichirin"
+  }
+}

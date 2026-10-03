@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "scarlet ores",
+  "ingredients": [
+    "slayerswords:block_of_scarletore"
+  ],
+  "result": {
+    "count": 9,
+    "id": "slayerswords:scarlet_ore"
+  }
+}
