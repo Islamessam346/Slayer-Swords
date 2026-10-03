@@ -12,6 +12,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.block.ModBlocks;
+import net.slayers.slayerswords.food.ModFoods;
 
 import java.util.function.Function;
 
@@ -45,6 +46,8 @@ public class ModItems {
     public static final Item SOUND_NICHIRIN = registerItem("sound_nichirin", Item::new);
     public static final Item MIST_NICHIRIN = registerItem("mist_nichirin", Item::new);
     public static final Item LOVE_NICHIRIN = registerItem("love_nichirin", Item::new);
+    public static final Item STRAWBERRY = registerItem("strawberry", properties -> new Item(properties
+            .food(ModFoods.STRAWBERRY, ModFoods.STRAWBERRY_CONSUMABLE)));
 
 
 

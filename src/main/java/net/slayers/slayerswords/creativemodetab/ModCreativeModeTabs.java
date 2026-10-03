@@ -62,6 +62,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.VOLCANIC_CLUSTER);
                       output.accept(ModBlocks.DRY_MAGMA);
 
+                      output.accept(ModItems.STRAWBERRY);
+
                     }).build());
 
 
@@ -131,7 +133,7 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
-
+    
     public static void registerModCreativeModeTabs() {
         SlayerSwords.LOGGER.info("Registering Creative Mode Tabs for " + SlayerSwords.MOD_ID);
     }
