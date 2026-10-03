@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nichirin_handle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:nichirin_handle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sun_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:sun_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:moon_nichirin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_upper_moon_1_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:upper_moon_1_flesh"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sun_ingot",
+      "has_upper_moon_1_flesh",
+      "has_nichirin_handle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:moon_nichirin"
+    ]
+  }
+}

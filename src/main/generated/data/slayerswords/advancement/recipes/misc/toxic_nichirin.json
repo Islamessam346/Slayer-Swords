@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nichirin_handle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:nichirin_handle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sun_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:sun_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:toxic_nichirin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wisteria_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:wisteria_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sun_ingot",
+      "has_wisteria_flower",
+      "has_nichirin_handle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:toxic_nichirin"
+    ]
+  }
+}

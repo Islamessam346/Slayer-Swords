@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "black nichirin",
+  "key": {
+    "A": "slayerswords:vortex_ember",
+    "H": "slayerswords:nichirin_handle",
+    "R": "slayerswords:sun_ingot"
+  },
+  "pattern": [
+    " R ",
+    "ARA",
+    " H "
+  ],
+  "result": {
+    "id": "slayerswords:black_nichirin"
+  }
+}

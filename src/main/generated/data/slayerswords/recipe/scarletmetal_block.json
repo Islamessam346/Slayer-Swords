@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "scarlet ingots",
+  "key": {
+    "R": "slayerswords:scarlet_ingot"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:scarletmetal_block"
+  }
+}

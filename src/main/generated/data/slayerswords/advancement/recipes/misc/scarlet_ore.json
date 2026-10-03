@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block_of_scarletore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:block_of_scarletore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:scarlet_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block_of_scarletore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:scarlet_ore"
+    ]
+  }
+}

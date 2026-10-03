@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sun_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:sun_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:sunmetal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sun_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:sunmetal_block"
+    ]
+  }
+}

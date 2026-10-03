@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "toxic nichirin",
+  "key": {
+    "A": "slayerswords:wisteria_flower",
+    "H": "slayerswords:nichirin_handle",
+    "R": "slayerswords:sun_ingot"
+  },
+  "pattern": [
+    " R ",
+    "ARA",
+    " H "
+  ],
+  "result": {
+    "id": "slayerswords:toxic_nichirin"
+  }
+}

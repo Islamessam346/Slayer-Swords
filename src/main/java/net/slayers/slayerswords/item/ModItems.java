@@ -48,6 +48,11 @@ public class ModItems {
     public static final Item LOVE_NICHIRIN = registerItem("love_nichirin", Item::new);
     public static final Item STRAWBERRY = registerItem("strawberry", properties -> new Item(properties
             .food(ModFoods.STRAWBERRY, ModFoods.STRAWBERRY_CONSUMABLE)));
+    public static final Item BASIC_NICHIRIN_WATER = registerItem("basic_nichirin_water", Item::new);
+    public static final Item BASIC_NICHIRIN_FLAME = registerItem("basic_nichirin_flame", Item::new);
+    public static final Item BASIC_NICHIRIN_THUNDER = registerItem("basic_nichirin_thunder", Item::new);
+    public static final Item BASIC_NICHIRIN_WIND = registerItem("basic_nichirin_wind", Item::new);
+    public static final Item BASIC_NICHIRIN_STONE = registerItem("basic_nichirin_stone", Item::new);
 
 
 
@@ -89,6 +94,11 @@ public class ModItems {
             output.accept(SOUND_NICHIRIN);
             output.accept(MIST_NICHIRIN);
             output.accept(LOVE_NICHIRIN);
+            output.accept(BASIC_NICHIRIN_WATER);
+            output.accept(BASIC_NICHIRIN_FLAME);
+            output.accept(BASIC_NICHIRIN_THUNDER);
+            output.accept(BASIC_NICHIRIN_WIND);
+            output.accept(BASIC_NICHIRIN_STONE);
         });
 
     }

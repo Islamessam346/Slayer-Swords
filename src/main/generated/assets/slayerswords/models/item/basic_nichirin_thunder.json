@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "slayerswords:item/basic_nichirin_thunder"
+  }
+}
