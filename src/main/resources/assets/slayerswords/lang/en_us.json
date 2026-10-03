@@ -43,6 +43,8 @@
   "block.slayerswords.block_of_sunore": "Block of Sun Ore",
   "block.slayerswords.sunmetal_block": "Sun Metal Block",
   "block.slayerswords.block_of_scarletore": "Block of Scarlet Ore",
-  "block.slayerswords.scarletmetal_block": "Scarlet Metal Block"
+  "block.slayerswords.scarletmetal_block": "Scarlet Metal Block",
+  "block.slayerswords.volcanic_cluster": "Volcanic Cluster",
+  "block.slayerswords.dry_magma": "Dry Magma"
 
 }

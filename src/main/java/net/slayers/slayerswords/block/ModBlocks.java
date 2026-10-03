@@ -48,6 +48,14 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.IRON)));
 
+    public static final Block VOLCANIC_CLUSTER = registerBlock("volcanic_cluster",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
+
+    public static final Block DRY_MAGMA = registerBlock("dry_magma",
+            properties -> new Block(properties.strength(2f)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
+
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {

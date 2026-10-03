@@ -59,6 +59,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.SUNMETAL_BLOCK);
                       output.accept(ModBlocks.BLOCK_OF_SCARLETORE);
                       output.accept(ModBlocks.SCARLETMETAL_BLOCK);
+                      output.accept(ModBlocks.VOLCANIC_CLUSTER);
+                      output.accept(ModBlocks.DRY_MAGMA);
 
                     }).build());
 
@@ -123,6 +125,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUNMETAL_BLOCK);
                         output.accept(ModBlocks.BLOCK_OF_SCARLETORE);
                         output.accept(ModBlocks.SCARLETMETAL_BLOCK);
+                        output.accept(ModBlocks.VOLCANIC_CLUSTER);
+                        output.accept(ModBlocks.DRY_MAGMA);
 
 
                     }).build());
