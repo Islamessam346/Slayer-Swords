@@ -56,9 +56,6 @@ public class ModItems {
     public static void registerModItems() {
         SlayerSwords.LOGGER.info("Registering Mod Items for " + SlayerSwords.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(SERPENT_NICHIRIN);
-        });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.SEARCH).register(output -> {
             output.accept(SERPENT_NICHIRIN);
             output.accept(SUN_ORE);
