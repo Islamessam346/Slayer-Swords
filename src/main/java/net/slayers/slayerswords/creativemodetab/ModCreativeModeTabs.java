@@ -57,6 +57,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.METEORITE_ORE);
                       output.accept(ModBlocks.BLOCK_OF_SUNORE);
                       output.accept(ModBlocks.SUNMETAL_BLOCK);
+                      output.accept(ModBlocks.BLOCK_OF_SCARLETORE);
+                      output.accept(ModBlocks.SCARLETMETAL_BLOCK);
 
                     }).build());
 
@@ -119,6 +121,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WISTERIA_BUSH);
                         output.accept(ModBlocks.BLOCK_OF_SUNORE);
                         output.accept(ModBlocks.SUNMETAL_BLOCK);
+                        output.accept(ModBlocks.BLOCK_OF_SCARLETORE);
+                        output.accept(ModBlocks.SCARLETMETAL_BLOCK);
 
 
                     }).build());

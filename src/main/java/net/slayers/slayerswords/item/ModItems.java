@@ -11,6 +11,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.slayers.slayerswords.SlayerSwords;
+import net.slayers.slayerswords.block.ModBlocks;
 
 import java.util.function.Function;
 

@@ -40,7 +40,13 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.IRON)));
 
+    public static final Block BLOCK_OF_SCARLETORE = registerBlock("block_of_scarletore",
+            properties -> new Block(properties.strength(5f)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)));
 
+    public static final Block SCARLETMETAL_BLOCK = registerBlock("scarletmetal_block",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.IRON)));
 
 
 
