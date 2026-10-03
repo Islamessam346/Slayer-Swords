@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sun ores",
+  "key": {
+    "R": "slayerswords:sun_ore"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:block_of_sunore"
+  }
+}

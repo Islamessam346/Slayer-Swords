@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sun ores",
+  "ingredients": [
+    "slayerswords:block_of_sunore"
+  ],
+  "result": {
+    "count": 9,
+    "id": "slayerswords:sun_ore"
+  }
+}
