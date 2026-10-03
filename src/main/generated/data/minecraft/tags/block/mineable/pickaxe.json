@@ -2,6 +2,12 @@
   "values": [
     "slayerswords:raw_sunore_block",
     "slayerswords:raw_scarletore_block",
-    "slayerswords:meteorite_ore"
+    "slayerswords:meteorite_ore",
+    "slayerswords:block_of_sunore",
+    "slayerswords:sunmetal_block",
+    "slayerswords:block_of_scarletore",
+    "slayerswords:scarletmetal_block",
+    "slayerswords:volcanic_cluster",
+    "slayerswords:dry_magma"
   ]
 }

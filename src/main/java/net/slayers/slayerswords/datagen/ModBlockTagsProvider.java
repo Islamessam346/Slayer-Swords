@@ -16,11 +16,32 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider registries) {
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.RAW_SUNORE_BLOCK, ModBlocks.RAW_SCARLETORE_BLOCK, ModBlocks.METEORITE_ORE);
+                .add(ModBlocks.RAW_SUNORE_BLOCK,
+                        ModBlocks.RAW_SCARLETORE_BLOCK,
+                        ModBlocks.METEORITE_ORE,
+                        ModBlocks.BLOCK_OF_SUNORE,
+                        ModBlocks.SUNMETAL_BLOCK,
+                        ModBlocks.BLOCK_OF_SCARLETORE,
+                        ModBlocks.SCARLETMETAL_BLOCK,
+                        ModBlocks.VOLCANIC_CLUSTER,
+                        ModBlocks.DRY_MAGMA);
+
+
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_HOE)
+                .add(ModBlocks.WISTERIA_BUSH);
 
 
         valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RAW_SUNORE_BLOCK, ModBlocks.RAW_SCARLETORE_BLOCK, ModBlocks.METEORITE_ORE);
+                .add(ModBlocks.RAW_SUNORE_BLOCK,
+                        ModBlocks.RAW_SCARLETORE_BLOCK,
+                        ModBlocks.METEORITE_ORE,
+                        ModBlocks.BLOCK_OF_SUNORE,
+                        ModBlocks.SUNMETAL_BLOCK,
+                        ModBlocks.BLOCK_OF_SCARLETORE,
+                        ModBlocks.SCARLETMETAL_BLOCK,
+                        ModBlocks.VOLCANIC_CLUSTER,
+                        ModBlocks.DRY_MAGMA);
+
 
 
     }
