@@ -233,6 +233,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
 
+                shaped(RecipeCategory.MISC, ModItems.MIST_NICHIRIN)
+                        .pattern(" R ")
+                        .pattern("ARA")
+                        .pattern(" H ")
+                        .define('R', ModItems.SUN_INGOT)
+                        .define('A', ModItems.MIST_CORE)
+                        .define('H', ModItems.NICHIRIN_HANDLE)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
+                        .unlockedBy(getHasName(ModItems.NICHIRIN_HANDLE), has(ModItems.NICHIRIN_HANDLE))
+                        .group("mist nichirin")
+                        .save(output);
+                shaped(RecipeCategory.MISC, ModItems.LOVE_NICHIRIN)
+                        .pattern(" R ")
+                        .pattern("ARA")
+                        .pattern(" H ")
+                        .define('R', ModItems.SUN_INGOT)
+                        .define('A', ModItems.LOVE_CRYSTAL)
+                        .define('H', ModItems.NICHIRIN_HANDLE)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
+                        .unlockedBy(getHasName(ModItems.NICHIRIN_HANDLE), has(ModItems.NICHIRIN_HANDLE))
+                        .group("mist nichirin")
+                        .save(output);
+
 
 
                 shapeless(RecipeCategory.MISC, ModItems.SHINY_METEORITE_DEBRIS, 9)

@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_love_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:love_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nichirin_handle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:nichirin_handle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sun_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:sun_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:love_nichirin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sun_ingot",
+      "has_love_crystal",
+      "has_nichirin_handle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:love_nichirin"
+    ]
+  }
+}

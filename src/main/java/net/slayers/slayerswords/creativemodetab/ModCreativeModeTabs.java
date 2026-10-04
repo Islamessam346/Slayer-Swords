@@ -52,6 +52,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.BASIC_NICHIRIN_THUNDER);
                       output.accept(ModItems.BASIC_NICHIRIN_WIND);
                       output.accept(ModItems.BASIC_NICHIRIN_STONE);
+                      output.accept(ModItems.LOVE_CRYSTAL);
 
 
 
@@ -124,6 +125,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VORTEX_EMBER);
                         output.accept(ModItems.LIGHTNING_WYVERN_FANG);
                         output.accept(ModItems.MIST_CORE);
+                        output.accept(ModItems.LOVE_CRYSTAL);
 
 
                     }).build());

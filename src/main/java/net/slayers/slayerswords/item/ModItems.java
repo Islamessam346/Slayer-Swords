@@ -29,7 +29,6 @@ public class ModItems {
     public static final Item WATER_NICHIRIN = registerItem("water_nichirin", Item::new);
     public static final Item MARINE_STONE = registerItem("marine_stone", Item::new);
     public static final Item BLACK_NICHIRIN = registerItem("black_nichirin", Item::new);
-    public static final Item MOON_NICHIRIN = registerItem("moon_nichirin", Item::new);
     public static final Item BEAST_NICHIRIN = registerItem("beast_nichirin", Item::new);
     public static final Item FLOWER_NICHIRIN = registerItem("flower_nichirin", Item::new);
     public static final Item UPPER_MOON_1_FLESH = registerItem("upper_moon_1_flesh", Item::new);
@@ -48,9 +47,8 @@ public class ModItems {
     public static final Item BASIC_NICHIRIN_THUNDER = registerItem("basic_nichirin_thunder", Item::new);
     public static final Item BASIC_NICHIRIN_WIND = registerItem("basic_nichirin_wind", Item::new);
     public static final Item BASIC_NICHIRIN_STONE = registerItem("basic_nichirin_stone", Item::new);
-    public static final Item STRAWBERRY = registerItem("strawberry", properties -> new Item(properties
-            .food(ModFoods.STRAWBERRY, ModFoods.STRAWBERRY_CONSUMABLE)));
     public static final Item MIST_CORE = registerItem("mist_core", Item::new);
+    public static final Item LOVE_CRYSTAL = registerItem("love_crystal", Item::new);
 
     public static final Item MOON_NICHIRIN = registerItem("moon_nichirin",
             properties -> new Item(properties.sword(ModToolMaterials.DEMON, 5, -2)));
@@ -104,6 +102,7 @@ public class ModItems {
             output.accept(BASIC_NICHIRIN_THUNDER);
             output.accept(BASIC_NICHIRIN_WIND);
             output.accept(BASIC_NICHIRIN_STONE);
+            output.accept(LOVE_CRYSTAL);
         });
 
     }

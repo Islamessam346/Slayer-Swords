@@ -1,4 +1,13 @@
 // 26.1.2	-999999999-01-01T00:00:00	Slayer Swords/Tags for minecraft:block
+39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_copper_tool.json
+39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_diamond_tool.json
+39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_gold_tool.json
+39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_iron_tool.json
+39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_netherite_tool.json
+39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_stone_tool.json
+39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_wooden_tool.json
 658f7db2189c9f682a35c26ec52eb24e394ec158 data/minecraft/tags/block/mineable/hoe.json
 cbf116663d66c49cc08a7f026c62561f72c20e5c data/minecraft/tags/block/mineable/pickaxe.json
-cbf116663d66c49cc08a7f026c62561f72c20e5c data/minecraft/tags/block/needs_iron_tool.json
+5b3b10ca69b217dcc978b5d6cc8b93226cacb34f data/minecraft/tags/block/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/slayerswords/tags/block/incorrect_for_demon_tool.json
+a2e1e718da47a878884e41d0e316e60ad37b95f1 data/slayerswords/tags/block/needs_demon_tool.json
