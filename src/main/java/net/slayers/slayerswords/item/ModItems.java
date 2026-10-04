@@ -7,11 +7,8 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.slayers.slayerswords.SlayerSwords;
-import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.food.ModFoods;
 
 import java.util.function.Function;
@@ -46,10 +43,21 @@ public class ModItems {
     public static final Item SOUND_NICHIRIN = registerItem("sound_nichirin", Item::new);
     public static final Item MIST_NICHIRIN = registerItem("mist_nichirin", Item::new);
     public static final Item LOVE_NICHIRIN = registerItem("love_nichirin", Item::new);
+    public static final Item BASIC_NICHIRIN_WATER = registerItem("basic_nichirin_water", Item::new);
+    public static final Item BASIC_NICHIRIN_FLAME = registerItem("basic_nichirin_flame", Item::new);
+    public static final Item BASIC_NICHIRIN_THUNDER = registerItem("basic_nichirin_thunder", Item::new);
+    public static final Item BASIC_NICHIRIN_WIND = registerItem("basic_nichirin_wind", Item::new);
+    public static final Item BASIC_NICHIRIN_STONE = registerItem("basic_nichirin_stone", Item::new);
     public static final Item STRAWBERRY = registerItem("strawberry", properties -> new Item(properties
             .food(ModFoods.STRAWBERRY, ModFoods.STRAWBERRY_CONSUMABLE)));
     public static final Item MIST_CORE = registerItem("mist_core", Item::new);
 
+    public static final Item MOON_NICHIRIN = registerItem("moon_nichirin",
+            properties -> new Item(properties.sword(ModToolMaterials.DEMON, 5, -2)));
+    public static final Item GYUTARO_SCYTHE = registerItem("gyutaro_scythe",
+            properties -> new Item(properties.pickaxe(ModToolMaterials.DEMON, 1, -1.5f)));
+    public static final Item DEMON_FLESH = registerItem("demon_flesh", properties -> new Item(properties
+            .food(ModFoods.DEMON_FLESH, ModFoods.DEMON_FLESH_CONSUMABLE)));
 
 
     private static Item registerItem(String name, Function<Item.Properties,Item> function) {
@@ -91,6 +99,11 @@ public class ModItems {
             output.accept(MIST_NICHIRIN);
             output.accept(LOVE_NICHIRIN);
             output.accept(MIST_CORE);
+            output.accept(BASIC_NICHIRIN_WATER);
+            output.accept(BASIC_NICHIRIN_FLAME);
+            output.accept(BASIC_NICHIRIN_THUNDER);
+            output.accept(BASIC_NICHIRIN_WIND);
+            output.accept(BASIC_NICHIRIN_STONE);
         });
 
     }

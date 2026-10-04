@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "slayerswords:item/beast_nichirin"
+    "layer0": "slayerswords:item/basic_nichirin_water"
   }
 }

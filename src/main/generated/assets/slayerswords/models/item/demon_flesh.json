@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "slayerswords:item/strawberry"
+    "layer0": "slayerswords:item/demon_flesh"
   }
 }

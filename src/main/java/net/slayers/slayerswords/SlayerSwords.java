@@ -7,6 +7,7 @@ import net.minecraft.resources.Identifier;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
 import net.slayers.slayerswords.item.ModItems;
+import net.slayers.slayerswords.tooltips.ModTooltips;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,6 +22,7 @@ public class SlayerSwords implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModTooltips.register();
 
 	}
 
