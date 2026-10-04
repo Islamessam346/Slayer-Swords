@@ -56,6 +56,7 @@ public class ModItems {
             properties -> new Item(properties.pickaxe(ModToolMaterials.DEMON, 1, -1.5f)));
     public static final Item DEMON_FLESH = registerItem("demon_flesh", properties -> new Item(properties
             .food(ModFoods.DEMON_FLESH, ModFoods.DEMON_FLESH_CONSUMABLE)));
+    public static final Item BASIC_NICHIRIN = registerItem("basic_nichirin", Item::new);
 
 
     private static Item registerItem(String name, Function<Item.Properties,Item> function) {
@@ -103,6 +104,7 @@ public class ModItems {
             output.accept(BASIC_NICHIRIN_WIND);
             output.accept(BASIC_NICHIRIN_STONE);
             output.accept(LOVE_CRYSTAL);
+            output.accept(BASIC_NICHIRIN);
         });
 
     }
