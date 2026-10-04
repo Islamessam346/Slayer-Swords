@@ -6,6 +6,7 @@ import net.slayers.slayerswords.datagen.ModBlockLootTableProvider;
 import net.slayers.slayerswords.datagen.ModBlockTagsProvider;
 import net.slayers.slayerswords.datagen.ModModelProvider;
 import net.slayers.slayerswords.datagen.ModRecipeProvider;
+import net.slayers.slayerswords.datagen.ModItemTagsProvider;
 
 public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -16,5 +17,6 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModItemTagsProvider::new);
 	}
 }

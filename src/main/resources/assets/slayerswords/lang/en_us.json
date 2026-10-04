@@ -24,6 +24,7 @@
   "item.slayerswords.moon_nichirin": "Moon Nichirin",
   "item.slayerswords.beast_nichirin": "Beast Nichirin",
   "item.slayerswords.flower_nichirin": "Flower Nichirin",
+  "item.slayerswords.sound_nichirin": "Sound Nichirin",
   "item.slayerswords.upper_moon_1_flesh": "Upper Moon 1 Flesh",
   "item.slayerswords.black_thunder_nichirin": "Black Thunder Nichirin",
   "item.slayerswords.lightning_wyvern_fang": "Lightning Wyvern Fang",
@@ -34,12 +35,13 @@
   "item.slayerswords.meteorite_crystals": "Meteorite Crystals",
   "item.slayerswords.mist_nichirin": "Mist Nichirin",
   "item.slayerswords.love_nichirin": "Love Nichirin",
-  "item.slayerswords.strawberry": "Strawberry",
+  "item.slayerswords.demon_flesh": "Demon Flesh",
   "item.slayerswords.basic_nichirin_water": "Basic Nichirin (WATER)",
   "item.slayerswords.basic_nichirin_flame": "Basic Nichirin (FLAME)",
   "item.slayerswords.basic_nichirin_thunder": "Basic Nichirin (THUNDER)",
   "item.slayerswords.basic_nichirin_wind": "Basic Nichirin (WIND)",
   "item.slayerswords.basic_nichirin_stone": "Basic Nichirin (STONE)",
+  "item.slayerswords.gyutaro_scythe": "Gyutaro Scythe",
 
 
   "block.slayerswords.raw_sunore_block": "Sun Ore Block",

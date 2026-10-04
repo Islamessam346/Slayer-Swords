@@ -67,7 +67,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.VOLCANIC_CLUSTER);
                       output.accept(ModBlocks.DRY_MAGMA);
 
-                      output.accept(ModItems.STRAWBERRY);
+                      output.accept(ModItems.DEMON_FLESH);
+                      output.accept(ModItems.GYUTARO_SCYTHE);
 
                     }).build());
 
