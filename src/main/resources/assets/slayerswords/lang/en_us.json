@@ -5,23 +5,6 @@
   "creativemodetab.slayerswords.slayerswords_blocks": "Slayer Swords Blocks",
 
 
-  "itemTooltip.slayerswords.basic_nichirin_water": "Water breathing.",
-  "itemTooltip.slayerswords.basic_nichirin_flame": "Flame breathing.",
-  "itemTooltip.slayerswords.basic_nichirin_thunder": "Thunder breathing.",
-  "itemTooltip.slayerswords.basic_nichirin_wind": "Wind breathing.",
-  "itemTooltip.slayerswords.basic_nichirin_stone": "Stone breathing.",
-
-  "itemTooltip.slayerswords.sound_nichirin": "Tengen Uzui sword",
-  "itemTooltip.slayerswords.mist_nichirin": "Muichiro Tokito sword.",
-  "itemTooltip.slayerswords.love_nichirin": "Mitsuri Kanroji sword.",
-  "itemTooltip.slayerswords.toxic_nichirin": "Shinobu Kocho sword.",
-  "itemTooltip.slayerswords.flower_nichirin": "Kanao Tsuyuri sword.",
-  "itemTooltip.slayerswords.flame_nichirin": "Kyojuro Rengoku sword.",
-  "itemTooltip.slayerswords.lightning_nichirin": "Zenitsu Agatsuma sword.",
-  "itemTooltip.slayerswords.black_sword": "Tanjiro Kamado sword.",
-  "itemTooltip.slayerswords.black_thunder_nichirin": "Kaigaku sword.",
-  "itemTooltip.slayerswords.moon_nichirin": "Kokushibo sword.",
-
   "item.slayerswords.serpent_nichirin": "Serpent Nichirin",
   "item.slayerswords.sun_ore": "Sun Ore",
   "item.slayerswords.serpent_scales": "Serpent Scales",
@@ -59,9 +42,30 @@
   "item.slayerswords.basic_nichirin_stone": "Basic Nichirin (STONE)",
   "item.slayerswords.gyutaro_scythe": "Gyutaro Scythe",
 
-  "itemTooltip.slayerswords.demon_flesh": "Tastes like revenge.",
   "item.slayerswords.mist_core": "Mist Core",
   "item.slayerswords.love_crystal": "Love Crystal",
+
+  "itemTooltip.slayerswords.basic_nichirin_water": "Water breathing.",
+  "itemTooltip.slayerswords.basic_nichirin_flame": "Flame breathing.",
+  "itemTooltip.slayerswords.basic_nichirin_thunder": "Thunder breathing.",
+  "itemTooltip.slayerswords.basic_nichirin_wind": "Wind breathing.",
+  "itemTooltip.slayerswords.basic_nichirin_stone": "Stone breathing.",
+
+  "itemTooltip.slayerswords.sound_nichirin": "Tengen Uzui sword",
+  "itemTooltip.slayerswords.serpent_nichirin": "Obanai Iguro sword.",
+  "itemTooltip.slayerswords.water_nichirin": "Giyu Tomioka sword.",
+  "itemTooltip.slayerswords.mist_nichirin": "Muichiro Tokito sword.",
+  "itemTooltip.slayerswords.love_nichirin": "Mitsuri Kanroji sword.",
+  "itemTooltip.slayerswords.toxic_nichirin": "Shinobu Kocho sword.",
+  "itemTooltip.slayerswords.flower_nichirin": "Kanao Tsuyuri sword.",
+  "itemTooltip.slayerswords.flame_nichirin": "Kyojuro Rengoku sword.",
+  "itemTooltip.slayerswords.black_nichirin": "Tanjiro Kamado sword.",
+  "itemTooltip.slayerswords.lightning_nichirin": "Zenitsu Agatsuma sword.",
+  "itemTooltip.slayerswords.beast_nichirin": "Inosuke Hashibira sword.",
+  "itemTooltip.slayerswords.black_thunder_nichirin": "Kaigaku sword.",
+  "itemTooltip.slayerswords.moon_nichirin": "Kokushibo sword.",
+  "itemTooltip.slayerswords.demon_flesh": "Tastes like revenge.",
+
 
   "block.slayerswords.raw_sunore_block": "Sun Ore Block",
   "block.slayerswords.raw_scarletore_block": "Scarlet Ore Block",
