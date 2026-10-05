@@ -11,36 +11,46 @@ import net.minecraft.network.chat.Style;
 import net.slayers.slayerswords.SlayerSwords;
 
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class ModTooltips {
-    private static final Map<String, Integer> KEYWORDS = Map.ofEntries(
-            Map.entry("lightning", 0xffff00),
-            Map.entry("thunder", 0xffff55),
-            Map.entry("revenge", 0xff0000),
-            Map.entry("serpent", 0xffffff),
-            Map.entry("flower", 0xdd44dd),
-            Map.entry("marine", 0x0981d1),
-            Map.entry("sound", 0xe54141),
-            Map.entry("flame", 0xe25822),
-            Map.entry("beast", 0xd1f1f9),
-            Map.entry("stone", 0x806043),
-            Map.entry("water", 0x0000ff),
-            Map.entry("toxic", 0x800080),
-            Map.entry("demon", 0x7a0006),
-            Map.entry("black", 0x333333),
-            Map.entry("wind", 0xcadb63),
-            Map.entry("mist", 0xcdd8d9),
-            Map.entry("love", 0xe48ca3),
-            Map.entry("sun", 0xef8e38)
-    );
+    private static final Map<String, Integer> KEYWORDS = new HashMap<>();
+
+    static {
+        add(0xffff00, "lightning", "yellow");
+        add(0xffff55, "thunder");
+        add(0xff0000, "revenge", "red");
+        add(0xffffff, "serpent", "white");
+        add(0xdd44dd, "flower");
+        add(0x0981d1, "marine");
+        add(0xe54141, "sound");
+        add(0xe25822, "flame");
+        add(0xd1f1f9, "beast");
+        add(0x806043, "stone");
+        add(0x0000ff, "water", "blue");
+        add(0x800080, "toxic");
+        add(0x7a0006, "demon");
+        add(0x333333, "black");
+        add(0xcadb63, "wind");
+        add(0xcdd8d9, "mist");
+        add(0xe48ca3, "love");
+        add(0xef8e38, "sun");
+    }
+
+    private static void add(int color, String... words) {
+        for (String word : words) {
+            KEYWORDS.put(word.toLowerCase(), color);
+        }
+    }
 
     private static final Pattern PATTERN = Pattern.compile(
-            "\\b(" + String.join("|", KEYWORDS.keySet().stream()
+            "\\b(" + KEYWORDS.keySet().stream()
                     .sorted(Comparator.comparingInt(String::length).reversed())
-                    .toList()) + ")\\b",
+                    .map(Pattern::quote).collect(Collectors.joining("|")) + ")\\b",
             Pattern.CASE_INSENSITIVE);
 
     private static final Style GRAY = Style.EMPTY.withColor(ChatFormatting.GRAY);
