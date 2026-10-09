@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sound nichirin",
+  "key": {
+    "A": "slayerswords:flashy_core",
+    "H": "slayerswords:nichirin_handle",
+    "R": "slayerswords:sun_ingot"
+  },
+  "pattern": [
+    " R ",
+    "ARA",
+    " H "
+  ],
+  "result": {
+    "id": "slayerswords:sound_nichirin"
+  }
+}

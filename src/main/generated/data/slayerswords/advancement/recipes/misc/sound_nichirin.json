@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flashy_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:flashy_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nichirin_handle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:nichirin_handle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sun_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:sun_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:sound_nichirin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sun_ingot",
+      "has_flashy_core",
+      "has_nichirin_handle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:sound_nichirin"
+    ]
+  }
+}

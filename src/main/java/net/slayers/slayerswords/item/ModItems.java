@@ -57,6 +57,7 @@ public class ModItems {
     public static final Item SOUND_NICHIRIN = registerItem("sound_nichirin", Item::new);
     public static final Item MIST_NICHIRIN = registerItem("mist_nichirin", Item::new);
     public static final Item LOVE_NICHIRIN = registerItem("love_nichirin", Item::new);
+    public static final Item FLASHY_CORE = registerItem("flashy_core", Item::new);
 
     public static final Item MOON_NICHIRIN = registerItem("moon_nichirin",
             properties -> new Item(properties.sword(ModToolMaterials.DEMON, 5, -2)));
@@ -115,6 +116,7 @@ public class ModItems {
             output.accept(BASIC_NICHIRIN_STONE);
             output.accept(LOVE_CRYSTAL);
             output.accept(BASIC_NICHIRIN);
+            output.accept(FLASHY_CORE);
         });
 
     }
