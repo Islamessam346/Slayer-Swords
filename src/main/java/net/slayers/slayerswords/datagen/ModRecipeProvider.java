@@ -8,6 +8,7 @@ import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModItems;
 
@@ -271,6 +272,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("sound nichirin")
                         .save(output);
 
+                shaped(RecipeCategory.MISC, Blocks.CRAFTING_TABLE)
+                        .pattern("RR")
+                        .pattern("RR")
+                                .define('R', ModBlocks.WISTERIA_PLANKS)
+                                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                                                .group("crafting table")
+                                                        .save(output);
+
+
+
+
 
 
 
@@ -318,6 +330,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .requires(ModBlocks.SCARLETMETAL_BLOCK)
                         .unlockedBy(getHasName(ModBlocks.SCARLETMETAL_BLOCK), has(ModBlocks.SCARLETMETAL_BLOCK))
                         .group("scarlet ingots")
+                        .save(output);
+
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WISTERIA_PLANKS, 4)
+                        .requires(ModBlocks.WISTERIA_LOG)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_LOG), has(ModBlocks.WISTERIA_LOG))
+                        .group("wisteria planks")
                         .save(output);
 
 
