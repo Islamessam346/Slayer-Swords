@@ -30,6 +30,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.BLOCK_OF_SCARLETORE, createOreDrop(ModBlocks.BLOCK_OF_SCARLETORE, ModBlocks.BLOCK_OF_SCARLETORE.asItem()));
         add(ModBlocks.SCARLETMETAL_BLOCK, createOreDrop(ModBlocks.SCARLETMETAL_BLOCK, ModBlocks.SCARLETMETAL_BLOCK.asItem()));
         add(ModBlocks.WISTERIA_LOG, createOreDrop(ModBlocks.WISTERIA_LOG, ModBlocks.WISTERIA_LOG.asItem()));
+        add(ModBlocks.WISTERIA_PLANKS, createOreDrop(ModBlocks.WISTERIA_PLANKS, ModBlocks.WISTERIA_PLANKS.asItem()));
 
     }
 }

@@ -73,6 +73,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.VOLCANIC_CLUSTER);
                         output.accept(ModBlocks.DRY_MAGMA);
                         output.accept(ModBlocks.WISTERIA_LOG);
+                        output.accept(ModBlocks.WISTERIA_PLANKS);
 
 
                     }).build());
@@ -150,6 +151,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.VOLCANIC_CLUSTER);
                         output.accept(ModBlocks.DRY_MAGMA);
                         output.accept(ModBlocks.WISTERIA_LOG);
+                        output.accept(ModBlocks.WISTERIA_PLANKS);
 
 
                     }).build());

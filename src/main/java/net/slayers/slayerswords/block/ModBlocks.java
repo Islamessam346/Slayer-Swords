@@ -60,6 +60,9 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.CHERRY_WOOD)));
 
+    public static final Block WISTERIA_PLANKS = registerBlock("wisteria_planks",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.CHERRY_WOOD)));
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
