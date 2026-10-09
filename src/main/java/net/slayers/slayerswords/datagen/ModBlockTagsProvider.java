@@ -34,6 +34,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.MINEABLE_WITH_HOE)
                 .add(ModBlocks.WISTERIA_BUSH);
 
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.WISTERIA_LOG);
+
 
         valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_SUNORE_BLOCK,
