@@ -257,6 +257,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.NICHIRIN_HANDLE), has(ModItems.NICHIRIN_HANDLE))
                         .group("mist nichirin")
                         .save(output);
+
                 shaped(RecipeCategory.MISC, ModItems.SOUND_NICHIRIN)
                         .pattern(" R ")
                         .pattern("ARA")
