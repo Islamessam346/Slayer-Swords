@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wisteria planks",
+  "ingredients": [
+    "slayerswords:wisteria_log"
+  ],
+  "result": {
+    "count": 4,
+    "id": "slayerswords:wisteria_planks"
+  }
+}

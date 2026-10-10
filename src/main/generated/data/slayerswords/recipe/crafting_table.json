@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting table",
+  "key": {
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "RR",
+    "RR"
+  ],
+  "result": {
+    "id": "minecraft:crafting_table"
+  }
+}

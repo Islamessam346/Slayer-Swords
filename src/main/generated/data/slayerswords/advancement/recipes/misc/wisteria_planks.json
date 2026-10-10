@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:wisteria_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wisteria_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:wisteria_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wisteria_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:wisteria_planks"
+    ]
+  }
+}
