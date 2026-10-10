@@ -22,7 +22,7 @@ public class SlayerSwords implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModTooltips.register();
+		ModTooltips.registerModTooltips();
 
 	}
 

@@ -6,11 +6,15 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.slayers.slayerswords.SlayerSwords;
+import net.slayers.slayerswords.effect.EffectOnHitItem;
 import net.slayers.slayerswords.food.ModFoods;
 
+import java.util.List;
 import java.util.function.Function;
 
 public class ModItems {
@@ -64,7 +68,9 @@ public class ModItems {
     public static final Item BLACK_THUNDER_NICHIRIN = registerItem("black_thunder_nichirin", Item::new);
 
     public static final Item GYUTARO_SCYTHE = registerItem("gyutaro_scythe",
-            properties -> new Item(properties.pickaxe(ModToolMaterials.DEMON, 1, 0f)));
+            properties -> new EffectOnHitItem(
+                    properties.pickaxe(ModToolMaterials.DEMON, 1, 0f),
+                    List.of(new MobEffectInstance(MobEffects.POISON, 6 * 20, 1))));
 
     public static final Item DEMON_FLESH = registerItem("demon_flesh", properties -> new Item(properties
             .food(ModFoods.DEMON_FLESH, ModFoods.DEMON_FLESH_CONSUMABLE)));
