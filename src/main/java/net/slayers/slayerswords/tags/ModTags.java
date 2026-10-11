@@ -22,6 +22,7 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> BASIC_REPAIR = createTag("basic_repair");
+        public static final TagKey<Item> SUN_REPAIR = createTag("sun_repair");
         public static final TagKey<Item> DEMON_REPAIR = createTag("demon_repair");
         public static final TagKey<Item> HASHIRA_REPAIR = createTag("hashira_repair");
 

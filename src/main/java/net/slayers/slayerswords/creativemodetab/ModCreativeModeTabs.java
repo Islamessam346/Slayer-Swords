@@ -46,6 +46,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SOUND_NICHIRIN);
                         output.accept(ModItems.MIST_NICHIRIN);
                         output.accept(ModItems.LOVE_NICHIRIN);
+                        output.accept(ModItems.WIND_NICHIRIN);
                         output.accept(ModItems.MIST_CORE);
                         output.accept(ModItems.BASIC_NICHIRIN_WATER);
                         output.accept(ModItems.BASIC_NICHIRIN_FLAME);
@@ -92,10 +93,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FLAME_NICHIRIN);
                         output.accept(ModItems.BEAST_NICHIRIN);
                         output.accept(ModItems.TOXIC_NICHIRIN);
-                        output.accept(ModItems.BLACK_THUNDER_NICHIRIN);
                         output.accept(ModItems.LIGHTNING_NICHIRIN);
-                        output.accept(ModItems.SOUND_NICHIRIN);
+                        output.accept(ModItems.BLACK_THUNDER_NICHIRIN);
                         output.accept(ModItems.MIST_NICHIRIN);
+                        output.accept(ModItems.WIND_NICHIRIN);
+                        output.accept(ModItems.SOUND_NICHIRIN);
                         output.accept(ModItems.LOVE_NICHIRIN);
                         output.accept(ModItems.BASIC_NICHIRIN_WATER);
                         output.accept(ModItems.BASIC_NICHIRIN_FLAME);

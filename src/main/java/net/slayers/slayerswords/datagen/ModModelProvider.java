@@ -61,6 +61,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.SOUND_NICHIRIN, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.MIST_NICHIRIN, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.LOVE_NICHIRIN, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.WIND_NICHIRIN, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.DEMON_FLESH, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.GYUTARO_SCYTHE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BASIC_NICHIRIN_WATER, ModelTemplates.FLAT_HANDHELD_ITEM);
@@ -72,7 +73,5 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.LOVE_CRYSTAL, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BASIC_NICHIRIN, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.FLASHY_CORE,ModelTemplates.FLAT_ITEM);
-
-
     }
 }

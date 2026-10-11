@@ -43,28 +43,33 @@ public class ModItems {
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.BASIC, 3f, -2.5f),
                     freeze(14 * 20),
-                    particles(ParticleTypes.SNOWFLAKE, 15)));
+                    particles(ParticleTypes.SNOWFLAKE, 15)
+            ));
 
     public static final Item BASIC_NICHIRIN_FLAME = registerItem("basic_nichirin_flame",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.BASIC, 4f, -3f),
                     fire(4 * 20),
-                    particles(ParticleTypes.FLAME, 15)));
+                    particles(ParticleTypes.FLAME, 15)
+            ));
 
     public static final Item BASIC_NICHIRIN_THUNDER = registerItem("basic_nichirin_thunder",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.BASIC, 2f, -2f),
-                    lightning(1)));
+                    lightning(1)
+            ));
 
     public static final Item BASIC_NICHIRIN_WIND = registerItem("basic_nichirin_wind",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.BASIC, 2.3f, -2.7f),
-                    potion(MobEffects.LEVITATION, 20, 1)));
+                    potion(MobEffects.LEVITATION, 20, 1)
+            ));
 
     public static final Item BASIC_NICHIRIN_STONE = registerItem("basic_nichirin_stone",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.BASIC, 4.5f, -3.5f),
-                    potion(MobEffects.WITHER, 5 * 20, 1)));
+                    potion(MobEffects.WITHER, 5 * 20, 1)
+            ));
 
     public static final Item BASIC_NICHIRIN = registerItem("basic_nichirin",
             properties -> new Item(properties.sword(ModToolMaterials.BASIC, 2f, -3f)));
@@ -75,11 +80,19 @@ public class ModItems {
                     potion(MobEffects.WITHER, 10 * 20, 2)
             ));
 
+    public static final Item WIND_NICHIRIN = registerItem("wind_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 5f, -1.5f),
+                    launch(10f),
+                    potion(MobEffects.LEVITATION, 5 * 20, 3)
+            ));
+
     public static final Item FLAME_NICHIRIN = registerItem("flame_nichirin",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.HASHIRA, 6f, -2f),
                     fire(10 * 20),
-                    explosion(10f)));
+                    explosion(10f)
+            ));
 
     public static final Item WATER_NICHIRIN = registerItem("water_nichirin",
             properties -> new EffectOnHitItem(
@@ -136,6 +149,7 @@ public class ModItems {
                     properties.sword(ModToolMaterials.HASHIRA, 4f, -1.5f),
                     potion(MobEffects.INVISIBILITY, 3 * 20, 1)
             ));
+
     public static final Item LOVE_NICHIRIN = registerItem("love_nichirin",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.HASHIRA, 3f, 0f),
@@ -146,12 +160,14 @@ public class ModItems {
     public static final Item MOON_NICHIRIN = registerItem("moon_nichirin",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.DEMON, 5f, -2f),
-                    lifesteal(2f)));
+                    lifesteal(2f)
+            ));
 
     public static final Item GYUTARO_SCYTHE = registerItem("gyutaro_scythe",
             properties -> new EffectOnHitItem(
                     properties.pickaxe(ModToolMaterials.DEMON, 1f, 0f),
-                    potion(MobEffects.POISON, 6 * 20, 1)));
+                    potion(MobEffects.POISON, 6 * 20, 1)
+            ));
 
     public static final Item BLACK_THUNDER_NICHIRIN = registerItem("black_thunder_nichirin",
             properties -> new EffectOnHitItem(
@@ -202,6 +218,7 @@ public class ModItems {
             output.accept(SOUND_NICHIRIN);
             output.accept(MIST_NICHIRIN);
             output.accept(LOVE_NICHIRIN);
+            output.accept(WIND_NICHIRIN);
             output.accept(MIST_CORE);
             output.accept(BASIC_NICHIRIN_WATER);
             output.accept(BASIC_NICHIRIN_FLAME);
