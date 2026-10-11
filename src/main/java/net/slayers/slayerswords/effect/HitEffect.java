@@ -11,6 +11,7 @@ import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
 
 @FunctionalInterface
 public interface HitEffect {
@@ -48,9 +49,15 @@ public interface HitEffect {
     }
 
     static HitEffect explosion(float power) {
-        return (level, stack, target, attacker) -> level.explode(
-                null, target.getX(), target.getY() + 1, target.getZ(), power, Level.ExplosionInteraction.NONE
-        );
+        return (level, stack, target, attacker) -> {
+            Vec3 velocity = attacker.getDeltaMovement();
+            ExplosionShield.run(attacker, () ->
+                    level.explode(attacker, target.getX(), target.getY() + 1, target.getZ(),
+                    power, Level.ExplosionInteraction.NONE));
+
+            attacker.setDeltaMovement(velocity);
+            attacker.hurtMarked = true;
+        };
     }
 
     static HitEffect knockback(double power, double lift) {

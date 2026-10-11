@@ -6,6 +6,7 @@ import net.minecraft.resources.Identifier;
 
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
+import net.slayers.slayerswords.effect.ExplosionShield;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.tooltips.ModTooltips;
 import org.slf4j.Logger;
@@ -18,11 +19,13 @@ public class SlayerSwords implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModCreativeModeTabs.registerModCreativeModeTabs();
+		ModCreativeModeTabs.register();
 
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
-		ModTooltips.registerModTooltips();
+		ModItems.register();
+		ModBlocks.register();
+		ModTooltips.register();
+
+		ExplosionShield.register();
 
 	}
 

@@ -77,7 +77,7 @@ public class ModBlocks {
                         .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name)))));
     }
 
-    public static void registerModBlocks() {
+    public static void register() {
         SlayerSwords.LOGGER.info("Registering Mod Blocks for " + SlayerSwords.MOD_ID);
     }
 }

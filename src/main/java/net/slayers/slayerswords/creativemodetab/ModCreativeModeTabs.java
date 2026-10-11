@@ -152,12 +152,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DRY_MAGMA);
                         output.accept(ModBlocks.WISTERIA_LOG);
                         output.accept(ModBlocks.WISTERIA_PLANKS);
-
-
                     }).build());
 
     
-    public static void registerModCreativeModeTabs() {
+    public static void register() {
         SlayerSwords.LOGGER.info("Registering Creative Mode Tabs for " + SlayerSwords.MOD_ID);
     }
 }

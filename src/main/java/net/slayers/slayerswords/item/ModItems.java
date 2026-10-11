@@ -7,7 +7,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -15,7 +14,6 @@ import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.effect.EffectOnHitItem;
 import net.slayers.slayerswords.food.ModFoods;
 
-import java.util.List;
 import java.util.function.Function;
 
 import static net.slayers.slayerswords.effect.HitEffect.*;
@@ -171,7 +169,7 @@ public class ModItems {
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name)))));
     }
 
-    public static void registerModItems() {
+    public static void register() {
         SlayerSwords.LOGGER.info("Registering Mod Items for " + SlayerSwords.MOD_ID);
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.SEARCH).register(output -> {

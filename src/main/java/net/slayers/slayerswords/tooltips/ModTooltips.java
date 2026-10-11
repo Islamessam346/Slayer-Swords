@@ -55,7 +55,7 @@ public class ModTooltips {
 
     private static final Style GRAY = Style.EMPTY.withColor(ChatFormatting.GRAY);
 
-    public static void registerModTooltips() {
+    public static void register() {
         ItemTooltipCallback.EVENT.register((stack, context, flag, lines) -> {
             Identifier id = BuiltInRegistries.ITEM.getKey(stack.getItem());
             if (!id.getNamespace().equals(SlayerSwords.MOD_ID)) return;
