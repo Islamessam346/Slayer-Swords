@@ -281,7 +281,41 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                                                         .save(output);
 
 
+                shaped(RecipeCategory.COMBAT, ModItems.SUN_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.SUN_INGOT)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .group("sun helmet")
+                        .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .define('R', ModItems.SUN_INGOT)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .group("sun helmet")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.SUN_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.SUN_INGOT)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .group("sun helmet")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.SUN_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.SUN_INGOT)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .group("sun helmet")
+                        .save(output);
 
 
 

@@ -6,6 +6,7 @@ import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.slayers.slayerswords.block.ModBlocks;
+import net.slayers.slayerswords.item.ModArmorMaterials;
 import net.slayers.slayerswords.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -73,5 +74,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.LOVE_CRYSTAL, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BASIC_NICHIRIN, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.FLASHY_CORE,ModelTemplates.FLAT_ITEM);
+
+
+        itemModelGenerators.generateTrimmableItem(ModItems.SUN_HELMET, ModArmorMaterials.SUN_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.SUN_CHESTPLATE, ModArmorMaterials.SUN_KEY,
+                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.SUN_LEGGINGS, ModArmorMaterials.SUN_KEY,
+                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.SUN_BOOTS, ModArmorMaterials.SUN_KEY,
+                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
     }
 }

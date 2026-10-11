@@ -2,11 +2,7 @@ package net.slayers.slayerswords;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.slayers.slayerswords.datagen.ModBlockLootTableProvider;
-import net.slayers.slayerswords.datagen.ModBlockTagsProvider;
-import net.slayers.slayerswords.datagen.ModModelProvider;
-import net.slayers.slayerswords.datagen.ModRecipeProvider;
-import net.slayers.slayerswords.datagen.ModItemTagsProvider;
+import net.slayers.slayerswords.datagen.*;
 
 public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -18,5 +14,6 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModItemTagsProvider::new);
+		pack.addProvider(ModEquipmentAssetProvider::new);
 	}
 }

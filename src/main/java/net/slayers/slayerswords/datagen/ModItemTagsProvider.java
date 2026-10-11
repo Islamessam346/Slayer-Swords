@@ -20,5 +20,11 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
     protected void addTags(HolderLookup.Provider registries) {
         valueLookupBuilder(ItemTags.SWORDS).add(ModItems.MOON_NICHIRIN);
         valueLookupBuilder(ItemTags.PICKAXES).add(ModItems.GYUTARO_SCYTHE);
+
+        valueLookupBuilder(ItemTags.HEAD_ARMOR).add(ModItems.SUN_HELMET);
+        valueLookupBuilder(ItemTags.CHEST_ARMOR).add(ModItems.SUN_CHESTPLATE);
+        valueLookupBuilder(ItemTags.LEG_ARMOR).add(ModItems.SUN_LEGGINGS);
+        valueLookupBuilder(ItemTags.FOOT_ARMOR).add(ModItems.SUN_BOOTS);
+
     }
 }

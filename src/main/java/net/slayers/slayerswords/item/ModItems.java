@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.equipment.ArmorType;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.effect.EffectOnHitItem;
 import net.slayers.slayerswords.food.ModFoods;
@@ -179,6 +180,17 @@ public class ModItems {
     public static final Item DEMON_FLESH = registerItem("demon_flesh", properties -> new Item(properties
             .food(ModFoods.DEMON_FLESH, ModFoods.DEMON_FLESH_CONSUMABLE)));
 
+    public static final Item SUN_HELMET = registerItem("sun_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.HELMET)));
+
+    public static final Item SUN_CHESTPLATE = registerItem("sun_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item SUN_LEGGINGS = registerItem("sun_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+
+    public static final Item SUN_BOOTS = registerItem("sun_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
     private static Item registerItem(String name, Function<Item.Properties,Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name),

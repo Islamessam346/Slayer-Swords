@@ -60,6 +60,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FLASHY_CORE);
 
 
+                        output.accept(ModItems.SUN_CHESTPLATE);
+                        output.accept(ModItems.SUN_BOOTS);
+                        output.accept(ModItems.SUN_HELMET);
+                        output.accept(ModItems.SUN_LEGGINGS);
 
 
 
