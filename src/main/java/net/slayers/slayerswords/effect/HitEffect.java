@@ -34,7 +34,7 @@ public interface HitEffect {
     }
 
     static HitEffect launch(float velocity) {
-        return (level, stack, target, attacker) -> attacker.push(0, velocity, 0);
+        return (level, stack, target, attacker) -> target.push(0, velocity, 0);
     }
 
     static HitEffect lightning(int count) {
