@@ -10,9 +10,10 @@ import net.minecraft.world.item.Item;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> NEEDS_DEMON_TOOL = createTag("needs_demon_tool");
-        public static final TagKey<Block> INCORRECT_FOR_DEMON_TOOL = createTag("incorrect_for_demon_tool");
         public static final TagKey<Block> INCORRECT_FOR_BASIC_TOOL = createTag("incorrect_for_basic_tool");
+        public static final TagKey<Block> INCORRECT_FOR_DEMON_TOOL = createTag("incorrect_for_demon_tool");
+        public static final TagKey<Block> NEEDS_DEMON_TOOL = createTag("needs_demon_tool");
+        public static final TagKey<Block> INCORRECT_FOR_HASHIRA_TOOL = createTag("incorrect_for_hashira_tool");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name));
@@ -20,8 +21,9 @@ public class ModTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> DEMON_REPAIR = createTag("demon_repair");
         public static final TagKey<Item> BASIC_REPAIR = createTag("basic_repair");
+        public static final TagKey<Item> DEMON_REPAIR = createTag("demon_repair");
+        public static final TagKey<Item> HASHIRA_REPAIR = createTag("hashira_repair");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name));

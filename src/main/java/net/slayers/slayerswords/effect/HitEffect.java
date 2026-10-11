@@ -36,12 +36,14 @@ public interface HitEffect {
         return (level, stack, target, attacker) -> attacker.push(0, velocity, 0);
     }
 
-    static HitEffect lightning() {
+    static HitEffect lightning(int count) {
         return (level, stack, target, attacker) -> {
-            LightningBolt bolt = EntityType.LIGHTNING_BOLT.create(level, EntitySpawnReason.TRIGGERED);
-            if (bolt == null) return;
-            bolt.setPos(target.getX(), target.getY(), target.getZ());
-            level.addFreshEntity(bolt);
+            for (int i = 0; i < count; i++) {
+                LightningBolt bolt = EntityType.LIGHTNING_BOLT.create(level, EntitySpawnReason.TRIGGERED);
+                if (bolt == null) continue;
+                bolt.setPos(target.getX(), target.getY(), target.getZ());
+                level.addFreshEntity(bolt);
+            }
         };
     }
 
@@ -49,6 +51,16 @@ public interface HitEffect {
         return (level, stack, target, attacker) -> level.explode(
                 null, target.getX(), target.getY() + 1, target.getZ(), power, Level.ExplosionInteraction.NONE
         );
+    }
+
+    static HitEffect knockback(double power, double lift) {
+        return (level, stack, target, attacker) -> {
+            double dx = target.getX() - attacker.getX();
+            double dz = target.getZ() - attacker.getZ();
+            double length = Math.sqrt(dx*dx + dz*dz);
+            target.push(dx / length * power, lift, dz / length * power);
+            target.hurtMarked = true;
+        };
     }
 
     static HitEffect particles(ParticleOptions particle, int count) {

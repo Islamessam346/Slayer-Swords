@@ -37,22 +37,26 @@ public class ModItems {
     public static final Item RADIANT_PEONY_BLOSSOM = registerItem("radiant_peony_blossom", Item::new);
     public static final Item BEAST_FANG = registerItem("beast_fang", Item::new);
     public static final Item MIST_CORE = registerItem("mist_core", Item::new);
+    public static final Item FLASHY_CORE = registerItem("flashy_core", Item::new);
     public static final Item LOVE_CRYSTAL = registerItem("love_crystal", Item::new);
     public  static final Item NICHIRIN_HANDLE = registerItem("nichirin_handle", Item::new);
 
     public static final Item BASIC_NICHIRIN_WATER = registerItem("basic_nichirin_water",
-            properties -> new EffectOnHitItem(properties.sword(ModToolMaterials.BASIC, 3f, -2.5f),
-                    freeze(7 * 20),
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.BASIC, 3f, -2.5f),
+                    freeze(14 * 20),
                     particles(ParticleTypes.SNOWFLAKE, 15)));
 
     public static final Item BASIC_NICHIRIN_FLAME = registerItem("basic_nichirin_flame",
-            properties -> new EffectOnHitItem(properties.sword(ModToolMaterials.BASIC, 4f, -3f),
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.BASIC, 4f, -3f),
                     fire(4 * 20),
-                    particles(ParticleTypes.FLAME, 12)));
+                    particles(ParticleTypes.FLAME, 15)));
 
     public static final Item BASIC_NICHIRIN_THUNDER = registerItem("basic_nichirin_thunder",
-            properties -> new EffectOnHitItem(properties.sword(ModToolMaterials.BASIC, 2f, -2f),
-                    lightning()));
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.BASIC, 2f, -2f),
+                    lightning(1)));
 
     public static final Item BASIC_NICHIRIN_WIND = registerItem("basic_nichirin_wind",
             properties -> new EffectOnHitItem(
@@ -67,30 +71,96 @@ public class ModItems {
     public static final Item BASIC_NICHIRIN = registerItem("basic_nichirin",
             properties -> new Item(properties.sword(ModToolMaterials.BASIC, 2f, -3f)));
 
-    public static final Item FLAME_NICHIRIN = registerItem("flame_nichirin", Item::new);
-    public static final Item WATER_NICHIRIN = registerItem("water_nichirin", Item::new);
-    public static final Item SERPENT_NICHIRIN = registerItem( "serpent_nichirin", Item::new);
-    public static final Item BLACK_NICHIRIN = registerItem("black_nichirin", Item::new);
-    public static final Item BEAST_NICHIRIN = registerItem("beast_nichirin", Item::new);
-    public static final Item FLOWER_NICHIRIN = registerItem("flower_nichirin", Item::new);
-    public static final Item TOXIC_NICHIRIN = registerItem("toxic_nichirin", Item::new);
-    public static final Item LIGHTNING_NICHIRIN = registerItem("lightning_nichirin", Item::new);
-    public static final Item SOUND_NICHIRIN = registerItem("sound_nichirin", Item::new);
-    public static final Item MIST_NICHIRIN = registerItem("mist_nichirin", Item::new);
-    public static final Item LOVE_NICHIRIN = registerItem("love_nichirin", Item::new);
-    public static final Item FLASHY_CORE = registerItem("flashy_core", Item::new);
+    public static final Item BLACK_NICHIRIN = registerItem("black_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 4f, -3f),
+                    potion(MobEffects.WITHER, 10 * 20, 2)
+            ));
+
+    public static final Item FLAME_NICHIRIN = registerItem("flame_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 6f, -2f),
+                    fire(10 * 20),
+                    explosion(10f)));
+
+    public static final Item WATER_NICHIRIN = registerItem("water_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 5f, -1.5f),
+                    freeze(20 * 20),
+                    potion(MobEffects.SLOWNESS, 5 * 20, 6),
+                    potion(MobEffects.JUMP_BOOST, 5 * 20, 128),
+                    potion(MobEffects.MINING_FATIGUE, 5 * 20, 4),
+                    potion(MobEffects.WEAKNESS, 5 * 20, 4)
+            ));
+
+    public static final Item SERPENT_NICHIRIN = registerItem( "serpent_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 3f, -1f),
+                    potion(MobEffects.WITHER, 10 * 20, 2),
+                    potion(MobEffects.POISON, 10 * 20, 2)
+            ));
+
+    public static final Item BEAST_NICHIRIN = registerItem("beast_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 5f, -2.5f),
+                    knockback(2f, 1f)
+            ));
+
+    public static final Item FLOWER_NICHIRIN = registerItem("flower_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 4.5f, -1.5f),
+                    potion(MobEffects.OOZING, 20 * 20, 1),
+                    potion(MobEffects.INFESTED, 20 * 20, 1),
+                    potion(MobEffects.WEAVING, 20 * 20, 1),
+                    potion(MobEffects.WEAKNESS, 20 * 20, 1)
+            ));
+
+    public static final Item TOXIC_NICHIRIN = registerItem("toxic_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 1f, -1f),
+                    potion(MobEffects.POISON, 15 * 20, 5)
+            ));
+
+    public static final Item LIGHTNING_NICHIRIN = registerItem("lightning_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 5f, -0.5f),
+                    lightning(100)
+            ));
+
+    public static final Item SOUND_NICHIRIN = registerItem("sound_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 5f, -2f),
+                    explosion(20f)
+            ));
+
+    public static final Item MIST_NICHIRIN = registerItem("mist_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 4f, -1.5f),
+                    potion(MobEffects.INVISIBILITY, 3 * 20, 1)
+            ));
+    public static final Item LOVE_NICHIRIN = registerItem("love_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.HASHIRA, 3f, 0f),
+                    potion(MobEffects.GLOWING, 10 * 20, 1),
+                    lifesteal(1f)
+            ));
 
     public static final Item MOON_NICHIRIN = registerItem("moon_nichirin",
             properties -> new EffectOnHitItem(
-                    properties.sword(ModToolMaterials.DEMON, 5, -2),
+                    properties.sword(ModToolMaterials.DEMON, 5f, -2f),
                     lifesteal(2f)));
 
     public static final Item GYUTARO_SCYTHE = registerItem("gyutaro_scythe",
             properties -> new EffectOnHitItem(
-                    properties.pickaxe(ModToolMaterials.DEMON, 1, 0f),
+                    properties.pickaxe(ModToolMaterials.DEMON, 1f, 0f),
                     potion(MobEffects.POISON, 6 * 20, 1)));
 
-    public static final Item BLACK_THUNDER_NICHIRIN = registerItem("black_thunder_nichirin", Item::new);
+    public static final Item BLACK_THUNDER_NICHIRIN = registerItem("black_thunder_nichirin",
+            properties -> new EffectOnHitItem(
+                    properties.sword(ModToolMaterials.DEMON, 6f, -0.75f),
+                    lightning(3),
+                    explosion(10f)
+            ));
 
     public static final Item DEMON_FLESH = registerItem("demon_flesh", properties -> new Item(properties
             .food(ModFoods.DEMON_FLESH, ModFoods.DEMON_FLESH_CONSUMABLE)));
