@@ -40,7 +40,6 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                         );
 
 
-
         valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_SUNORE_BLOCK,
                         ModBlocks.RAW_SCARLETORE_BLOCK,
