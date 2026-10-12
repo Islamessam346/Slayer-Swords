@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "shield",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "RIR",
+    "RRR",
+    " R "
+  ],
+  "result": {
+    "id": "minecraft:shield"
+  }
+}

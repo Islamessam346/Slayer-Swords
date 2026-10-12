@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pressure plate",
+  "key": {
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "RR ",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "id": "minecraft:oak_pressure_plate"
+  }
+}

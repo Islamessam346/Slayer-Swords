@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "black bed",
+  "key": {
+    "B": "minecraft:black_wool",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "   ",
+    "BBB",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:black_bed"
+  }
+}

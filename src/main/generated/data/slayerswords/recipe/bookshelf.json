@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "bookshelf",
+  "key": {
+    "B": "minecraft:book",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "RRR",
+    "BBB",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:bookshelf"
+  }
+}

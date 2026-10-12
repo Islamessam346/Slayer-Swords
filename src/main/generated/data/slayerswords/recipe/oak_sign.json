@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sign",
+  "key": {
+    "R": "slayerswords:wisteria_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    " S "
+  ],
+  "result": {
+    "id": "minecraft:oak_sign"
+  }
+}

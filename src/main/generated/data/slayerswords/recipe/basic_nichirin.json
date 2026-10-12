@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "basic nichirin",
+  "key": {
+    "H": "slayerswords:nichirin_handle",
+    "S": "slayerswords:sun_ingot"
+  },
+  "pattern": [
+    " S ",
+    " S ",
+    " H "
+  ],
+  "result": {
+    "id": "slayerswords:basic_nichirin"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "blue bed",
+  "key": {
+    "B": "minecraft:blue_wool",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "   ",
+    "BBB",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:blue_bed"
+  }
+}

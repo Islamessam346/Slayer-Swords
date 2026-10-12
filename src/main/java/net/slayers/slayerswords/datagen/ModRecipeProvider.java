@@ -6,6 +6,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
@@ -272,13 +273,163 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("sound nichirin")
                         .save(output);
 
+                shaped(RecipeCategory.MISC, ModItems.BASIC_NICHIRIN)
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .pattern(" H ")
+                        .define('S', ModItems.SUN_INGOT)
+                        .define('H', ModItems.NICHIRIN_HANDLE)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .unlockedBy(getHasName(ModItems.NICHIRIN_HANDLE), has(ModItems.NICHIRIN_HANDLE))
+                        .group("basic nichirin")
+                        .save(output);
+
                 shaped(RecipeCategory.MISC, Blocks.CRAFTING_TABLE)
-                        .pattern("RR")
-                        .pattern("RR")
+                        .pattern("   ")
+                        .pattern("RR ")
+                        .pattern("RR ")
                                 .define('R', ModBlocks.WISTERIA_PLANKS)
                                         .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
                                                 .group("crafting table")
                                                         .save(output);
+
+                shaped(RecipeCategory.MISC, Items.OAK_BUTTON)
+                        .pattern("   ")
+                        .pattern(" R ")
+                        .pattern("   ")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("button")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Items.OAK_BOAT)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("boat")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.CHEST)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("chest")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.OAK_SIGN)
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .pattern(" S ")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("sign")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.BOOKSHELF)
+                        .pattern("RRR")
+                        .pattern("BBB")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('B', Items.BOOK)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Items.BOOK), has(Items.BOOK))
+                        .group("bookshelf")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Items.SHIELD)
+                        .pattern("RIR")
+                        .pattern("RRR")
+                        .pattern(" R ")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('I', Items.IRON_INGOT)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                        .group("shield")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.OAK_PRESSURE_PLATE)
+                        .pattern("RR ")
+                        .pattern("   ")
+                        .pattern("   ")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("pressure plate")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.WHITE_BED)
+                        .pattern("   ")
+                        .pattern("WWW")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('W', Blocks.WHITE_WOOL)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.WHITE_WOOL), has(Blocks.WHITE_WOOL))
+                        .group("white bed")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.BLACK_BED)
+                        .pattern("   ")
+                        .pattern("BBB")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('B', Blocks.BLACK_WOOL)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.BLACK_WOOL), has(Blocks.BLACK_WOOL))
+                        .group("black bed")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.BLUE_BED)
+                        .pattern("   ")
+                        .pattern("BBB")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('B', Blocks.BLUE_WOOL)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.BLUE_WOOL), has(Blocks.BLUE_WOOL))
+                        .group("blue bed")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.BROWN_BED)
+                        .pattern("   ")
+                        .pattern("BBB")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('B', Blocks.BROWN_WOOL)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.BROWN_WOOL), has(Blocks.BROWN_WOOL))
+                        .group("brown bed")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.CYAN_BED)
+                        .pattern("   ")
+                        .pattern("CCC")
+                        .pattern("RRR")
+                        .define('C', Blocks.CYAN_WOOL)
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.CYAN_WOOL), has(Blocks.CYAN_WOOL))
+                        .group("cyan wool")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.GRAY_BED)
+                        .pattern("   ")
+                        .pattern("GGG")
+                        .pattern("RRR")
+                        .define('G', Blocks.GRAY_WOOL)
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.GRAY_WOOL), has(Blocks.GRAY_WOOL))
+                        .group("gray wool")
+                                .save(output);
+
+
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_HELMET)

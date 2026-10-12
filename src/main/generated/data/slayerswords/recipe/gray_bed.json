@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "gray wool",
+  "key": {
+    "G": "minecraft:gray_wool",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "   ",
+    "GGG",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:gray_bed"
+  }
+}

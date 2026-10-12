@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chest",
+  "key": {
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "RRR",
+    "R R",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:chest"
+  }
+}
