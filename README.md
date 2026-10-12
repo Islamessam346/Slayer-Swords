@@ -4,6 +4,8 @@
         - sun, scarlet Ores, and Ingots
         - wisteria, marine, volcanic, vortex ember, serpent scales materials
         - Demon Flesh consumable food with status effects
+        - Sword attack effects
+        - custom paintings
 
 ### Requirements
 
@@ -28,15 +30,20 @@
 this is a showcase video of the mod:
 https://youtu.be/7q7N-0FTEIs
 
-### ScreanShots from inside the mod
+### Screenshots from inside the mod
 
 
 <img width="800" height="809" alt="image" src="https://github.com/user-attachments/assets/2cf5234d-ff86-40d3-8134-8f7af756e4e7" />
 
-
 <img width="1142" height="912" alt="image" src="https://github.com/user-attachments/assets/6d198a79-8a46-433f-a914-f4cd9c3d9bb6" />
 
+<img width="1920" height="1080" alt="recipe" src="https://github.com/user-attachments/assets/b4959b39-7779-443d-b8a4-53f4341ce5f2" />
 
+<img width="1916" height="933" alt="blocks" src="https://github.com/user-attachments/assets/b0ca4ea7-744f-4278-9b1a-d7460f43f208" />
+
+<img width="1920" height="1080" alt="lightning effect" src="https://github.com/user-attachments/assets/3af24007-556c-4043-bd27-ad7a6ed465bb" />
+
+<img width="1486" height="963" alt="muzan_painting" src="https://github.com/user-attachments/assets/237413c9-b67d-43fc-9db0-ac0b210efd1e" />
 
 Thank You for Your review!!!!
 
