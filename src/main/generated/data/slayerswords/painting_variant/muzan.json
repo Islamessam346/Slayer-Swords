@@ -1,0 +1,13 @@
+{
+  "asset_id": "slayerswords:muzan",
+  "author": {
+    "color": "gray",
+    "translate": "painting.slayerswords.muzan.author"
+  },
+  "height": 5,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.slayerswords.muzan.title"
+  },
+  "width": 5
+}

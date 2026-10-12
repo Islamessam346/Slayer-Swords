@@ -88,6 +88,8 @@
   "block.slayerswords.volcanic_cluster": "Volcanic Cluster",
   "block.slayerswords.dry_magma": "Dry Magma",
   "block.slayerswords.wisteria_log": "Wisteria Log",
-  "block.slayerswords.wisteria_planks": "Wisteria Planks"
+  "block.slayerswords.wisteria_planks": "Wisteria Planks",
 
+  "painting.slayerswords.muzan.title": "Muzan",
+  "painting.slayerswords.muzan.author": "Islam Essam"
 }
