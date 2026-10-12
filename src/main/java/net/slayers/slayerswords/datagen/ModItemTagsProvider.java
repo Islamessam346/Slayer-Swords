@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 
 import net.minecraft.tags.ItemTags;
+import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.tags.ModTags;
 
@@ -18,13 +19,13 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider registries) {
-        valueLookupBuilder(ItemTags.SWORDS).add(ModItems.MOON_NICHIRIN);
-        valueLookupBuilder(ItemTags.PICKAXES).add(ModItems.GYUTARO_SCYTHE);
+        tag(ItemTags.SWORDS).add(ModItems.getRK(ModItems.MOON_NICHIRIN));
+        tag(ItemTags.PICKAXES).add(ModItems.getRK(ModItems.GYUTARO_SCYTHE));
 
-        valueLookupBuilder(ItemTags.HEAD_ARMOR).add(ModItems.SUN_HELMET);
-        valueLookupBuilder(ItemTags.CHEST_ARMOR).add(ModItems.SUN_CHESTPLATE);
-        valueLookupBuilder(ItemTags.LEG_ARMOR).add(ModItems.SUN_LEGGINGS);
-        valueLookupBuilder(ItemTags.FOOT_ARMOR).add(ModItems.SUN_BOOTS);
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.getRK(ModItems.SUN_HELMET));
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.SUN_CHESTPLATE));
+        tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.SUN_LEGGINGS));
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.SUN_BOOTS));
 
     }
 }

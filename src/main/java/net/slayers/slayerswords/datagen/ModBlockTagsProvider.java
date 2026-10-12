@@ -19,41 +19,41 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider registries) {
-        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.RAW_SUNORE_BLOCK,
-                        ModBlocks.RAW_SCARLETORE_BLOCK,
-                        ModBlocks.METEORITE_ORE,
-                        ModBlocks.BLOCK_OF_SUNORE,
-                        ModBlocks.SUNMETAL_BLOCK,
-                        ModBlocks.BLOCK_OF_SCARLETORE,
-                        ModBlocks.SCARLETMETAL_BLOCK,
-                        ModBlocks.VOLCANIC_CLUSTER,
-                        ModBlocks.DRY_MAGMA);
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.getRK(ModBlocks.RAW_SUNORE_BLOCK),
+                        ModBlocks.getRK(ModBlocks.RAW_SCARLETORE_BLOCK),
+                        ModBlocks.getRK(ModBlocks.METEORITE_ORE),
+                        ModBlocks.getRK(ModBlocks.BLOCK_OF_SUNORE),
+                        ModBlocks.getRK(ModBlocks.SUNMETAL_BLOCK),
+                        ModBlocks.getRK(ModBlocks.BLOCK_OF_SCARLETORE),
+                        ModBlocks.getRK(ModBlocks.SCARLETMETAL_BLOCK),
+                        ModBlocks.getRK(ModBlocks.VOLCANIC_CLUSTER),
+                        ModBlocks.getRK(ModBlocks.DRY_MAGMA));
 
 
-        valueLookupBuilder(BlockTags.MINEABLE_WITH_HOE)
-                .add(ModBlocks.WISTERIA_BUSH);
+        tag(BlockTags.MINEABLE_WITH_HOE)
+                .add(ModBlocks.getRK(ModBlocks.WISTERIA_BUSH));
 
-        valueLookupBuilder(BlockTags.MINEABLE_WITH_AXE)
-                .add(ModBlocks.WISTERIA_LOG,
-                        ModBlocks.WISTERIA_PLANKS
+        tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.getRK(ModBlocks.WISTERIA_LOG),
+                        ModBlocks.getRK(ModBlocks.WISTERIA_PLANKS)
                         );
 
 
-        valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RAW_SUNORE_BLOCK,
-                        ModBlocks.RAW_SCARLETORE_BLOCK,
-                        ModBlocks.METEORITE_ORE,
-                        ModBlocks.BLOCK_OF_SUNORE,
-                        ModBlocks.SUNMETAL_BLOCK,
-                        ModBlocks.BLOCK_OF_SCARLETORE,
-                        ModBlocks.SCARLETMETAL_BLOCK,
-                        ModBlocks.DRY_MAGMA);
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.getRK(ModBlocks.RAW_SUNORE_BLOCK),
+                        ModBlocks.getRK(ModBlocks.RAW_SCARLETORE_BLOCK),
+                        ModBlocks.getRK(ModBlocks.METEORITE_ORE),
+                        ModBlocks.getRK(ModBlocks.BLOCK_OF_SUNORE),
+                        ModBlocks.getRK(ModBlocks.SUNMETAL_BLOCK),
+                        ModBlocks.getRK(ModBlocks.BLOCK_OF_SCARLETORE),
+                        ModBlocks.getRK(ModBlocks.SCARLETMETAL_BLOCK),
+                        ModBlocks.getRK(ModBlocks.DRY_MAGMA));
 
-        valueLookupBuilder(ModTags.Blocks.NEEDS_DEMON_TOOL)
-                .add(ModBlocks.VOLCANIC_CLUSTER);
+        tag(ModTags.Blocks.NEEDS_DEMON_TOOL)
+                .add(ModBlocks.getRK(ModBlocks.VOLCANIC_CLUSTER));
 
-        valueLookupBuilder(ModTags.Blocks.INCORRECT_FOR_DEMON_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_DEMON_TOOL);
 
         for (TagKey<Block> incorrectTag : List.of(
                 BlockTags.INCORRECT_FOR_WOODEN_TOOL,
@@ -64,7 +64,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
                 BlockTags.INCORRECT_FOR_NETHERITE_TOOL
         )) {
-            valueLookupBuilder(incorrectTag).addTag(ModTags.Blocks.NEEDS_DEMON_TOOL);
+            tag(incorrectTag).addTag(ModTags.Blocks.NEEDS_DEMON_TOOL);
         }
     }
 }
