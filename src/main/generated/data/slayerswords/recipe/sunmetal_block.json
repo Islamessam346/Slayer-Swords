@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "sun ingots",
   "key": {
     "R": "slayerswords:sun_ingot"

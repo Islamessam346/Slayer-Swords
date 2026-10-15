@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "scarlet ores",
   "key": {
     "R": "slayerswords:scarlet_ore"

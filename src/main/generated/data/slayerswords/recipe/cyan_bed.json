@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "cyan wool",
   "key": {
     "C": "minecraft:cyan_wool",

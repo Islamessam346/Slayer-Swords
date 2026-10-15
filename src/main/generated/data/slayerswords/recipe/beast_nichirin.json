@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "beast nichirin",
   "key": {
     "A": "slayerswords:beast_fang",

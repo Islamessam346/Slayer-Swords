@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "nichirin handle",
   "key": {
     "R": "slayerswords:scarlet_ingot"

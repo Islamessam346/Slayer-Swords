@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "flower nichirin",
   "key": {
     "A": "slayerswords:radiant_peony_blossom",

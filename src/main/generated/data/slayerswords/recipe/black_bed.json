@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "black bed",
   "key": {
     "B": "minecraft:black_wool",

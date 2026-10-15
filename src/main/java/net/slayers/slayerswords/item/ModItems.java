@@ -39,6 +39,7 @@ public class ModItems {
     public static final Item FLASHY_CORE = registerItem("flashy_core", Item::new);
     public static final Item LOVE_CRYSTAL = registerItem("love_crystal", Item::new);
     public  static final Item NICHIRIN_HANDLE = registerItem("nichirin_handle", Item::new);
+    public static final Item WIND_CORE = registerItem("wind_core", Item::new);
 
     public static final Item BASIC_NICHIRIN_WATER = registerItem("basic_nichirin_water",
             properties -> new EffectOnHitItem(
@@ -244,6 +245,8 @@ public class ModItems {
             output.accept(LOVE_CRYSTAL);
             output.accept(BASIC_NICHIRIN);
             output.accept(FLASHY_CORE);
+            output.accept(WIND_CORE);
+
         });
 
     }

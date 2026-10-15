@@ -58,6 +58,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DEMON_FLESH);
                         output.accept(ModItems.GYUTARO_SCYTHE);
                         output.accept(ModItems.FLASHY_CORE);
+                        output.accept(ModItems.WIND_CORE);
 
 
                         output.accept(ModItems.SUN_CHESTPLATE);
@@ -137,6 +138,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MIST_CORE);
                         output.accept(ModItems.LOVE_CRYSTAL);
                         output.accept(ModItems.FLASHY_CORE);
+                        output.accept(ModItems.WIND_CORE);
 
 
                     }).build());

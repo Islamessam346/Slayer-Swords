@@ -273,6 +273,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("sound nichirin")
                         .save(output);
 
+                shaped(RecipeCategory.MISC,ModItems.WIND_NICHIRIN)
+                        .pattern(" R ")
+                        .pattern("ARA")
+                        .pattern(" H ")
+                        .define('R', ModItems.SUN_INGOT)
+                        .define('A', ModItems.WIND_CORE)
+                        .define('H', ModItems.NICHIRIN_HANDLE)
+                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .unlockedBy(getHasName(ModItems.WIND_CORE), has(ModItems.WIND_CORE))
+                        .unlockedBy(getHasName(ModItems.NICHIRIN_HANDLE), has(ModItems.NICHIRIN_HANDLE))
+                        .group("wind nihcirin")
+                        .save(output);
+
+
                 shaped(RecipeCategory.MISC, ModItems.BASIC_NICHIRIN)
                         .pattern(" S ")
                         .pattern(" S ")

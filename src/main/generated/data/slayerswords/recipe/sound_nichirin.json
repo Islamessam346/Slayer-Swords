@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "sound nichirin",
   "key": {
     "A": "slayerswords:flashy_core",

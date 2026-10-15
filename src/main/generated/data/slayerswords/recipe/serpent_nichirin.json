@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "serpent nichirin",
   "key": {
     "A": "slayerswords:serpent_scales",

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "black nichirin",
   "key": {
     "A": "slayerswords:vortex_ember",

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "black thunder nichirin",
   "key": {
     "A": "slayerswords:lightning_wyvern_fang",

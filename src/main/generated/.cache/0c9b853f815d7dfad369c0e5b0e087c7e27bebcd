@@ -1,4 +1,4 @@
-// 26.1.2	-999999999-01-01T00:00:00	Slayer Swords/Model Definitions
+// 26.2	-999999999-01-01T00:00:00	Slayer Swords/Model Definitions
 63f8f5e2988f92f1ab86dec0c150bf01850491ad assets/slayerswords/blockstates/block_of_scarletore.json
 6e52aaae1d5b55e2ea74c69c48195e393f5dfca0 assets/slayerswords/blockstates/block_of_sunore.json
 883e85c6d726b633528065d2d0822d64d417309a assets/slayerswords/blockstates/dry_magma.json
@@ -63,6 +63,7 @@ f8c3e4ad52db68f141c6e1d8d681649fe93ed578 assets/slayerswords/items/volcanic_clus
 8013920ab2a4b12a717eb7daf191f59c7d784f2c assets/slayerswords/items/volcanic_stone.json
 dd03b439151251021d5f46a6eba17f1e13189ce6 assets/slayerswords/items/vortex_ember.json
 37ea0ea97c7b472f32f507cf2a46b8f910284040 assets/slayerswords/items/water_nichirin.json
+c3b1332b7dd46cef481da3075ac13b30c689031f assets/slayerswords/items/wind_core.json
 1e3a2b462014e1fe01dcd77ae9b3fa866612e944 assets/slayerswords/items/wind_nichirin.json
 23a323df41481cd3be2113714b5c743d3d58c360 assets/slayerswords/items/wisteria_bush.json
 53c3ee13624280e1de7b403382622a4bea87d3b8 assets/slayerswords/items/wisteria_flower.json
@@ -167,5 +168,6 @@ c18ca91b213ba62da494cf20e27cb81bb607fa08 assets/slayerswords/models/item/sun_leg
 8b0b94269abd453816bd73848b18c3e874be5484 assets/slayerswords/models/item/volcanic_stone.json
 b40f1c9f2324f3358a7c8a9dea168cf42a686647 assets/slayerswords/models/item/vortex_ember.json
 316347ba180114abe54c0a8133ed40f53b1a80a5 assets/slayerswords/models/item/water_nichirin.json
+8e9fe54ff7ea11bcb75b207c28c1cf36e6ebc022 assets/slayerswords/models/item/wind_core.json
 e8754ff26b5073d81f6b934b995267aa61c94adf assets/slayerswords/models/item/wind_nichirin.json
 9bb6ec6f628ecfc52f4b409814f2b83f0c3532c3 assets/slayerswords/models/item/wisteria_flower.json

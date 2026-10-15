@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "group": "sun ingots",
   "ingredients": [
     "slayerswords:sunmetal_block"

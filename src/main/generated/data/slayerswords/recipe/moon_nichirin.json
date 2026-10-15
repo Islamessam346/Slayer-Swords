@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "moon nichirin",
   "key": {
     "A": "slayerswords:upper_moon_1_flesh",
