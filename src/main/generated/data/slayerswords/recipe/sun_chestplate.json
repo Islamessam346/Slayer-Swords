@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "group": "sun helmet",
+  "group": "sun armor",
   "key": {
     "R": "slayerswords:sun_ingot"
   },

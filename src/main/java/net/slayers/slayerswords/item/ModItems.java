@@ -1,5 +1,6 @@
 package net.slayers.slayerswords.item;
 
+import com.mojang.blaze3d.systems.GpuQueryPool;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.particles.ParticleTypes;
@@ -10,6 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.effect.EffectOnHitItem;
@@ -187,11 +189,23 @@ public class ModItems {
     public static final Item SUN_CHESTPLATE = registerItem("sun_chestplate",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
 
+    public static final Item SUN_BOOTS = registerItem("sun_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
     public static final Item SUN_LEGGINGS = registerItem("sun_leggings",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
 
-    public static final Item SUN_BOOTS = registerItem("sun_boots",
-            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SUN_ARMOR_MATERIAL, ArmorType.BOOTS)));
+    public static final Item SOUND_HELMET = registerItem("sound_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL, ArmorType.HELMET)));
+
+    public static final Item SOUND_CHESPLATE = registerItem("sound_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item SOUND_LEGGINGS = registerItem("sound_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
+    public static final Item SOUND_BOOTS = registerItem("sound_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
     public static ResourceKey<Item> getRK(Item item) {
         return BuiltInRegistries.ITEM.getResourceKey(item).get();

@@ -46,9 +46,12 @@
 
   "item.slayerswords.sun_helmet": "Sun Helmet",
   "item.slayerswords.sun_chestplate": "Sun Chestplate",
-  "item.slayerswords.sun_boots": "Sun Boots",
   "item.slayerswords.sun_leggings": "Sun Leggings",
-
+  "item.slayerswords.sun_boots": "Sun Boots",
+  "item.slayerswords.sound_helmet": "Sound Helmet",
+  "item.slayerswords.sound_chesplate": "Sound Chestplate",
+  "item.slayerswords.sound_leggings": "Sound Leggings",
+  "item.slayerswords.sound_boots": "Sound Boots",
 
   "item.slayerswords.mist_core": "Mist Core",
   "item.slayerswords.love_crystal": "Love Crystal",

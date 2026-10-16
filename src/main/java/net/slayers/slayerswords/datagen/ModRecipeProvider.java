@@ -452,7 +452,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("   ")
                         .define('R', ModItems.SUN_INGOT)
                         .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
-                        .group("sun helmet")
+                        .group("sun armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.SOUND_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.FLASHY_CORE)
+                        .unlockedBy(getHasName(ModItems.FLASHY_CORE), has(ModItems.FLASHY_CORE))
+                        .group("sound armor")
                         .save(output);
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
@@ -461,7 +470,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("RRR")
                         .define('R', ModItems.SUN_INGOT)
                         .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
-                        .group("sun helmet")
+                        .group("sun armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.SOUND_CHESPLATE)
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .define('R', ModItems.FLASHY_CORE)
+                        .unlockedBy(getHasName(ModItems.FLASHY_CORE), has(ModItems.FLASHY_CORE))
+                        .group("sound armor")
                         .save(output);
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_LEGGINGS)
@@ -470,7 +488,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("R R")
                         .define('R', ModItems.SUN_INGOT)
                         .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
-                        .group("sun helmet")
+                        .group("sun armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.SOUND_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.FLASHY_CORE)
+                        .unlockedBy(getHasName(ModItems.FLASHY_CORE), has(ModItems.FLASHY_CORE))
+                        .group("sound armor")
                         .save(output);
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_BOOTS)
@@ -479,7 +506,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("R R")
                         .define('R', ModItems.SUN_INGOT)
                         .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
-                        .group("sun helmet")
+                        .group("sun armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.SOUND_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.FLASHY_CORE)
+                        .unlockedBy(getHasName(ModItems.FLASHY_CORE), has(ModItems.FLASHY_CORE))
+                        .group("sound armor")
                         .save(output);
 
 

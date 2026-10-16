@@ -85,5 +85,15 @@ public class ModModelProvider extends FabricModelProvider {
                 ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModelGenerators.generateTrimmableItem(ModItems.SUN_BOOTS, ModArmorMaterials.SUN_KEY,
                 ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
+        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_HELMET, ModArmorMaterials.SOUND_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_CHESPLATE, ModArmorMaterials.SOUND_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_LEGGINGS, ModArmorMaterials.SOUND_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_BOOTS, ModArmorMaterials.SOUND_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+
     }
 }

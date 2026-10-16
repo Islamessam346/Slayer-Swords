@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "slayerswords:flashy_core"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "slayerswords:flashy_core"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "slayerswords:flashy_core"
+      }
+    ]
+  }
+}

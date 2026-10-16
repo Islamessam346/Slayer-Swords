@@ -28,7 +28,13 @@ public class ModEquipmentAssetProvider implements DataProvider {
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"sun_ingot"))
                         .build());
+
+        consumer.accept(ModArmorMaterials.SOUND_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"flashy_core"))
+                        .build());
     }
+
 
     @Override
     public CompletableFuture<?> run(final CachedOutput cache) {

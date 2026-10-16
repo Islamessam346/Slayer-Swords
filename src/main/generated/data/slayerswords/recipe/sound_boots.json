@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "sound armor",
+  "key": {
+    "R": "slayerswords:flashy_core"
+  },
+  "pattern": [
+    "   ",
+    "R R",
+    "R R"
+  ],
+  "result": {
+    "id": "slayerswords:sound_boots"
+  }
+}

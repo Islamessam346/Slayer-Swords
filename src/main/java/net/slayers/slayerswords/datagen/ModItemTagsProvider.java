@@ -27,5 +27,11 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.SUN_LEGGINGS));
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.SUN_BOOTS));
 
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.getRK(ModItems.SOUND_HELMET));
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.SOUND_CHESPLATE));
+        tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.SOUND_LEGGINGS));
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.SOUND_BOOTS));
+
+
     }
 }
