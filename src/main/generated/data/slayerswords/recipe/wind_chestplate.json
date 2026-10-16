@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wind armor",
+  "key": {
+    "R": "slayerswords:wind_core"
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:wind_chestplate"
+  }
+}

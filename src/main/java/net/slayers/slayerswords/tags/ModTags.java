@@ -26,6 +26,7 @@ public class ModTags {
         public static final TagKey<Item> DEMON_REPAIR = createTag("demon_repair");
         public static final TagKey<Item> HASHIRA_REPAIR = createTag("hashira_repair");
         public static final TagKey<Item> SOUND_REPAIR = createTag("sound_repair");
+        public static final TagKey<Item> WIND_REPAIR = createTag("wind_repair");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name));

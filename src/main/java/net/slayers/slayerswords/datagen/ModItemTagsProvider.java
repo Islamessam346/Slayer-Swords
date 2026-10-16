@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.tags.ModTags;
@@ -31,6 +32,11 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.SOUND_CHESPLATE));
         tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.SOUND_LEGGINGS));
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.SOUND_BOOTS));
+
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.getRK(ModItems.WIND_HELMET));
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.WIND_CHESTPLATE));
+        tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.WIND_LEGGINGS));
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.WIND_BOOTS));
 
 
     }

@@ -464,6 +464,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("sound armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.WIND_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.WIND_CORE)
+                        .unlockedBy(getHasName(ModItems.WIND_CORE), has(ModItems.WIND_CORE))
+                        .group("wind armor")
+                        .save(output);
+
+
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
                         .pattern("R R")
                         .pattern("RRR")
@@ -471,6 +481,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.SUN_INGOT)
                         .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
                         .group("sun armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.WIND_CHESTPLATE)
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .define('R', ModItems.WIND_CORE)
+                        .unlockedBy(getHasName(ModItems.WIND_CORE), has(ModItems.WIND_CORE))
+                        .group("wind armor")
                         .save(output);
 
                 shaped(RecipeCategory.COMBAT, ModItems.SOUND_CHESPLATE)
@@ -500,6 +519,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("sound armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.WIND_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.WIND_CORE)
+                        .unlockedBy(getHasName(ModItems.WIND_CORE), has(ModItems.WIND_CORE))
+                        .group("wind armor")
+                        .save(output);
+
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_BOOTS)
                         .pattern("   ")
                         .pattern("R R")
@@ -516,6 +544,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.FLASHY_CORE)
                         .unlockedBy(getHasName(ModItems.FLASHY_CORE), has(ModItems.FLASHY_CORE))
                         .group("sound armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.WIND_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.WIND_CORE)
+                        .unlockedBy(getHasName(ModItems.WIND_CORE), has(ModItems.WIND_CORE))
+                        .group("wind armor")
                         .save(output);
 
 

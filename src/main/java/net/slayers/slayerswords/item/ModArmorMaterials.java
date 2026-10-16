@@ -26,4 +26,10 @@ public class ModArmorMaterials {
     public static final ArmorMaterial SOUND_ARMOR_MATERIAL = new ArmorMaterial(275,
             ArmorMaterials.makeDefense(14,28,42,14,28),
             100,SoundEvents.ARMOR_EQUIP_CHAIN,12,0.6f,ModTags.Items.SOUND_REPAIR, SOUND_KEY);
+
+    public static final  ResourceKey<EquipmentAsset> WIND_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"wind_core"));
+
+    public static final ArmorMaterial WIND_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(12,24,35,12,24),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.WIND_REPAIR, WIND_KEY);
 }

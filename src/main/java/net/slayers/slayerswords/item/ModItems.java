@@ -202,10 +202,23 @@ public class ModItems {
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
 
     public static final Item SOUND_LEGGINGS = registerItem("sound_leggings",
-            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL,ArmorType.BOOTS)));
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
 
     public static final Item SOUND_BOOTS = registerItem("sound_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
+    public static final Item WIND_HELMET = registerItem("wind_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WIND_ARMOR_MATERIAL, ArmorType.HELMET)));
+
+    public static final Item WIND_CHESTPLATE = registerItem("wind_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WIND_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item WIND_LEGGINGS = registerItem("wind_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WIND_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+
+    public static final Item WIND_BOOTS = registerItem("wind_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WIND_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
 
     public static ResourceKey<Item> getRK(Item item) {
         return BuiltInRegistries.ITEM.getResourceKey(item).get();

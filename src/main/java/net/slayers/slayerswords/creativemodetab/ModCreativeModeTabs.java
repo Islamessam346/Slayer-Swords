@@ -69,6 +69,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SOUND_CHESPLATE);
                         output.accept(ModItems.SOUND_LEGGINGS);
                         output.accept(ModItems.SOUND_BOOTS);
+                        output.accept(ModItems.WIND_HELMET);
+                        output.accept(ModItems.WIND_CHESTPLATE);
+                        output.accept(ModItems.WIND_LEGGINGS);
+                        output.accept(ModItems.WIND_BOOTS);
 
 
 
