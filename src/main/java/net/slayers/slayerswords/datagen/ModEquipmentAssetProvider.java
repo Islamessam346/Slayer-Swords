@@ -43,6 +43,11 @@ public class ModEquipmentAssetProvider implements DataProvider {
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"marine_stone"))
                         .build());
+
+        consumer.accept(ModArmorMaterials.MIST_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"mist_core"))
+                        .build());
     }
 
 

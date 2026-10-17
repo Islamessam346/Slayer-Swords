@@ -77,6 +77,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WATER_CHESTPLATE);
                         output.accept(ModItems.WATER_LEGGINGS);
                         output.accept(ModItems.WATER_BOOTS);
+                        output.accept(ModItems.MIST_HELMET);
+                        output.accept(ModItems.MIST_CHESTPLATE);
+                        output.accept(ModItems.MIST_LEGGINGS);
+                        output.accept(ModItems.MIST_BOOTS);
+
 
 
 

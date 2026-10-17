@@ -113,5 +113,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateTrimmableItem(ModItems.WATER_BOOTS, ModArmorMaterials.WATER_KEY,
                 ItemModelGenerators.TRIM_PREFIX_HELMET, false);
 
+        itemModelGenerators.generateTrimmableItem(ModItems.MIST_HELMET, ModArmorMaterials.MIST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.MIST_CHESTPLATE, ModArmorMaterials.MIST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.MIST_LEGGINGS, ModArmorMaterials.MIST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.MIST_BOOTS, ModArmorMaterials.MIST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+
+
     }
 }

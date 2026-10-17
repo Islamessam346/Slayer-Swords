@@ -482,6 +482,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("water armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.MIST_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.MIST_CORE)
+                        .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
+                        .group("mist armor")
+                        .save(output);
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
@@ -520,6 +529,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("water armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.MIST_CHESTPLATE)
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .define('R', ModItems.MIST_CORE)
+                        .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
+                        .group("mist armor")
+                        .save(output);
+
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_LEGGINGS)
                         .pattern("RRR")
@@ -555,6 +573,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.MARINE_STONE)
                         .unlockedBy(getHasName(ModItems.MARINE_STONE), has(ModItems.MARINE_STONE))
                         .group("water armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT,ModItems.MIST_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.MIST_CORE)
+                        .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
+                        .group("mist armor")
                         .save(output);
 
 
@@ -595,6 +622,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
 
+                shaped(RecipeCategory.COMBAT, ModItems.MIST_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.MIST_CORE)
+                        .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
+                        .group("mist armor")
+                        .save(output);
 
 
                 shapeless(RecipeCategory.MISC, ModItems.SHINY_METEORITE_DEBRIS, 9)

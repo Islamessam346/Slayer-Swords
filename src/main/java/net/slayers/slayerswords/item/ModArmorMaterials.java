@@ -38,4 +38,10 @@ public class ModArmorMaterials {
     public static final ArmorMaterial WATER_ARMOR_MATERIAL = new ArmorMaterial(250,
             ArmorMaterials.makeDefense(12,24,35,12,24),
             100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.WATER_REPAIR, WATER_KEY);
+
+    public static final ResourceKey<EquipmentAsset> MIST_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"mist_core"));
+
+    public static final ArmorMaterial MIST_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(12,24,35,12,24),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.MIST_REPAIR, MIST_KEY);
 }

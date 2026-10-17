@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "mist armor",
+  "key": {
+    "R": "slayerswords:mist_core"
+  },
+  "pattern": [
+    "RRR",
+    "R R",
+    "   "
+  ],
+  "result": {
+    "id": "slayerswords:mist_helmet"
+  }
+}

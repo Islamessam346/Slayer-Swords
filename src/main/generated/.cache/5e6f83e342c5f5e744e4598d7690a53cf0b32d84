@@ -1,7 +1,7 @@
 // 26.2	-999999999-01-01T00:00:00	Slayer Swords/Tags for minecraft:item
-dc0e99d4002df1b07604ce5b6cfa53cc92143efc data/minecraft/tags/item/chest_armor.json
-c397d2d4c7a3eaccf2a5e5c1d47158b1f743975b data/minecraft/tags/item/foot_armor.json
-6972ae4e435dfea51925f294b0968e96d28c609a data/minecraft/tags/item/head_armor.json
-2fcefbc76622a06b4854892d6c60059ff682603d data/minecraft/tags/item/leg_armor.json
+92e618749a77175e5bb6ceeb90ef9eb5bac2f3d3 data/minecraft/tags/item/chest_armor.json
+f5751fba35bcdedcfcbce7625b116ec5b22adb78 data/minecraft/tags/item/foot_armor.json
+d7d8a82d78d21d036c2f9ec04729892721f3caf3 data/minecraft/tags/item/head_armor.json
+7896fd1effd305e199798a4bb67ec83819e270e8 data/minecraft/tags/item/leg_armor.json
 7dff4cee3494ebffb798d598fb90267769f59881 data/minecraft/tags/item/pickaxes.json
 dc6a619c6d8e29816089c27dbcbae8ddc20c5649 data/minecraft/tags/item/swords.json

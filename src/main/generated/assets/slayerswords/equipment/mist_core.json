@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "slayerswords:mist_core"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "slayerswords:mist_core"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "slayerswords:mist_core"
+      }
+    ]
+  }
+}

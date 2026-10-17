@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mist_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:mist_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:mist_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mist_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:mist_leggings"
+    ]
+  }
+}
