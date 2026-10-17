@@ -38,6 +38,11 @@ public class ModEquipmentAssetProvider implements DataProvider {
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"wind_core"))
                         .build());
+
+        consumer.accept(ModArmorMaterials.WATER_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"marine_stone"))
+                        .build());
     }
 
 

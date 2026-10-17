@@ -473,6 +473,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("wind armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.WATER_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.MARINE_STONE)
+                        .unlockedBy(getHasName(ModItems.MARINE_STONE), has(ModItems.MARINE_STONE))
+                        .group("water armor")
+                        .save(output);
+
+
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
                         .pattern("R R")
@@ -501,6 +511,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("sound armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.WATER_CHESTPLATE)
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .define('R', ModItems.MARINE_STONE)
+                        .unlockedBy(getHasName(ModItems.MARINE_STONE), has(ModItems.MARINE_STONE))
+                        .group("water armor")
+                        .save(output);
+
+
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_LEGGINGS)
                         .pattern("RRR")
                         .pattern("R R")
@@ -528,6 +548,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("wind armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.WATER_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.MARINE_STONE)
+                        .unlockedBy(getHasName(ModItems.MARINE_STONE), has(ModItems.MARINE_STONE))
+                        .group("water armor")
+                        .save(output);
+
+
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_BOOTS)
                         .pattern("   ")
                         .pattern("R R")
@@ -553,6 +583,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.WIND_CORE)
                         .unlockedBy(getHasName(ModItems.WIND_CORE), has(ModItems.WIND_CORE))
                         .group("wind armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.WATER_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.MARINE_STONE)
+                        .unlockedBy(getHasName(ModItems.MARINE_STONE), has(ModItems.MARINE_STONE))
+                        .group("water armor")
                         .save(output);
 
 

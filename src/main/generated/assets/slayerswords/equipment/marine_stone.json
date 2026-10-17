@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "slayerswords:marine_stone"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "slayerswords:marine_stone"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "slayerswords:marine_stone"
+      }
+    ]
+  }
+}

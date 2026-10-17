@@ -7,6 +7,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 
+import javax.swing.text.html.HTML;
+
 
 public class ModTags {
     public static class Blocks {
@@ -27,6 +29,7 @@ public class ModTags {
         public static final TagKey<Item> HASHIRA_REPAIR = createTag("hashira_repair");
         public static final TagKey<Item> SOUND_REPAIR = createTag("sound_repair");
         public static final TagKey<Item> WIND_REPAIR = createTag("wind_repair");
+        public static final TagKey<Item> WATER_REPAIR = createTag("water_repair");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name));

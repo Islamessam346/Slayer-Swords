@@ -219,6 +219,17 @@ public class ModItems {
     public static final Item WIND_BOOTS = registerItem("wind_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WIND_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
+    public static final Item WATER_HELMET = registerItem("water_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WATER_ARMOR_MATERIAL, ArmorType.HELMET)));
+
+    public static final Item WATER_CHESTPLATE = registerItem("water_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WATER_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item WATER_LEGGINGS = registerItem("water_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WATER_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+
+    public static final Item WATER_BOOTS = registerItem("water_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.WATER_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
     public static ResourceKey<Item> getRK(Item item) {
         return BuiltInRegistries.ITEM.getResourceKey(item).get();
