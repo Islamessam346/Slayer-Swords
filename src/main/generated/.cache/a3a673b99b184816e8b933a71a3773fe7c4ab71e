@@ -1,2 +1,4 @@
 // 26.2	-999999999-01-01T00:00:00	Slayer Swords/SlayerSwords Data Provider
 196f8d32934e5525cfc0f5fe5961219f5953f342 data/slayerswords/painting_variant/muzan.json
+cd4f08efb905d4d5ce9cdb01712be77cd05f5473 data/slayerswords/worldgen/configured_feature/blue_spider_lily.json
+44f7564bd471f697f9d5792c45526506245286b9 data/slayerswords/worldgen/placed_feature/blue_spider_lily_placed.json

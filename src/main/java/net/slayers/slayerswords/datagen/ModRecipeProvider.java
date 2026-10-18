@@ -497,6 +497,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("magenta bed")
                         .save(output);
 
+                shaped(RecipeCategory.MISC, Blocks.BED.orange())
+                        .pattern("   ")
+                        .pattern("OOO")
+                        .pattern("RRR")
+                        .define('O', Blocks.WOOL.orange())
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.WOOL.orange()), has(Blocks.WOOL.orange()))
+                        .group("orange bed")
+                        .save(output);
+
                 
 
 
