@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magenta bed",
+  "key": {
+    "M": "minecraft:magenta_wool",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "   ",
+    "MMM",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:magenta_bed"
+  }
+}

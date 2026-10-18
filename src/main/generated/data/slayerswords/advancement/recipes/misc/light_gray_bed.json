@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_gray_bed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_bed"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:light_gray_bed"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wisteria_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:wisteria_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_light_gray_bed",
+      "has_wisteria_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:light_gray_bed"
+    ]
+  }
+}

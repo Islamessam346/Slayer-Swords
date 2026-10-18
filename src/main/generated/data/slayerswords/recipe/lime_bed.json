@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lime bed",
+  "key": {
+    "L": "minecraft:lime_bed",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "   ",
+    "LLL",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:lime_bed"
+  }
+}
