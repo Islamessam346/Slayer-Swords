@@ -54,7 +54,7 @@ public class ModBlocks {
 
     public static final Block DRY_MAGMA = registerBlock("dry_magma",
             properties -> new Block(properties.strength(2f)
-                    .requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERRACK).));
 
     public static final Block WISTERIA_LOG = registerBlock("wisteria_log",
             properties -> new Block(properties.strength(4f)

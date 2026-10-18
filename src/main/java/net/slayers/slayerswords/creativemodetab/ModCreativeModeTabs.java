@@ -179,6 +179,35 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WISTERIA_PLANKS);
                     }).build());
 
+    public static final CreativeModeTab SLAYERSWORDS_ARMOR = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "slayerswords_armor"),
+            FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.SUN_CHESTPLATE))
+                    .title(Component.translatable("creativemodetab.slayerswords.slayerswords_armor"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.SUN_HELMET);
+                        output.accept(ModItems.SUN_CHESTPLATE);
+                        output.accept(ModItems.SUN_LEGGINGS);
+                        output.accept(ModItems.SUN_BOOTS);
+                        output.accept(ModItems.WATER_HELMET);
+                        output.accept(ModItems.WATER_CHESTPLATE);
+                        output.accept(ModItems.WATER_LEGGINGS);
+                        output.accept(ModItems.WATER_BOOTS);
+                        output.accept(ModItems.MIST_HELMET);
+                        output.accept(ModItems.MIST_CHESTPLATE);
+                        output.accept(ModItems.MIST_LEGGINGS);
+                        output.accept(ModItems.MIST_BOOTS);
+                        output.accept(ModItems.WIND_HELMET);
+                        output.accept(ModItems.WIND_CHESTPLATE);
+                        output.accept(ModItems.WIND_LEGGINGS);
+                        output.accept(ModItems.WIND_BOOTS);
+                        output.accept(ModItems.SOUND_HELMET);
+                        output.accept(ModItems.SOUND_CHESPLATE);
+                        output.accept(ModItems.SOUND_LEGGINGS);
+                        output.accept(ModItems.SOUND_BOOTS);
+
+
+                    }).build());
+
     
     public static void register() {
         SlayerSwords.LOGGER.info("Registering Creative Mode Tabs for " + SlayerSwords.MOD_ID);
