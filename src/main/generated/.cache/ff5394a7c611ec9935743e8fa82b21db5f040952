@@ -1,8 +1,10 @@
 // 26.2	-999999999-01-01T00:00:00	Slayer Swords/Block Loot Tables
 1d1402f9d781dcc400210ac7398d1da7a42f3b2e data/slayerswords/loot_table/blocks/block_of_scarletore.json
 f00af9e7a6eaa5b894319782f06b768c984a1995 data/slayerswords/loot_table/blocks/block_of_sunore.json
+beba0a87e443df55086ab1b8d1bb00c2561cd989 data/slayerswords/loot_table/blocks/blue_spider_lily.json
 f5d91c0f63f9b41ad182a863cd6e2c283eff736d data/slayerswords/loot_table/blocks/dry_magma.json
 6f7bc6fe235b5a1731b27346098ba7d5ce9d0090 data/slayerswords/loot_table/blocks/meteorite_ore.json
+a367cb668f4fbfab357c602a1cae265cd51083d1 data/slayerswords/loot_table/blocks/potted_blue_spider_lily.json
 7221072e87fda64d429682cee22397f39356ae00 data/slayerswords/loot_table/blocks/raw_scarletore_block.json
 aa58932b65fc7515064e4ee50ee693fd9f3e36fb data/slayerswords/loot_table/blocks/raw_sunore_block.json
 956caa364cebca7dcf8c6d2ce4150fe513113edb data/slayerswords/loot_table/blocks/scarletmetal_block.json

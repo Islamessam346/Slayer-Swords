@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "cyan wool",
+  "group": "cyan bed",
   "key": {
     "C": "minecraft:cyan_wool",
     "R": "slayerswords:wisteria_planks"

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "gray wool",
+  "group": "gray bed",
   "key": {
     "G": "minecraft:gray_wool",
     "R": "slayerswords:wisteria_planks"

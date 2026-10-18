@@ -428,7 +428,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModBlocks.WISTERIA_PLANKS)
                         .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
                         .unlockedBy(getHasName(Blocks.WOOL.cyan()), has(Blocks.WOOL.cyan()))
-                        .group("cyan wool")
+                        .group("cyan bed")
                         .save(output);
 
                 shaped(RecipeCategory.MISC, Blocks.BED.gray())
@@ -439,7 +439,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModBlocks.WISTERIA_PLANKS)
                         .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
                         .unlockedBy(getHasName(Blocks.WOOL.gray()), has(Blocks.WOOL.gray()))
-                        .group("gray wool")
+                        .group("gray bed")
                                 .save(output);
 
                 shaped(RecipeCategory.MISC, Blocks.BED.green())
@@ -450,7 +450,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModBlocks.WISTERIA_PLANKS)
                         .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
                         .unlockedBy(getHasName(Blocks.WOOL.green()), has(Blocks.WOOL.green()))
-                        .group("green wool")
+                        .group("green bed")
                                 .save(output);
 
                 shaped(RecipeCategory.MISC, Blocks.BED.lightBlue())
@@ -461,7 +461,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModBlocks.WISTERIA_PLANKS)
                         .unlockedBy(getHasName(Blocks.WOOL.lightBlue()), has(Blocks.WOOL.lightBlue()))
                         .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
-                        .group("light blue wool")
+                        .group("light blue bed")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.BED.lightGray())
+                        .pattern("   ")
+                        .pattern("LLL")
+                        .pattern("RRR")
+                        .define('L', Blocks.WOOL.lightGray())
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(Blocks.BED.lightGray()), has(Blocks.BED.lightGray()))
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("light gray bed")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, Blocks.BED.lime())
+                        .pattern("   ")
+                        .pattern("LLL")
+                        .pattern("RRR")
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .define('L', Blocks.BED.lime())
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(Blocks.WOOL.lime()), has(Blocks.WOOL.lime()))
+                        .group("lime bed")
                         .save(output);
 
                 
