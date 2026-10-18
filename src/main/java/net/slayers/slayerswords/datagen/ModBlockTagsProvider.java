@@ -66,5 +66,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         )) {
             tag(incorrectTag).addTag(ModTags.Blocks.NEEDS_DEMON_TOOL);
         }
+
+        tag(BlockTags.SMALL_FLOWERS).add(ModBlocks.getRK(ModBlocks.BLUE_SPIDER_LILY));
+        tag(BlockTags.BEE_ATTRACTIVE).add(ModBlocks.getRK(ModBlocks.BLUE_SPIDER_LILY));
     }
 }

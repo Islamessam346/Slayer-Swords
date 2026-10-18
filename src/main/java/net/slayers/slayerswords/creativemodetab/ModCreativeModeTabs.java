@@ -98,7 +98,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WISTERIA_LOG);
                         output.accept(ModBlocks.WISTERIA_PLANKS);
 
-
+                        output.accept(ModBlocks.BLUE_SPIDER_LILY);
                     }).build());
 
 
