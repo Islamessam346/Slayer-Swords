@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "slayerswords:block/blue_spider_lily"
+  }
+}

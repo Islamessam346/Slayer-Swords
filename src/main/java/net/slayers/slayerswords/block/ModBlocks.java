@@ -5,12 +5,12 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.PushReaction;
 import net.slayers.slayerswords.SlayerSwords;
 
 import java.util.function.Function;
@@ -63,6 +63,13 @@ public class ModBlocks {
     public static final Block WISTERIA_PLANKS = registerBlock("wisteria_planks",
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.CHERRY_WOOD)));
+
+    public static final Block BLUE_SPIDER_LILY = registerBlock("blue_spider_lily",
+            properties -> new FlowerBlock(MobEffects.ABSORPTION, 5f, properties.noCollision().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ)));
+
+    public static final Block POTTED_BLUE_SPIDER_LILY = registerBlock("potted_blue_spider_lily",
+            properties -> new FlowerPotBlock(BLUE_SPIDER_LILY, properties.instabreak().noOcclusion().pushReaction(PushReaction.DESTROY)));
+
 
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
