@@ -81,7 +81,8 @@ public class ModItems {
     public static final Item BLACK_NICHIRIN = registerItem("black_nichirin",
             properties -> new EffectOnHitItem(
                     properties.sword(ModToolMaterials.HASHIRA, 4f, -3f),
-                    potion(MobEffects.WITHER, 10 * 20, 2)
+                    lava(3),
+                    explosion(30f)
             ));
 
     public static final Item WIND_NICHIRIN = registerItem("wind_nichirin",

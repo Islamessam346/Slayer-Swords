@@ -1,5 +1,6 @@
 package net.slayers.slayerswords.effect;
 
+import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.server.level.ServerLevel;
@@ -8,6 +9,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.phys.Vec3;
 
 @FunctionalInterface
@@ -41,6 +43,22 @@ public interface HitEffect {
                 if (bolt == null) continue;
                 bolt.setPos(target.getX(), target.getY(), target.getZ());
                 level.addFreshEntity(bolt);
+            }
+        };
+    }
+
+    static HitEffect lava(int radius) {
+        return (level, stack, target, attacker) -> {
+            BlockPos center = target.blockPosition();
+            for (int dx = -radius; dx <= radius; dx++) {
+                for (int dz = -radius; dz <= radius; dz++) {
+                    if (dx*dx + dz*dz > radius*radius) continue;
+                    BlockPos pos = center.offset(dx, 0, dz);
+                    if (pos.distSqr(attacker.blockPosition()) < 4) continue;
+                    if (level.getBlockState(pos).isAir()) {
+                        level.setBlock(pos, Blocks.LAVA.defaultBlockState(), 3);
+                    }
+                }
             }
         };
     }

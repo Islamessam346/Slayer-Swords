@@ -65,10 +65,10 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.CHERRY_WOOD)));
 
     public static final Block BLUE_SPIDER_LILY = registerBlock("blue_spider_lily",
-            properties -> new FlowerBlock(MobEffects.ABSORPTION, 5f, properties.noCollision().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ)));
+            properties -> new FlowerBlock(MobEffects.ABSORPTION, 5f, properties.noCollision().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).lightLevel(state -> 10)));
 
     public static final Block POTTED_BLUE_SPIDER_LILY = registerBlock("potted_blue_spider_lily",
-            properties -> new FlowerPotBlock(BLUE_SPIDER_LILY, properties.instabreak().noOcclusion().pushReaction(PushReaction.DESTROY)));
+            properties -> new FlowerPotBlock(BLUE_SPIDER_LILY, properties.instabreak().noOcclusion().pushReaction(PushReaction.DESTROY).lightLevel(state -> 10)));
 
 
     public static ResourceKey<Block> getRK(Block block) {
