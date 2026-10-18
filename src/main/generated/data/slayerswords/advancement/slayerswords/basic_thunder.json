@@ -1,0 +1,32 @@
+{
+  "parent": "slayerswords:slayerswords/basic",
+  "criteria": {
+    "has_basic_nichirin_thunder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:basic_nichirin_thunder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.slayerswords.basic_thunder.description"
+    },
+    "icon": {
+      "id": "slayerswords:basic_nichirin_thunder"
+    },
+    "title": {
+      "translate": "advancements.slayerswords.basic_thunder.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_basic_nichirin_thunder"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

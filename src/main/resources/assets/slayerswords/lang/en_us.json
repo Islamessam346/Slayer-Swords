@@ -116,5 +116,27 @@
   "block.slayerswords.potted_blue_spider_lily": "Potted Blue Spider Lily",
 
   "painting.slayerswords.muzan.title": "Muzan",
-  "painting.slayerswords.muzan.author": "Islam Essam"
+  "painting.slayerswords.muzan.author": "Islam Essam",
+
+
+  "advancements.slayerswords.root.title": "Slayer Swords",
+  "advancements.slayerswords.root.description": "Obtain Sun Ore, and start the path to becoming a Demon Slayer.",
+
+  "advancements.slayerswords.basic.title": "Basic Nichirin",
+  "advancements.slayerswords.basic.description": "Craft the most fundamental Nichirin",
+
+  "advancements.slayerswords.basic_flame.title": "Basic Flame Nichirin",
+  "advancements.slayerswords.basic_flame.description": "Craft the fundamental Flame Nichirin",
+
+  "advancements.slayerswords.basic_water.title": "Basic Water Nichirin",
+  "advancements.slayerswords.basic_water.description": "Craft the fundamental Water Nichirin",
+
+  "advancements.slayerswords.basic_wind.title": "Basic Wind Nichirin",
+  "advancements.slayerswords.basic_wind.description": "Craft the fundamental Wind Nichirin",
+
+  "advancements.slayerswords.basic_thunder.title": "Basic Thunder Nichirin",
+  "advancements.slayerswords.basic_thunder.description": "Craft the fundamental Thunder Nichirin",
+
+  "advancements.slayerswords.basic_stone.title": "Basic Stone Nichirin",
+  "advancements.slayerswords.basic_stone.description": "Craft the fundamental Stone Nichirin"
 }

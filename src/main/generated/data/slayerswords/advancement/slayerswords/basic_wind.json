@@ -1,0 +1,32 @@
+{
+  "parent": "slayerswords:slayerswords/basic",
+  "criteria": {
+    "has_basic_nichirin_wind": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:basic_nichirin_wind"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.slayerswords.basic_wind.description"
+    },
+    "icon": {
+      "id": "slayerswords:basic_nichirin_wind"
+    },
+    "title": {
+      "translate": "advancements.slayerswords.basic_wind.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_basic_nichirin_wind"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

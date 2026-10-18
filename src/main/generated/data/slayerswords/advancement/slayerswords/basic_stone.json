@@ -1,0 +1,32 @@
+{
+  "parent": "slayerswords:slayerswords/basic",
+  "criteria": {
+    "has_basic_nichirin_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:basic_nichirin_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.slayerswords.basic_stone.description"
+    },
+    "icon": {
+      "id": "slayerswords:basic_nichirin_stone"
+    },
+    "title": {
+      "translate": "advancements.slayerswords.basic_stone.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_basic_nichirin_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
