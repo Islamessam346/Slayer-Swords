@@ -6,6 +6,8 @@ import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
 import net.slayers.slayerswords.datagen.*;
 import net.slayers.slayerswords.datagen.*;
+import net.slayers.slayerswords.worldgen.ModConfiguredFeatures;
+import net.slayers.slayerswords.worldgen.ModPlacedFeatures;
 
 public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -25,5 +27,8 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void buildRegistry(RegistrySetBuilder registryBuilder) {
 		registryBuilder.add(Registries.PAINTING_VARIANT, ModPaintingsProvider::bootstrap);
+
+		registryBuilder.add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

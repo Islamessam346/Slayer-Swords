@@ -9,6 +9,7 @@ import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
 import net.slayers.slayerswords.effect.ExplosionShield;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.tooltips.ModTooltips;
+import net.slayers.slayerswords.worldgen.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,6 +28,7 @@ public class SlayerSwords implements ModInitializer {
 
 		ExplosionShield.register();
 
+		ModWorldGeneration.generateModWorldGen();
 	}
 
 	public static Identifier id(String path) {
