@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light blue wool",
+  "key": {
+    "L": "minecraft:light_blue_wool",
+    "R": "slayerswords:wisteria_planks"
+  },
+  "pattern": [
+    "   ",
+    "LLL",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:light_blue_bed"
+  }
+}

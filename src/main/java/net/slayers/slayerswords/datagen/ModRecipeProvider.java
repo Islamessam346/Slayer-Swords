@@ -453,6 +453,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("green wool")
                                 .save(output);
 
+                shaped(RecipeCategory.MISC, Blocks.BED.lightBlue())
+                        .pattern("   ")
+                        .pattern("LLL")
+                        .pattern("RRR")
+                        .define('L', Blocks.WOOL.lightBlue())
+                        .define('R', ModBlocks.WISTERIA_PLANKS)
+                        .unlockedBy(getHasName(Blocks.WOOL.lightBlue()), has(Blocks.WOOL.lightBlue()))
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("light blue wool")
+                        .save(output);
+
                 
 
 
