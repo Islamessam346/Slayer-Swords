@@ -88,7 +88,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerators.generateTrimmableItem(ModItems.SOUND_HELMET, ModArmorMaterials.SOUND_KEY,
                 ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_CHESPLATE, ModArmorMaterials.SOUND_KEY,
+        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_CHESTPLATE, ModArmorMaterials.SOUND_KEY,
                 ItemModelGenerators.TRIM_PREFIX_HELMET, false);
         itemModelGenerators.generateTrimmableItem(ModItems.SOUND_LEGGINGS, ModArmorMaterials.SOUND_KEY,
                 ItemModelGenerators.TRIM_PREFIX_HELMET, false);
@@ -120,6 +120,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateTrimmableItem(ModItems.MIST_LEGGINGS, ModArmorMaterials.MIST_KEY,
                 ItemModelGenerators.TRIM_PREFIX_HELMET, false);
         itemModelGenerators.generateTrimmableItem(ModItems.MIST_BOOTS, ModArmorMaterials.MIST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+
+        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_HELMET, ModArmorMaterials.FLAME_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_CHESTPLATE, ModArmorMaterials.FLAME_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_LEGGINGS, ModArmorMaterials.FLAME_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_BOOTS, ModArmorMaterials.FLAME_KEY,
                 ItemModelGenerators.TRIM_PREFIX_HELMET, false);
     }
 }

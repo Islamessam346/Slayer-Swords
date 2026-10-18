@@ -17,31 +17,37 @@ public class ModArmorMaterials {
     public static final  ResourceKey<EquipmentAsset> SUN_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"sun_ingot"));
 
     public static final ArmorMaterial SUN_ARMOR_MATERIAL = new ArmorMaterial(250,
-            ArmorMaterials.makeDefense(12,24,35,12,24),
-            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.SUN_REPAIR, SUN_KEY);
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,30,0.5f,ModTags.Items.SUN_REPAIR, SUN_KEY);
 
 
     public static final ResourceKey<EquipmentAsset> SOUND_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "flashy_core"));
 
     public static final ArmorMaterial SOUND_ARMOR_MATERIAL = new ArmorMaterial(275,
             ArmorMaterials.makeDefense(14,28,42,14,28),
-            100,SoundEvents.ARMOR_EQUIP_CHAIN,12,0.6f,ModTags.Items.SOUND_REPAIR, SOUND_KEY);
+            100,SoundEvents.ARMOR_EQUIP_CHAIN,35,0.6f,ModTags.Items.SOUND_REPAIR, SOUND_KEY);
 
     public static final  ResourceKey<EquipmentAsset> WIND_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"wind_core"));
 
     public static final ArmorMaterial WIND_ARMOR_MATERIAL = new ArmorMaterial(250,
-            ArmorMaterials.makeDefense(12,24,35,12,24),
-            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.WIND_REPAIR, WIND_KEY);
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,30,0.5f,ModTags.Items.WIND_REPAIR, WIND_KEY);
 
     public static final ResourceKey<EquipmentAsset> WATER_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"marine_stone"));
 
     public static final ArmorMaterial WATER_ARMOR_MATERIAL = new ArmorMaterial(250,
-            ArmorMaterials.makeDefense(12,24,35,12,24),
-            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.WATER_REPAIR, WATER_KEY);
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,30,0.5f,ModTags.Items.WATER_REPAIR, WATER_KEY);
 
     public static final ResourceKey<EquipmentAsset> MIST_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"mist_core"));
 
     public static final ArmorMaterial MIST_ARMOR_MATERIAL = new ArmorMaterial(250,
-            ArmorMaterials.makeDefense(12,24,35,12,24),
+            ArmorMaterials.makeDefense(18,36,53,18,36),
             100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.MIST_REPAIR, MIST_KEY);
+
+    public static final ResourceKey<EquipmentAsset> FLAME_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"volcanic_stone"));
+
+    public static final ArmorMaterial FLAME_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.FLAME_REPAIR, FLAME_KEY);
 }

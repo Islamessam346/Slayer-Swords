@@ -199,7 +199,7 @@ public class ModItems {
     public static final Item SOUND_HELMET = registerItem("sound_helmet",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL, ArmorType.HELMET)));
 
-    public static final Item SOUND_CHESPLATE = registerItem("sound_chestplate",
+    public static final Item SOUND_CHESTPLATE = registerItem("sound_chestplate",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SOUND_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
 
     public static final Item SOUND_LEGGINGS = registerItem("sound_leggings",
@@ -243,6 +243,18 @@ public class ModItems {
 
     public static final Item MIST_BOOTS = registerItem("mist_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    public static final Item FLAME_HELMET = registerItem("flame_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLAME_ARMOR_MATERIAL, ArmorType.HELMET)));
+
+    public static final Item FLAME_CHESTPLATE = registerItem("flame_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLAME_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item FLAME_LEGGINGS = registerItem("flame_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLAME_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+
+    public static final Item FLAME_BOOTS = registerItem("flame_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLAME_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
     public static ResourceKey<Item> getRK(Item item) {
         return BuiltInRegistries.ITEM.getResourceKey(item).get();

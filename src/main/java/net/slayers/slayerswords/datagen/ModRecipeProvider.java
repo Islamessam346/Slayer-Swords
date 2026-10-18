@@ -579,7 +579,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("wind armor")
                         .save(output);
 
-                shaped(RecipeCategory.COMBAT, ModItems.SOUND_CHESPLATE)
+                shaped(RecipeCategory.COMBAT, ModItems.SOUND_CHESTPLATE)
                         .pattern("R R")
                         .pattern("RRR")
                         .pattern("RRR")

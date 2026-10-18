@@ -31,7 +31,7 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.SUN_BOOTS));
 
         tag(ItemTags.HEAD_ARMOR).add(ModItems.getRK(ModItems.SOUND_HELMET));
-        tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.SOUND_CHESPLATE));
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.SOUND_CHESTPLATE));
         tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.SOUND_LEGGINGS));
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.SOUND_BOOTS));
 
@@ -49,6 +49,11 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.MIST_CHESTPLATE));
         tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.MIST_LEGGINGS));
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.MIST_BOOTS));
+
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.getRK(ModItems.FLAME_HELMET));
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.FLAME_CHESTPLATE));
+        tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.FLAME_LEGGINGS));
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.FLAME_BOOTS));
 
         tag(BlockItemTags.SMALL_FLOWERS.item()).add(ModItems.getRK(ModBlocks.BLUE_SPIDER_LILY.asItem()));
     }

@@ -66,7 +66,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUN_HELMET);
                         output.accept(ModItems.SUN_LEGGINGS);
                         output.accept(ModItems.SOUND_HELMET);
-                        output.accept(ModItems.SOUND_CHESPLATE);
+                        output.accept(ModItems.SOUND_CHESTPLATE);
                         output.accept(ModItems.SOUND_LEGGINGS);
                         output.accept(ModItems.SOUND_BOOTS);
                         output.accept(ModItems.WIND_HELMET);
@@ -81,7 +81,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MIST_CHESTPLATE);
                         output.accept(ModItems.MIST_LEGGINGS);
                         output.accept(ModItems.MIST_BOOTS);
-
+                        output.accept(ModItems.FLAME_HELMET);
+                        output.accept(ModItems.FLAME_CHESTPLATE);
+                        output.accept(ModItems.FLAME_LEGGINGS);
+                        output.accept(ModItems.FLAME_BOOTS);
 
 
 
@@ -201,9 +204,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WIND_LEGGINGS);
                         output.accept(ModItems.WIND_BOOTS);
                         output.accept(ModItems.SOUND_HELMET);
-                        output.accept(ModItems.SOUND_CHESPLATE);
+                        output.accept(ModItems.SOUND_CHESTPLATE);
                         output.accept(ModItems.SOUND_LEGGINGS);
                         output.accept(ModItems.SOUND_BOOTS);
+                        output.accept(ModItems.FLAME_HELMET);
+                        output.accept(ModItems.FLAME_CHESTPLATE);
+                        output.accept(ModItems.FLAME_LEGGINGS);
+                        output.accept(ModItems.FLAME_BOOTS);
 
 
                     }).build());
