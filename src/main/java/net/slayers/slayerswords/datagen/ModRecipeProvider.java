@@ -518,8 +518,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("RRR")
                         .pattern("R R")
                         .pattern("   ")
-                        .define('R', ModItems.SUN_INGOT)
-                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .define('R', ModItems.VORTEX_EMBER)
+                        .unlockedBy(getHasName(ModItems.VORTEX_EMBER), has(ModItems.VORTEX_EMBER))
                         .group("sun armor")
                         .save(output);
 
@@ -565,8 +565,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("R R")
                         .pattern("RRR")
                         .pattern("RRR")
-                        .define('R', ModItems.SUN_INGOT)
-                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .define('R', ModItems.VORTEX_EMBER)
+                        .unlockedBy(getHasName(ModItems.VORTEX_EMBER), has(ModItems.VORTEX_EMBER))
                         .group("sun armor")
                         .save(output);
 
@@ -611,8 +611,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("RRR")
                         .pattern("R R")
                         .pattern("R R")
-                        .define('R', ModItems.SUN_INGOT)
-                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .define('R', ModItems.VORTEX_EMBER)
+                        .unlockedBy(getHasName(ModItems.VORTEX_EMBER), has(ModItems.VORTEX_EMBER))
                         .group("sun armor")
                         .save(output);
 
@@ -657,8 +657,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("   ")
                         .pattern("R R")
                         .pattern("R R")
-                        .define('R', ModItems.SUN_INGOT)
-                        .unlockedBy(getHasName(ModItems.SUN_INGOT), has(ModItems.SUN_INGOT))
+                        .define('R', ModItems.VORTEX_EMBER)
+                        .unlockedBy(getHasName(ModItems.VORTEX_EMBER), has(ModItems.VORTEX_EMBER))
                         .group("sun armor")
                         .save(output);
 
