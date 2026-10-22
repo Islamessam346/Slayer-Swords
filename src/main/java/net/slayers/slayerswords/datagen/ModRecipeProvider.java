@@ -569,6 +569,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("mist armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.FLAME_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.VOLCANIC_STONE)
+                        .unlockedBy(getHasName(ModItems.VOLCANIC_STONE), has(ModItems.VOLCANIC_STONE))
+                        .group("flame armor")
+                        .save(output);
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
@@ -614,6 +623,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.MIST_CORE)
                         .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
                         .group("mist armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.FLAME_CHESTPLATE)
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .define('R', ModItems.VOLCANIC_STONE)
+                        .unlockedBy(getHasName(ModItems.VOLCANIC_STONE), has(ModItems.VOLCANIC_STONE))
+                        .group("flame armor")
                         .save(output);
 
 
@@ -662,6 +680,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("mist armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.FLAME_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.VOLCANIC_STONE)
+                        .unlockedBy(getHasName(ModItems.VOLCANIC_STONE), has(ModItems.VOLCANIC_STONE))
+                        .group("flame armor")
+                        .save(output);
+
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_BOOTS)
                         .pattern("   ")
@@ -707,6 +734,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.MIST_CORE)
                         .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
                         .group("mist armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.FLAME_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.VOLCANIC_STONE)
+                        .unlockedBy(getHasName(ModItems.VOLCANIC_STONE), has(ModItems.VOLCANIC_STONE))
+                        .group("flame armor")
                         .save(output);
 
 
