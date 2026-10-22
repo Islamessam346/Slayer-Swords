@@ -55,6 +55,11 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.FLAME_LEGGINGS));
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.FLAME_BOOTS));
 
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.getRK(ModItems.LOVE_HELMET));
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.getRK(ModItems.LOVE_CHESTPLATE));
+        tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.LOVE_LEGGINGS));
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.LOVE_BOOTS));
+
         tag(BlockItemTags.SMALL_FLOWERS.item()).add(ModItems.getRK(ModBlocks.BLUE_SPIDER_LILY.asItem()));
     }
 }

@@ -256,6 +256,19 @@ public class ModItems {
     public static final Item FLAME_BOOTS = registerItem("flame_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLAME_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
+    public static final Item LOVE_HELMET = registerItem("love_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LOVE_ARMOR_MATERIAL,ArmorType.HELMET)));
+
+    public static final Item LOVE_CHESTPLATE = registerItem("love_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LOVE_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item LOVE_LEGGINGS = registerItem("love_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LOVE_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
+
+    public static final Item LOVE_BOOTS = registerItem("love_boot",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LOVE_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+
     public static ResourceKey<Item> getRK(Item item) {
         return BuiltInRegistries.ITEM.getResourceKey(item).get();
     }

@@ -85,6 +85,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FLAME_CHESTPLATE);
                         output.accept(ModItems.FLAME_LEGGINGS);
                         output.accept(ModItems.FLAME_BOOTS);
+                        output.accept(ModItems.LOVE_HELMET);
+                        output.accept(ModItems.LOVE_CHESTPLATE);
+                        output.accept(ModItems.LOVE_LEGGINGS);
+                        output.accept(ModItems.LOVE_BOOTS);
 
 
 
@@ -211,6 +215,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FLAME_CHESTPLATE);
                         output.accept(ModItems.FLAME_LEGGINGS);
                         output.accept(ModItems.FLAME_BOOTS);
+                        output.accept(ModItems.LOVE_HELMET);
+                        output.accept(ModItems.LOVE_CHESTPLATE);
+                        output.accept(ModItems.LOVE_LEGGINGS);
+                        output.accept(ModItems.LOVE_BOOTS);
 
 
                     }).build());

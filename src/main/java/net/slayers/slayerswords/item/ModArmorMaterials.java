@@ -50,4 +50,10 @@ public class ModArmorMaterials {
     public static final ArmorMaterial FLAME_ARMOR_MATERIAL = new ArmorMaterial(250,
             ArmorMaterials.makeDefense(18,36,53,18,36),
             100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.FLAME_REPAIR, FLAME_KEY);
+
+    public static final ResourceKey<EquipmentAsset> LOVE_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"love_crystal"));
+
+    public static final ArmorMaterial LOVE_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100,SoundEvents.ARMOR_EQUIP_CHAIN,10, 0.5f,ModTags.Items.LOVE_REPAIR, LOVE_KEY);
 }

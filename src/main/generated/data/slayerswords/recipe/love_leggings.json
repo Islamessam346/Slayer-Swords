@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "love armor",
+  "key": {
+    "R": "slayerswords:love_crystal"
+  },
+  "pattern": [
+    "RRR",
+    "R R",
+    "R R"
+  ],
+  "result": {
+    "id": "slayerswords:love_leggings"
+  }
+}

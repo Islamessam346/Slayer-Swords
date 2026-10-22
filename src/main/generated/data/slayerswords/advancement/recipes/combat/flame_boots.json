@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:flame_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_volcanic_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:volcanic_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_volcanic_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:flame_boots"
+    ]
+  }
+}

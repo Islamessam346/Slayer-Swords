@@ -578,6 +578,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("flame armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.LOVE_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.LOVE_CRYSTAL)
+                        .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
+                        .group("love armor")
+                        .save(output);
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
@@ -633,6 +642,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.VOLCANIC_STONE), has(ModItems.VOLCANIC_STONE))
                         .group("flame armor")
                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.LOVE_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.LOVE_CRYSTAL)
+                         .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
+                         .group("love armor")
+                         .save(output);
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_LEGGINGS)
@@ -690,6 +709,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
 
+                shaped(RecipeCategory.COMBAT, ModItems.LOVE_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.LOVE_CRYSTAL)
+                        .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
+                        .group("love armor")
+                        .save(output);
+
+
+
+
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_BOOTS)
                         .pattern("   ")
                         .pattern("R R")
@@ -745,6 +776,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("flame armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.LOVE_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.LOVE_CRYSTAL)
+                        .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
+                        .group("love armor")
+                        .save(output);
+
+
 
                 shapeless(RecipeCategory.MISC, ModItems.SHINY_METEORITE_DEBRIS, 9)
                         .requires(ModBlocks.METEORITE_ORE)
@@ -779,9 +820,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.BLOCK_OF_SCARLETORE), has(ModBlocks.BLOCK_OF_SCARLETORE))
                         .group("scarlet ores")
                         .save(output);
-
-
-
 
 
 

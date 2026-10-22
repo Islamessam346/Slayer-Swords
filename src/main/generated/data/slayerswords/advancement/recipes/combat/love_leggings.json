@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_love_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:love_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:love_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_love_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:love_leggings"
+    ]
+  }
+}
