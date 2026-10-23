@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "slayerswords:serpent_scales"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "slayerswords:serpent_scales"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "slayerswords:serpent_scales"
+      }
+    ]
+  }
+}

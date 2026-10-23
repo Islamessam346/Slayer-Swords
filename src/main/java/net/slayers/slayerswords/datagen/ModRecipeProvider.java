@@ -587,6 +587,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("love armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.SERPENT_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.SERPENT_SCALES)
+                        .unlockedBy(getHasName(ModItems.SERPENT_SCALES), has(ModItems.SERPENT_SCALES))
+                        .group("serpent armor")
+                        .save(output);
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
@@ -650,6 +659,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                          .define('R', ModItems.LOVE_CRYSTAL)
                          .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
                          .group("love armor")
+                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.SERPENT_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.SERPENT_SCALES)
+                         .unlockedBy(getHasName(ModItems.SERPENT_SCALES), has(ModItems.SERPENT_SCALES))
+                         .group("serpent armor")
                          .save(output);
 
 
@@ -718,6 +736,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("love armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.SERPENT_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.SERPENT_SCALES)
+                        .unlockedBy(getHasName(ModItems.SERPENT_SCALES), has(ModItems.SERPENT_SCALES))
+                        .group("serpent armor")
+                        .save(output);
+
 
 
 
@@ -783,6 +810,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.LOVE_CRYSTAL)
                         .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
                         .group("love armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.SERPENT_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.SERPENT_SCALES)
+                        .unlockedBy(getHasName(ModItems.SERPENT_SCALES), has(ModItems.SERPENT_SCALES))
+                        .group("serpent armor")
                         .save(output);
 
 

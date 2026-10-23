@@ -56,4 +56,11 @@ public class ModArmorMaterials {
     public static final ArmorMaterial LOVE_ARMOR_MATERIAL = new ArmorMaterial(250,
             ArmorMaterials.makeDefense(18,36,53,18,36),
             100,SoundEvents.ARMOR_EQUIP_CHAIN,10, 0.5f,ModTags.Items.LOVE_REPAIR, LOVE_KEY);
+
+
+    public static final ResourceKey<EquipmentAsset> SERPENT_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "serpent_scales"));
+
+    public static final ArmorMaterial SERPENT_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.SERPENT_REPAIR, SERPENT_KEY);
 }

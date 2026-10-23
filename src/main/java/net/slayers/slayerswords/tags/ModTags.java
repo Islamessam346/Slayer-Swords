@@ -33,6 +33,8 @@ public class ModTags {
         public static final TagKey<Item> MIST_REPAIR = createTag("mist_repair");
         public static final TagKey<Item> FLAME_REPAIR = createTag("flame_repair");
         public static final TagKey<Item> LOVE_REPAIR = createTag("love_repair");
+        public static final TagKey<Item> SERPENT_REPAIR = createTag("serpent_repair");
+
 
 
         private static TagKey<Item> createTag(String name) {

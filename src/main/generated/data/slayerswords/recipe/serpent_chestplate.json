@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "serpent armor",
+  "key": {
+    "R": "slayerswords:serpent_scales"
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:serpent_chestplate"
+  }
+}

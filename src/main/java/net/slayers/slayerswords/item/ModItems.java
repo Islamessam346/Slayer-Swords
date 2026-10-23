@@ -268,6 +268,18 @@ public class ModItems {
     public static final Item LOVE_BOOTS = registerItem("love_boot",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LOVE_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
+    public static final Item SERPENT_HELMET = registerItem("serpent_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SERPENT_ARMOR_MATERIAL,ArmorType.HELMET)));
+
+    public static final Item SERPENT_CHESTPLATE = registerItem("serpent_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SERPENT_ARMOR_MATERIAL,ArmorType.CHESTPLATE)));
+
+    public static final Item SERPENT_LEGGINGS = registerItem("serpent_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SERPENT_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
+
+    public static final Item SERPENT_BOOTS = registerItem("serpent_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SERPENT_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
 
     public static ResourceKey<Item> getRK(Item item) {
         return BuiltInRegistries.ITEM.getResourceKey(item).get();

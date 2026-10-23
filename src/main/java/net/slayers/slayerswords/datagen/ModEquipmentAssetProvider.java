@@ -58,6 +58,11 @@ public class ModEquipmentAssetProvider implements DataProvider {
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "love_crystal"))
                         .build());
+
+        consumer.accept(ModArmorMaterials.SERPENT_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"serpent_scales"))
+                        .build());
     }
 
 
