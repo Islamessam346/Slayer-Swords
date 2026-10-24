@@ -596,6 +596,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("serpent armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.LIGHTNING_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.METEORITE_CRYSTALS)
+                        .unlockedBy(getHasName(ModItems.METEORITE_CRYSTALS), has(ModItems.METEORITE_CRYSTALS))
+                        .group("lightning armor")
+                        .save(output);
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
@@ -668,6 +677,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                          .define('R', ModItems.SERPENT_SCALES)
                          .unlockedBy(getHasName(ModItems.SERPENT_SCALES), has(ModItems.SERPENT_SCALES))
                          .group("serpent armor")
+                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.LIGHTNING_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.METEORITE_CRYSTALS)
+                         .unlockedBy(getHasName(ModItems.METEORITE_CRYSTALS), has(ModItems.METEORITE_CRYSTALS))
+                         .group("lightning armor")
                          .save(output);
 
 
@@ -745,6 +763,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("serpent armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.LIGHTNING_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.METEORITE_CRYSTALS)
+                        .unlockedBy(getHasName(ModItems.METEORITE_CRYSTALS), has(ModItems.METEORITE_CRYSTALS))
+                        .group("lightning armor")
+                        .save(output);
+
 
 
 
@@ -819,6 +846,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.SERPENT_SCALES)
                         .unlockedBy(getHasName(ModItems.SERPENT_SCALES), has(ModItems.SERPENT_SCALES))
                         .group("serpent armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.LIGHTNING_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.METEORITE_CRYSTALS)
+                        .unlockedBy(getHasName(ModItems.METEORITE_CRYSTALS), has(ModItems.METEORITE_CRYSTALS))
+                        .group("lightning armor")
                         .save(output);
 
 

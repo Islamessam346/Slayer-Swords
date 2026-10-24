@@ -93,6 +93,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SERPENT_CHESTPLATE);
                         output.accept(ModItems.SERPENT_LEGGINGS);
                         output.accept(ModItems.SERPENT_BOOTS);
+                        output.accept(ModItems.LIGHTNING_HELMET);
+                        output.accept(ModItems.LIGHTNING_CHESTPLATE);
+                        output.accept(ModItems.LIGHTNING_LEGGINGS);
+                        output.accept(ModItems.LIGHTNING_BOOTS);
 
 
 
@@ -227,6 +231,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SERPENT_CHESTPLATE);
                         output.accept(ModItems.SERPENT_LEGGINGS);
                         output.accept(ModItems.SERPENT_BOOTS);
+                        output.accept(ModItems.LIGHTNING_HELMET);
+                        output.accept(ModItems.LIGHTNING_CHESTPLATE);
+                        output.accept(ModItems.LIGHTNING_LEGGINGS);
+                        output.accept(ModItems.LIGHTNING_BOOTS);
 
 
                     }).build());

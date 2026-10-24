@@ -149,6 +149,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateTrimmableItem(ModItems.SERPENT_BOOTS, ModArmorMaterials.SERPENT_KEY,
                 ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
+        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_HELMET, ModArmorMaterials.LIGHTNING_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_CHESTPLATE, ModArmorMaterials.LIGHTNING_KEY,
+                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_LEGGINGS, ModArmorMaterials.LIGHTNING_KEY,
+                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_BOOTS, ModArmorMaterials.LIGHTNING_KEY,
+                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
 
 
     }

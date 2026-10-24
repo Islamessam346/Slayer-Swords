@@ -63,4 +63,10 @@ public class ModArmorMaterials {
     public static final ArmorMaterial SERPENT_ARMOR_MATERIAL = new ArmorMaterial(250,
             ArmorMaterials.makeDefense(18,36,53,18,36),
             100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.SERPENT_REPAIR, SERPENT_KEY);
+
+    public static final ResourceKey<EquipmentAsset> LIGHTNING_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"meteorite_crystals"));
+
+    public static final ArmorMaterial LIGHTNING_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100,SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.LIGHTNING_REPAIR, LIGHTNING_KEY);
 }

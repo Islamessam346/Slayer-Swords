@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "lightning armor",
+  "key": {
+    "R": "slayerswords:meteorite_crystals"
+  },
+  "pattern": [
+    "   ",
+    "R R",
+    "R R"
+  ],
+  "result": {
+    "id": "slayerswords:lightning_boots"
+  }
+}
