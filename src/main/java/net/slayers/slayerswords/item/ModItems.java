@@ -265,7 +265,7 @@ public class ModItems {
     public static final Item LOVE_LEGGINGS = registerItem("love_leggings",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LOVE_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
 
-    public static final Item LOVE_BOOTS = registerItem("love_boot",
+    public static final Item LOVE_BOOTS = registerItem("love_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LOVE_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
     public static final Item SERPENT_HELMET = registerItem("serpent_helmet",
