@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
 
 import net.slayers.slayerswords.block.ModBlocks;
+import net.slayers.slayerswords.block.entity.ModBlockEntities;
 import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
 import net.slayers.slayerswords.effect.ExplosionShield;
 import net.slayers.slayerswords.item.ModItems;
@@ -25,6 +26,8 @@ public class SlayerSwords implements ModInitializer {
 		ModItems.register();
 		ModBlocks.register();
 		ModTooltips.register();
+
+		ModBlockEntities.registerBlockEntities();
 
 		ExplosionShield.register();
 

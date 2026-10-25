@@ -29,6 +29,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.WISTERIA_LOG);
         blockModelGenerators.createTrivialCube(ModBlocks.WISTERIA_PLANKS);
         blockModelGenerators.createPlantWithDefaultItem(ModBlocks.BLUE_SPIDER_LILY, ModBlocks.POTTED_BLUE_SPIDER_LILY, BlockModelGenerators.PlantType.NOT_TINTED);
+        blockModelGenerators.createNonTemplateModelBlock(ModBlocks.PEDESTAL_BLOCK);
     }
 
     @Override

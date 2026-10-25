@@ -114,6 +114,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WISTERIA_PLANKS);
 
                         output.accept(ModBlocks.BLUE_SPIDER_LILY);
+
+                        output.accept(ModBlocks.PEDESTAL_BLOCK);
                     }).build());
 
 
@@ -192,6 +194,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DRY_MAGMA);
                         output.accept(ModBlocks.WISTERIA_LOG);
                         output.accept(ModBlocks.WISTERIA_PLANKS);
+                        output.accept(ModBlocks.PEDESTAL_BLOCK);
                     }).build());
 
     public static final CreativeModeTab SLAYERSWORDS_ARMOR = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,

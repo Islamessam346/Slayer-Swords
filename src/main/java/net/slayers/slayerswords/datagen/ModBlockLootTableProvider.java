@@ -32,6 +32,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.WISTERIA_LOG, createOreDrop(ModBlocks.WISTERIA_LOG, ModBlocks.WISTERIA_LOG.asItem()));
         add(ModBlocks.WISTERIA_PLANKS, createOreDrop(ModBlocks.WISTERIA_PLANKS, ModBlocks.WISTERIA_PLANKS.asItem()));
 
+        dropSelf(ModBlocks.PEDESTAL_BLOCK);
         dropSelf(ModBlocks.BLUE_SPIDER_LILY);
         dropPottedContents(ModBlocks.POTTED_BLUE_SPIDER_LILY);
     }

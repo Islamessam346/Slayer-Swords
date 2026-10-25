@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
 import net.slayers.slayerswords.SlayerSwords;
+import net.slayers.slayerswords.block.custom.PedestalBlock;
 
 import java.util.function.Function;
 
@@ -69,6 +70,9 @@ public class ModBlocks {
 
     public static final Block POTTED_BLUE_SPIDER_LILY = registerBlock("potted_blue_spider_lily",
             properties -> new FlowerPotBlock(BLUE_SPIDER_LILY, properties.instabreak().noOcclusion().pushReaction(PushReaction.DESTROY).lightLevel(state -> 10)));
+
+    public static final Block PEDESTAL_BLOCK = registerBlock("pedestal_block",
+            properties -> new PedestalBlock(properties.strength(3f).requiresCorrectToolForDrops()));
 
 
     public static ResourceKey<Block> getRK(Block block) {

@@ -28,7 +28,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                         ModBlocks.getRK(ModBlocks.BLOCK_OF_SCARLETORE),
                         ModBlocks.getRK(ModBlocks.SCARLETMETAL_BLOCK),
                         ModBlocks.getRK(ModBlocks.VOLCANIC_CLUSTER),
-                        ModBlocks.getRK(ModBlocks.DRY_MAGMA));
+                        ModBlocks.getRK(ModBlocks.DRY_MAGMA),
+                        ModBlocks.getRK(ModBlocks.PEDESTAL_BLOCK)
+                );
 
 
         tag(BlockTags.MINEABLE_WITH_HOE)
