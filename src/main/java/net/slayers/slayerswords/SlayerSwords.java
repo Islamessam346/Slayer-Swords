@@ -2,10 +2,12 @@ package net.slayers.slayerswords;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.resources.Identifier;
 
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.block.entity.ModBlockEntities;
+import net.slayers.slayerswords.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
 import net.slayers.slayerswords.effect.ExplosionShield;
 import net.slayers.slayerswords.item.ModItems;
@@ -28,6 +30,7 @@ public class SlayerSwords implements ModInitializer {
 		ModTooltips.register();
 
 		ModBlockEntities.registerBlockEntities();
+		BlockEntityRenderers.register(ModBlockEntities.PEDESTAL_BLOCK_ENTITY, PedestalBlockEntityRenderer::new);
 
 		ExplosionShield.register();
 
