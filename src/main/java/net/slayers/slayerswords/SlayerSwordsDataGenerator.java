@@ -6,6 +6,8 @@ import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
 import net.slayers.slayerswords.datagen.*;
 import net.slayers.slayerswords.datagen.*;
+import net.slayers.slayerswords.datagen.villager.ModVillagerTradeTags;
+import net.slayers.slayerswords.datagen.villager.ModVillagerTrades;
 import net.slayers.slayerswords.worldgen.ModConfiguredFeatures;
 import net.slayers.slayerswords.worldgen.ModPlacedFeatures;
 
@@ -23,13 +25,14 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRegistryDataProvider::new);
 		pack.addProvider(ModPaintingTagsProvider::new);
 		pack.addProvider(ModAdvancementsProvider::new);
+		pack.addProvider(ModVillagerTradeTags::new);
 	}
 
 	@Override
 	public void buildRegistry(RegistrySetBuilder registryBuilder) {
 		registryBuilder.add(Registries.PAINTING_VARIANT, ModPaintingsProvider::bootstrap);
-
 		registryBuilder.add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+		registryBuilder.add(Registries.VILLAGER_TRADE, ModVillagerTrades::bootstrap);
 	}
 }
