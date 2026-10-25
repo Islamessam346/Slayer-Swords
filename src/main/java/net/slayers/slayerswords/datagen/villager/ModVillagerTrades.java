@@ -16,6 +16,7 @@ import java.util.Optional;
 
 public class ModVillagerTrades {
     public static final ResourceKey<VillagerTrade> WEAPONSMITH_5_DIAMOND_BLACK_NICHIRIN = createKey("weaponsmith/5/diamond_black_nichirin");
+    public static final ResourceKey<VillagerTrade> WEAPONSMITH_5_DIAMOND_FLAME_NICHIRIN = createKey("weaponsmith/5/diamond_flame_nichirin");
 
 
     public static void bootstrap(BootstrapContext<VillagerTrade> context){
@@ -24,6 +25,13 @@ public class ModVillagerTrades {
         context.register(WEAPONSMITH_5_DIAMOND_BLACK_NICHIRIN, new VillagerTrade(
                 new TradeCost(Items.DIAMOND, 50),
                 new ItemStackTemplate(ModItems.BLACK_NICHIRIN),
+                5, 20, 0.1f,
+                Optional.empty(), List.of()));
+
+
+        context.register(WEAPONSMITH_5_DIAMOND_FLAME_NICHIRIN, new VillagerTrade(
+                new TradeCost(Items.DIAMOND, 40),
+                new ItemStackTemplate(ModItems.FLAME_NICHIRIN),
                 5, 20, 0.1f,
                 Optional.empty(), List.of()));
 

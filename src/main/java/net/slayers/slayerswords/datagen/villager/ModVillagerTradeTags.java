@@ -20,6 +20,8 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
     @Override
     protected void addTags(HolderLookup.Provider registries) {
         getOrCreateRawBuilder(VillagerTradeTags.WEAPONSMITH_LEVEL_5)
-                .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_BLACK_NICHIRIN.identifier()));
+                .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_BLACK_NICHIRIN.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_FLAME_NICHIRIN.identifier()));
+
     }
 }
