@@ -57,6 +57,11 @@ public class PedestalBlock extends BaseEntityBlock {
     protected InteractionResult useItemOn(ItemStack itemStack, BlockState state, Level level,
                                           BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
         if (level.getBlockEntity(pos) instanceof PedestalBlockEntity pedestalBlockEntity) {
+            if(player.isCrouching()) {
+                player.openMenu(pedestalBlockEntity);
+                return InteractionResult.SUCCESS;
+            }
+
             boolean isPedestalEmpty = pedestalBlockEntity.isEmpty();
 
             if (isPedestalEmpty && !itemStack.isEmpty()) {
