@@ -1,2 +1,4 @@
 // 26.2	-999999999-01-01T00:00:00	Slayer Swords/Tags for minecraft:villager_trade
-bda81253b7eb2b91b9a8d6460e414cb53a22b424 data/minecraft/tags/villager_trade/weaponsmith/level_5.json
+98bb8cc388e2cf62affb3b8bb44456c37218b28b data/minecraft/tags/villager_trade/armorer/level_4.json
+bdc6bc8784e21104efce330cac1bdcad893ac762 data/minecraft/tags/villager_trade/armorer/level_5.json
+c7dd7c877b836639089437ff31001f8277cbf904 data/minecraft/tags/villager_trade/weaponsmith/level_5.json

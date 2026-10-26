@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "id": "slayerswords:flower_nichirin"
+  },
+  "max_uses": 5.0,
+  "reputation_discount": 0.1,
+  "wants": {
+    "count": 30.0,
+    "id": "minecraft:diamond"
+  },
+  "xp": 20.0
+}

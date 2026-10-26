@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "id": "slayerswords:gyutaro_scythe"
+  },
+  "max_uses": 5.0,
+  "reputation_discount": 0.1,
+  "wants": {
+    "count": 50.0,
+    "id": "minecraft:diamond"
+  },
+  "xp": 20.0
+}

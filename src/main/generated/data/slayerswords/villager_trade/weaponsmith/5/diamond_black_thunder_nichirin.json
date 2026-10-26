@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "id": "slayerswords:black_thunder_nichirin"
+  },
+  "max_uses": 5.0,
+  "reputation_discount": 0.1,
+  "wants": {
+    "count": 60.0,
+    "id": "minecraft:diamond"
+  },
+  "xp": 20.0
+}
