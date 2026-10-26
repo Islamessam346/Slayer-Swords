@@ -33,6 +33,7 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 		registryBuilder.add(Registries.PAINTING_VARIANT, ModPaintingsProvider::bootstrap);
 		registryBuilder.add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+		registryBuilder.add(Registries.DAMAGE_TYPE, ModDamageTypesProvider::bootstrap);
 		registryBuilder.add(Registries.VILLAGER_TRADE, ModVillagerTrades::bootstrap);
 	}
 }
