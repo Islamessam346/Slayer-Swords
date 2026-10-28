@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "slayerswords:lightning_wyvern_fang"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "slayerswords:lightning_wyvern_fang"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "slayerswords:lightning_wyvern_fang"
+      }
+    ]
+  }
+}

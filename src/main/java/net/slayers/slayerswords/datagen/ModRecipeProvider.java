@@ -605,6 +605,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("lightning armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.BLACK_THUNDER_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.LIGHTNING_WYVERN_FANG)
+                        .unlockedBy(getHasName(ModItems.LIGHTNING_WYVERN_FANG), has(ModItems.LIGHTNING_WYVERN_FANG))
+                        .group("black thunder armor")
+                        .save(output);
+
+
 
 
                 shaped(RecipeCategory.COMBAT, ModItems.SUN_CHESTPLATE)
@@ -686,6 +696,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                          .define('R', ModItems.METEORITE_CRYSTALS)
                          .unlockedBy(getHasName(ModItems.METEORITE_CRYSTALS), has(ModItems.METEORITE_CRYSTALS))
                          .group("lightning armor")
+                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.BLACK_THUNDER_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.LIGHTNING_WYVERN_FANG)
+                         .unlockedBy(getHasName(ModItems.LIGHTNING_WYVERN_FANG), has(ModItems.LIGHTNING_WYVERN_FANG))
+                         .group("black thunder armor")
                          .save(output);
 
 
@@ -772,6 +791,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("lightning armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.BLACK_THUNDER_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.LIGHTNING_WYVERN_FANG)
+                        .unlockedBy(getHasName(ModItems.LIGHTNING_WYVERN_FANG), has(ModItems.LIGHTNING_WYVERN_FANG))
+                        .group("black thunder armor")
+                        .save(output);
+
 
 
 
@@ -855,6 +883,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.METEORITE_CRYSTALS)
                         .unlockedBy(getHasName(ModItems.METEORITE_CRYSTALS), has(ModItems.METEORITE_CRYSTALS))
                         .group("lightning armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.BLACK_THUNDER_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.LIGHTNING_WYVERN_FANG)
+                        .unlockedBy(getHasName(ModItems.LIGHTNING_WYVERN_FANG), has(ModItems.LIGHTNING_WYVERN_FANG))
+                        .group("black thunder armor")
                         .save(output);
 
 

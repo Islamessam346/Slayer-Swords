@@ -69,4 +69,10 @@ public class ModArmorMaterials {
     public static final ArmorMaterial LIGHTNING_ARMOR_MATERIAL = new ArmorMaterial(250,
             ArmorMaterials.makeDefense(18,36,53,18,36),
             100,SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.LIGHTNING_REPAIR, LIGHTNING_KEY);
+
+    public static final ResourceKey<EquipmentAsset> BLACK_THUNDER_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "lightning_wyvern_fang"));
+
+    public static final ArmorMaterial BLACK_THUNDER_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.BLACK_THUNDER_REPAIR, BLACK_THUNDER_KEY);
 }

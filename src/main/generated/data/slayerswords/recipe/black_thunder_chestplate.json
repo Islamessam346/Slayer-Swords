@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "black thunder armor",
+  "key": {
+    "R": "slayerswords:lightning_wyvern_fang"
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:black_thunder_chestplate"
+  }
+}

@@ -68,6 +68,11 @@ public class ModEquipmentAssetProvider implements DataProvider {
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"meteorite_crystals"))
                         .build());
+
+        consumer.accept(ModArmorMaterials.BLACK_THUNDER_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"lightning_wyvern_fang"))
+                        .build());
     }
 
 

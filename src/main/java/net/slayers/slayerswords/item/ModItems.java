@@ -292,6 +292,18 @@ public class ModItems {
     public static final Item LIGHTNING_BOOTS = registerItem("lightning_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.LIGHTNING_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
+    public static final Item BLACK_THUNDER_HELMET = registerItem("black_thunder_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BLACK_THUNDER_ARMOR_MATERIAL,ArmorType.HELMET)));
+
+    public static final Item BLACK_THUNDER_CHESTPLATE = registerItem("black_thunder_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BLACK_THUNDER_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item BLACK_THUNDER_LEGGINGS = registerItem("black_thunder_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BLACK_THUNDER_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
+
+    public static final Item BLACK_THUNDER_BOOTS = registerItem("black_thunder_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BLACK_THUNDER_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
 
 
 

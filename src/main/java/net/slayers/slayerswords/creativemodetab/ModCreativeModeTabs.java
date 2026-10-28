@@ -97,6 +97,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LIGHTNING_CHESTPLATE);
                         output.accept(ModItems.LIGHTNING_LEGGINGS);
                         output.accept(ModItems.LIGHTNING_BOOTS);
+                        output.accept(ModItems.BLACK_THUNDER_HELMET);
+                        output.accept(ModItems.BLACK_THUNDER_CHESTPLATE);
+                        output.accept(ModItems.BLACK_THUNDER_LEGGINGS);
+                        output.accept(ModItems.BLACK_THUNDER_BOOTS);
 
 
 
@@ -238,6 +242,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LIGHTNING_CHESTPLATE);
                         output.accept(ModItems.LIGHTNING_LEGGINGS);
                         output.accept(ModItems.LIGHTNING_BOOTS);
+                        output.accept(ModItems.BLACK_THUNDER_HELMET);
+                        output.accept(ModItems.BLACK_THUNDER_CHESTPLATE);
+                        output.accept(ModItems.BLACK_THUNDER_LEGGINGS);
+                        output.accept(ModItems.BLACK_THUNDER_BOOTS);
 
 
                     }).build());
