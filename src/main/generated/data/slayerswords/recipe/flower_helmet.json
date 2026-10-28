@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "flower armor",
+  "key": {
+    "R": "slayerswords:radiant_peony_blossom"
+  },
+  "pattern": [
+    "RRR",
+    "R R",
+    "   "
+  ],
+  "result": {
+    "id": "slayerswords:flower_helmet"
+  }
+}

@@ -304,6 +304,18 @@ public class ModItems {
     public static final Item BLACK_THUNDER_BOOTS = registerItem("black_thunder_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BLACK_THUNDER_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
+    public static final Item FLOWER_HELMET = registerItem("flower_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLOWER_ARMOR_MATERIAL,ArmorType.HELMET)));
+
+    public static final Item FLOWER_CHESTPLATE = registerItem("flower_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLOWER_ARMOR_MATERIAL,ArmorType.CHESTPLATE)));
+
+    public static final Item FLOWER_LEGGINGS = registerItem("flower_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLOWER_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
+
+    public static final Item FLOWER_BOOTS = registerItem("flower_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLOWER_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
 
 
 

@@ -101,7 +101,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLACK_THUNDER_CHESTPLATE);
                         output.accept(ModItems.BLACK_THUNDER_LEGGINGS);
                         output.accept(ModItems.BLACK_THUNDER_BOOTS);
-
+                        output.accept(ModItems.FLOWER_HELMET);
+                        output.accept(ModItems.FLOWER_CHESTPLATE);
+                        output.accept(ModItems.FLOWER_LEGGINGS);
+                        output.accept(ModItems.FLOWER_BOOTS);
 
 
                         output.accept(ModBlocks.WISTERIA_BUSH);
@@ -246,6 +249,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLACK_THUNDER_CHESTPLATE);
                         output.accept(ModItems.BLACK_THUNDER_LEGGINGS);
                         output.accept(ModItems.BLACK_THUNDER_BOOTS);
+                        output.accept(ModItems.FLOWER_HELMET);
+                        output.accept(ModItems.FLOWER_CHESTPLATE);
+                        output.accept(ModItems.FLOWER_LEGGINGS);
+                        output.accept(ModItems.FLOWER_BOOTS);
 
 
                     }).build());

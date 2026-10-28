@@ -73,6 +73,11 @@ public class ModEquipmentAssetProvider implements DataProvider {
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"lightning_wyvern_fang"))
                         .build());
+
+        consumer.accept(ModArmorMaterials.FLOWER_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "radiant_peony_blossom"))
+                        .build());
     }
 
 

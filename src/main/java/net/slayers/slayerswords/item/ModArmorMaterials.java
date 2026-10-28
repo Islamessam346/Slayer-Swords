@@ -75,4 +75,10 @@ public class ModArmorMaterials {
     public static final ArmorMaterial BLACK_THUNDER_ARMOR_MATERIAL = new ArmorMaterial(250,
             ArmorMaterials.makeDefense(18,36,53,18,36),
             100, SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.BLACK_THUNDER_REPAIR, BLACK_THUNDER_KEY);
+
+    public static final ResourceKey<EquipmentAsset> FLOWER_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "radiant_peony_blossom"));
+
+    public static final ArmorMaterial FLOWER_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(18,36,53,18,36),
+            100,SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.FLOWER_REPAIR, FLOWER_KEY);
 }

@@ -614,6 +614,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("black thunder armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.FLOWER_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.RADIANT_PEONY_BLOSSOM)
+                        .unlockedBy(getHasName(ModItems.RADIANT_PEONY_BLOSSOM), has(ModItems.RADIANT_PEONY_BLOSSOM))
+                        .group("flower armor")
+                        .save(output);
+
 
 
 
@@ -705,6 +714,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                          .define('R', ModItems.LIGHTNING_WYVERN_FANG)
                          .unlockedBy(getHasName(ModItems.LIGHTNING_WYVERN_FANG), has(ModItems.LIGHTNING_WYVERN_FANG))
                          .group("black thunder armor")
+                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.FLOWER_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.RADIANT_PEONY_BLOSSOM)
+                         .unlockedBy(getHasName(ModItems.RADIANT_PEONY_BLOSSOM), has(ModItems.RADIANT_PEONY_BLOSSOM))
+                         .group("flower armor")
                          .save(output);
 
 
@@ -800,6 +818,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("black thunder armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.FLOWER_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.RADIANT_PEONY_BLOSSOM)
+                        .unlockedBy(getHasName(ModItems.RADIANT_PEONY_BLOSSOM), has(ModItems.RADIANT_PEONY_BLOSSOM))
+                        .group("flower armor")
+                        .save(output);
+
 
 
 
@@ -892,6 +919,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.LIGHTNING_WYVERN_FANG)
                         .unlockedBy(getHasName(ModItems.LIGHTNING_WYVERN_FANG), has(ModItems.LIGHTNING_WYVERN_FANG))
                         .group("black thunder armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.FLOWER_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.RADIANT_PEONY_BLOSSOM)
+                        .unlockedBy(getHasName(ModItems.RADIANT_PEONY_BLOSSOM), has(ModItems.RADIANT_PEONY_BLOSSOM))
+                        .group("flower armor")
                         .save(output);
 
 
