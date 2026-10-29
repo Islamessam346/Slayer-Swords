@@ -186,6 +186,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateTrimmableItem(ModItems.BEAST_BOOTS, ModArmorMaterials.BEAST_KEY,
                 ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
+        itemModelGenerators.generateTrimmableItem(ModItems.MOON_HELMET, ModArmorMaterials.MOON_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.MOON_CHESTPLATE, ModArmorMaterials.MOON_KEY,
+                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.MOON_LEGGINGS, ModArmorMaterials.MOON_KEY,
+                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.MOON_BOOTS, ModArmorMaterials.MOON_KEY,
+                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
 
     }
 }

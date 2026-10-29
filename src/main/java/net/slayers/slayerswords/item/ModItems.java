@@ -328,6 +328,19 @@ public class ModItems {
     public static final Item BEAST_BOOTS = registerItem("beast_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BEAST_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
+    public static final Item MOON_HELMET = registerItem("moon_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.MOON_ARMOR_MATERIAL,ArmorType.HELMET)));
+
+    public static final Item MOON_CHESTPLATE = registerItem("moon_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.MOON_ARMOR_MATERIAL,ArmorType.CHESTPLATE)));
+
+    public static final Item MOON_LEGGINGS = registerItem("moon_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.MOON_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
+
+    public static final Item MOON_BOOTS = registerItem("moon_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.MOON_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
+
 
 
 
