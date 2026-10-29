@@ -316,6 +316,18 @@ public class ModItems {
     public static final Item FLOWER_BOOTS = registerItem("flower_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.FLOWER_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
+    public static final Item BEAST_HELMET = registerItem("beast_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BEAST_ARMOR_MATERIAL,ArmorType.HELMET)));
+
+    public static final Item BEAST_CHESTPLATE = registerItem("beast_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BEAST_ARMOR_MATERIAL,ArmorType.CHESTPLATE)));
+
+    public static final Item BEAST_LEGGINGS = registerItem("beast_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BEAST_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
+
+    public static final Item BEAST_BOOTS = registerItem("beast_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.BEAST_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
 
 
 

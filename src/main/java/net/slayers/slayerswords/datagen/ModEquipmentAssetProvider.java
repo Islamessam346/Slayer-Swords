@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.equipment.EquipmentAsset;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.item.ModArmorMaterials;
+import net.slayers.slayerswords.item.ModItems;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -77,6 +78,11 @@ public class ModEquipmentAssetProvider implements DataProvider {
         consumer.accept(ModArmorMaterials.FLOWER_KEY,
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "radiant_peony_blossom"))
+                        .build());
+
+        consumer.accept(ModArmorMaterials.BEAST_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"beast_fang"))
                         .build());
     }
 

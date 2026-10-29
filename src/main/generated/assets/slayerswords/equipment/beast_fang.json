@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "slayerswords:beast_fang"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "slayerswords:beast_fang"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "slayerswords:beast_fang"
+      }
+    ]
+  }
+}

@@ -623,6 +623,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("flower armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.BEAST_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.BEAST_FANG)
+                        .unlockedBy(getHasName(ModItems.BEAST_FANG), has(ModItems.BEAST_FANG))
+                        .group("beast armor")
+                        .save(output);
+
 
 
 
@@ -723,6 +732,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                          .define('R', ModItems.RADIANT_PEONY_BLOSSOM)
                          .unlockedBy(getHasName(ModItems.RADIANT_PEONY_BLOSSOM), has(ModItems.RADIANT_PEONY_BLOSSOM))
                          .group("flower armor")
+                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.BEAST_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.BEAST_FANG)
+                         .unlockedBy(getHasName(ModItems.BEAST_FANG), has(ModItems.BEAST_FANG))
+                         .group("beast armor")
                          .save(output);
 
 
@@ -827,6 +845,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("flower armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.BEAST_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.BEAST_FANG)
+                        .unlockedBy(getHasName(ModItems.BEAST_FANG), has(ModItems.BEAST_FANG))
+                        .group("beast armor")
+                        .save(output);
+
 
 
 
@@ -928,6 +955,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.RADIANT_PEONY_BLOSSOM)
                         .unlockedBy(getHasName(ModItems.RADIANT_PEONY_BLOSSOM), has(ModItems.RADIANT_PEONY_BLOSSOM))
                         .group("flower armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.BEAST_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.BEAST_FANG)
+                        .unlockedBy(getHasName(ModItems.BEAST_FANG), has(ModItems.BEAST_FANG))
+                        .group("beast armor")
                         .save(output);
 
 

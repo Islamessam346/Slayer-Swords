@@ -177,6 +177,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateTrimmableItem(ModItems.FLOWER_BOOTS, ModArmorMaterials.FLOWER_KEY,
                 ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
+        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_HELMET, ModArmorMaterials.BEAST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_CHESTPLATE, ModArmorMaterials.BEAST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_LEGGINGS, ModArmorMaterials.BEAST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_BOOTS, ModArmorMaterials.BEAST_KEY,
+                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
 
     }
 }
