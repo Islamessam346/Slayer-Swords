@@ -632,6 +632,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("beast armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.MOON_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.UPPER_MOON_1_FLESH)
+                        .unlockedBy(getHasName(ModItems.UPPER_MOON_1_FLESH), has(ModItems.UPPER_MOON_1_FLESH))
+                        .group("moon armor")
+                        .save(output);
+
+
 
 
 
@@ -741,6 +751,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                          .define('R', ModItems.BEAST_FANG)
                          .unlockedBy(getHasName(ModItems.BEAST_FANG), has(ModItems.BEAST_FANG))
                          .group("beast armor")
+                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.MOON_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.UPPER_MOON_1_FLESH)
+                         .unlockedBy(getHasName(ModItems.UPPER_MOON_1_FLESH), has(ModItems.UPPER_MOON_1_FLESH))
+                         .group("moon armor")
                          .save(output);
 
 
@@ -854,6 +873,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("beast armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.MOON_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.UPPER_MOON_1_FLESH)
+                        .unlockedBy(getHasName(ModItems.UPPER_MOON_1_FLESH), has(ModItems.UPPER_MOON_1_FLESH))
+                        .group("moon armor")
+                        .save(output);
+
 
 
 
@@ -964,6 +992,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.BEAST_FANG)
                         .unlockedBy(getHasName(ModItems.BEAST_FANG), has(ModItems.BEAST_FANG))
                         .group("beast armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.MOON_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.UPPER_MOON_1_FLESH)
+                        .unlockedBy(getHasName(ModItems.UPPER_MOON_1_FLESH), has(ModItems.UPPER_MOON_1_FLESH))
+                        .group("moon armor")
                         .save(output);
 
 

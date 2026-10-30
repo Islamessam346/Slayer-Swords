@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "moon armor",
+  "key": {
+    "R": "slayerswords:upper_moon_1_flesh"
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "slayerswords:moon_chestplate"
+  }
+}

@@ -91,6 +91,6 @@ public class ModArmorMaterials {
     public static final ResourceKey<EquipmentAsset> MOON_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"upper_moon_1_flesh"));
 
     public static final ArmorMaterial MOON_ARMOR_MATERIAL = new ArmorMaterial(250,
-            ArmorMaterials.makeDefense(18,36,53,17,36),
-            100,SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.MOON_REPAIR,MOON_KEY);
+            ArmorMaterials.makeDefense(24,45,65,24,45),
+            100,SoundEvents.ARMOR_EQUIP_CHAIN,15,0.7f,ModTags.Items.MOON_REPAIR,MOON_KEY);
 }
