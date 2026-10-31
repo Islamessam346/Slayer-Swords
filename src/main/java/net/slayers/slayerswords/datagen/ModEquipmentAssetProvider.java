@@ -88,6 +88,11 @@ public class ModEquipmentAssetProvider implements DataProvider {
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"upper_moon_1_flesh"))
                         .build());
+
+        consumer.accept(ModArmorMaterials.TOXIC_KEY,
+                EquipmentClientInfo.builder()
+                        .addHumanoidLayers(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "wisteria_flower"))
+                        .build());
     }
 
 

@@ -340,6 +340,19 @@ public class ModItems {
     public static final Item MOON_BOOTS = registerItem("moon_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.MOON_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
+    public static final Item TOXIC_HELMET = registerItem("toxic_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TOXIC_ARMOR_MATERIAL,ArmorType.HELMET)));
+
+    public static final Item TOXIC_CHESTPLATE = registerItem("toxic_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TOXIC_ARMOR_MATERIAL,ArmorType.CHESTPLATE)));
+
+    public static final Item TOXIC_LEGGINGS = registerItem("toxic_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TOXIC_ARMOR_MATERIAL,ArmorType.LEGGINGS)));
+
+    public static final Item TOXIC_BOOTS = registerItem("toxic_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TOXIC_ARMOR_MATERIAL,ArmorType.BOOTS)));
+
+
 
 
 

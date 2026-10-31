@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "slayerswords:wisteria_flower"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "slayerswords:wisteria_flower"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "slayerswords:wisteria_flower"
+      }
+    ]
+  }
+}

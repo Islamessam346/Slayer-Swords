@@ -195,6 +195,16 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateTrimmableItem(ModItems.MOON_BOOTS, ModArmorMaterials.MOON_KEY,
                 ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
+        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_HELMET, ModArmorMaterials.TOXIC_KEY,
+                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_CHESTPLATE, ModArmorMaterials.TOXIC_KEY,
+                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_LEGGINGS, ModArmorMaterials.TOXIC_KEY,
+                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_BOOTS, ModArmorMaterials.TOXIC_KEY,
+                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
+
 
     }
 }

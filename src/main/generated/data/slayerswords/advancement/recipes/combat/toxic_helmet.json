@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slayerswords:toxic_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wisteria_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:wisteria_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wisteria_flower"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:toxic_helmet"
+    ]
+  }
+}

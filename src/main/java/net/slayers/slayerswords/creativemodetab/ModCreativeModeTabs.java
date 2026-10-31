@@ -113,6 +113,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MOON_CHESTPLATE);
                         output.accept(ModItems.MOON_LEGGINGS);
                         output.accept(ModItems.MOON_BOOTS);
+                        output.accept(ModItems.TOXIC_HELMET);
+                        output.accept(ModItems.TOXIC_CHESTPLATE);
+                        output.accept(ModItems.TOXIC_LEGGINGS);
+                        output.accept(ModItems.TOXIC_BOOTS);
 
 
                         output.accept(ModBlocks.WISTERIA_BUSH);
@@ -269,6 +273,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MOON_CHESTPLATE);
                         output.accept(ModItems.MOON_LEGGINGS);
                         output.accept(ModItems.MOON_BOOTS);
+                        output.accept(ModItems.TOXIC_HELMET);
+                        output.accept(ModItems.TOXIC_CHESTPLATE);
+                        output.accept(ModItems.TOXIC_LEGGINGS);
+                        output.accept(ModItems.TOXIC_BOOTS);
 
 
                     }).build());

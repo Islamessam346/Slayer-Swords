@@ -39,6 +39,7 @@ public class ModTags {
         public static final TagKey<Item> FLOWER_REPAIR = createTag("flower_repair");
         public static final TagKey<Item> BEAST_REPAIR = createTag("beast_repair");
         public static final TagKey<Item> MOON_REPAIR = createTag("moon_repair");
+        public static final TagKey<Item> TOXIC_REPAIR = createTag("toxic_repair");
 
 
 

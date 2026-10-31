@@ -641,6 +641,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("moon armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT,ModItems.TOXIC_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .define('R', ModItems.WISTERIA_FLOWER)
+                        .unlockedBy(getHasName(ModItems.WISTERIA_FLOWER), has(ModItems.WISTERIA_FLOWER))
+                        .group("toxic armor")
+                        .save(output);
+
 
 
 
@@ -760,6 +769,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                          .define('R', ModItems.UPPER_MOON_1_FLESH)
                          .unlockedBy(getHasName(ModItems.UPPER_MOON_1_FLESH), has(ModItems.UPPER_MOON_1_FLESH))
                          .group("moon armor")
+                         .save(output);
+
+                 shaped(RecipeCategory.COMBAT, ModItems.TOXIC_CHESTPLATE)
+                         .pattern("R R")
+                         .pattern("RRR")
+                         .pattern("RRR")
+                         .define('R', ModItems.WISTERIA_FLOWER)
+                         .unlockedBy(getHasName(ModItems.WISTERIA_FLOWER), has(ModItems.WISTERIA_FLOWER))
+                         .group("toxic armor")
                          .save(output);
 
 
@@ -882,6 +900,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("moon armor")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.TOXIC_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.WISTERIA_FLOWER)
+                        .unlockedBy(getHasName(ModItems.WISTERIA_FLOWER), has(ModItems.WISTERIA_FLOWER))
+                        .group("toxic armor")
+                        .save(output);
+
 
 
 
@@ -1001,6 +1028,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', ModItems.UPPER_MOON_1_FLESH)
                         .unlockedBy(getHasName(ModItems.UPPER_MOON_1_FLESH), has(ModItems.UPPER_MOON_1_FLESH))
                         .group("moon armor")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.TOXIC_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .define('R', ModItems.WISTERIA_FLOWER)
+                        .unlockedBy(getHasName(ModItems.WISTERIA_FLOWER), has(ModItems.WISTERIA_FLOWER))
+                        .group("toxic armor")
                         .save(output);
 
 

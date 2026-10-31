@@ -93,4 +93,11 @@ public class ModArmorMaterials {
     public static final ArmorMaterial MOON_ARMOR_MATERIAL = new ArmorMaterial(250,
             ArmorMaterials.makeDefense(24,45,65,24,45),
             100,SoundEvents.ARMOR_EQUIP_CHAIN,15,0.7f,ModTags.Items.MOON_REPAIR,MOON_KEY);
+
+    public static final ResourceKey<EquipmentAsset> TOXIC_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"wisteria_flower"));
+
+    public static final ArmorMaterial TOXIC_ARMOR_MATERIAL = new ArmorMaterial(250,
+            ArmorMaterials.makeDefense(18,36,53,17,36),
+            100,SoundEvents.ARMOR_EQUIP_CHAIN,10,0.5f,ModTags.Items.TOXIC_REPAIR,TOXIC_KEY);
+
 }
