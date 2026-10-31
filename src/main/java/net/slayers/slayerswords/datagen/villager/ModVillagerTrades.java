@@ -65,8 +65,8 @@ public class ModVillagerTrades {
     public static final ResourceKey<VillagerTrade> ARMORER_4_DIAMOND_WIND_BOOTS = createKey("armorer/4/diamond_wind_boots");
     public static final ResourceKey<VillagerTrade> ARMORER_5_DIAMOND_WIND_HELMET = createKey("armorer/5/diamond_wind_helmet");
     public static final ResourceKey<VillagerTrade> ARMORER_5_DIAMOND_WIND_CHESTPLATE = createKey("armorer/5/diamond_wind_chestplate");
-
-
+    public static final ResourceKey<VillagerTrade> ARMORER_5_DIAMOND_SOUND_HELMET = createKey("armorer/5/diamond_sound_helmet");
+    public static final ResourceKey<VillagerTrade> ARMORER_5_DIAMOND_SOUND_CHESTPLATE = createKey("armorer/5/diamond_sound_chestplate");
 
 
 
@@ -359,6 +359,18 @@ public class ModVillagerTrades {
         context.register(ARMORER_5_DIAMOND_WIND_CHESTPLATE, new VillagerTrade(
                 new TradeCost(Items.DIAMOND, 30),
                 new ItemStackTemplate(ModItems.WIND_CHESTPLATE),
+                5, 20, 0.1f,
+                Optional.empty(), List.of()));
+
+        context.register(ARMORER_5_DIAMOND_SOUND_HELMET, new VillagerTrade(
+                new TradeCost(Items.DIAMOND, 20),
+                new ItemStackTemplate(ModItems.SOUND_HELMET),
+                5, 20, 0.1f,
+                Optional.empty(), List.of()));
+
+        context.register(ARMORER_5_DIAMOND_SOUND_CHESTPLATE, new VillagerTrade(
+                new TradeCost(Items.DIAMOND, 35),
+                new ItemStackTemplate(ModItems.SOUND_CHESTPLATE),
                 5, 20, 0.1f,
                 Optional.empty(), List.of()));
 

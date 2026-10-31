@@ -40,9 +40,9 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_MIST_NICHIRIN.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_SERPENT_NICHIRIN.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_GYUTARO_SCYTHE.identifier()))
-                .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_SOUND_NICHIRIN.identifier()));
-
-
+                .add(TagEntry.element(ModVillagerTrades.WEAPONSMITH_5_DIAMOND_SOUND_NICHIRIN.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_SOUND_HELMET.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_SOUND_CHESTPLATE.identifier()));
 
         getOrCreateRawBuilder(VillagerTradeTags.ARMORER_LEVEL_4)
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_SUN_BOOTS.identifier()))
