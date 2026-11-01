@@ -153,6 +153,9 @@
   "painting.slayerswords.muzan.title": "Muzan",
   "painting.slayerswords.muzan.author": "Islam Essam",
 
+  "effect.slayerswords.blood_curse": "Blood Curse",
+  "effect.slayerswords.blood_curse.description": "Overwhelmed by Muzan's blood, you will die",
+
   "death.attack.blood_curse": "%s was cursed by Muzan's blood",
 
   "advancements.slayerswords.root.title": "Slayer Swords",

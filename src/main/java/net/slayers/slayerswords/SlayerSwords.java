@@ -11,6 +11,7 @@ import net.slayers.slayerswords.block.entity.ModBlockEntities;
 import net.slayers.slayerswords.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
 import net.slayers.slayerswords.effect.ExplosionShield;
+import net.slayers.slayerswords.effect.ModEffects;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.menu.ModMenuTypes;
 import net.slayers.slayerswords.menu.custom.PedestalScreen;
@@ -37,6 +38,7 @@ public class SlayerSwords implements ModInitializer {
 		MenuScreens.register(ModMenuTypes.PEDESTAL_MENU, PedestalScreen::new);
 
 		ExplosionShield.register();
+		ModEffects.register();
 
 		ModWorldGeneration.generateModWorldGen();
 	}
