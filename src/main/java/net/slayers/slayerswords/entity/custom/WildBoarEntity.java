@@ -1,5 +1,8 @@
 package net.slayers.slayerswords.entity.custom;
 
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.PathfinderMob;
@@ -8,6 +11,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import org.jspecify.annotations.Nullable;
 
 public class WildBoarEntity extends PathfinderMob{
     public final AnimationState idleAnimationState = new AnimationState();
@@ -52,5 +56,20 @@ public class WildBoarEntity extends PathfinderMob{
                 .add(Attributes.TEMPT_RANGE, 16d)
                 .add(Attributes.FOLLOW_RANGE, 24d)
                 .add(Attributes.SCALE, 2d);
+    }
+
+    @Override
+    protected @Nullable SoundEvent getAmbientSound() {
+        return SoundEvents.CAMEL_AMBIENT;
+    }
+
+    @Override
+    protected @Nullable SoundEvent getHurtSound(DamageSource source) {
+        return SoundEvents.CAMEL_HURT;
+    }
+
+    @Override
+    protected @Nullable SoundEvent getDeathSound() {
+        return SoundEvents.CAMEL_DEATH;
     }
 }
