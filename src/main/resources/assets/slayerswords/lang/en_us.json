@@ -177,5 +177,8 @@
   "advancements.slayerswords.basic_thunder.description": "Craft the fundamental Thunder Nichirin",
 
   "advancements.slayerswords.basic_stone.title": "Basic Stone Nichirin",
-  "advancements.slayerswords.basic_stone.description": "Craft the fundamental Stone Nichirin"
+  "advancements.slayerswords.basic_stone.description": "Craft the fundamental Stone Nichirin",
+
+  "entity.slayerswords.wild_boar": "Wild Boar",
+  "item.slayerswords.wild_boar_spwan_egg": "Wild Boar Spawn Egg"
 }

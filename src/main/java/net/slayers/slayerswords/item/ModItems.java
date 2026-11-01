@@ -12,9 +12,11 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.effect.EffectOnHitItem;
+import net.slayers.slayerswords.entity.ModEntities;
 import net.slayers.slayerswords.food.ModFoods;
 
 import java.util.function.Function;
@@ -352,6 +354,9 @@ public class ModItems {
     public static final Item TOXIC_BOOTS = registerItem("toxic_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TOXIC_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
+    public static final Item WILD_BOAR_SPAWN_EGG = registerItem("wild_boar_spwan_egg",
+            properties -> new SpawnEggItem(properties.spawnEgg(ModEntities.WILD_BOAR)));
+
 
 
 
@@ -411,7 +416,6 @@ public class ModItems {
             output.accept(BASIC_NICHIRIN);
             output.accept(FLASHY_CORE);
             output.accept(WIND_CORE);
-
         });
 
     }

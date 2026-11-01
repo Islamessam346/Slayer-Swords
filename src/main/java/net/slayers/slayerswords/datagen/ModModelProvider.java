@@ -76,6 +76,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.BASIC_NICHIRIN, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.FLASHY_CORE,ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.WIND_CORE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.WILD_BOAR_SPAWN_EGG, ModelTemplates.FLAT_ITEM);
 
 
         itemModelGenerators.generateTrimmableItem(ModItems.SUN_HELMET, ModArmorMaterials.SUN_KEY,
@@ -203,8 +204,5 @@ public class ModModelProvider extends FabricModelProvider {
                 ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_BOOTS, ModArmorMaterials.TOXIC_KEY,
                 ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-
-
     }
 }

@@ -59,6 +59,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GYUTARO_SCYTHE);
                         output.accept(ModItems.FLASHY_CORE);
                         output.accept(ModItems.WIND_CORE);
+                        output.accept(ModItems.WILD_BOAR_SPAWN_EGG);
 
 
                         output.accept(ModItems.SUN_CHESTPLATE);
@@ -192,8 +193,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LOVE_CRYSTAL);
                         output.accept(ModItems.FLASHY_CORE);
                         output.accept(ModItems.WIND_CORE);
-
-
+                        output.accept(ModItems.WILD_BOAR_SPAWN_EGG);
                     }).build());
 
     public static final CreativeModeTab SLAYERSWORDS_BLOCKS = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,

@@ -18,6 +18,9 @@
 		"main": [
 			"net.slayers.slayerswords.SlayerSwords"
 		],
+		"client": [
+			"net.slayers.slayerswords.SlayerSwordsClient"
+		],
 		"fabric-datagen": [
 			"net.slayers.slayerswords.SlayerSwordsDataGenerator"
 		]
