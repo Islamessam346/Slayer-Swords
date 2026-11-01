@@ -10,7 +10,7 @@ import net.minecraft.world.effect.MobEffectCategory;
 
 public class ModEffects {
     public static final Holder<MobEffect> BLOOD_CURSE = registerMobEffect("blood_curse",
-            new BloodCurseEffect(MobEffectCategory.NEUTRAL, 0xff0000));
+            new BloodCurseEffect(MobEffectCategory.HARMFUL, 0xff0000));
 
     private static Holder<MobEffect> registerMobEffect(String name, MobEffect effect) {
         return Registry.registerForHolder(BuiltInRegistries.MOB_EFFECT, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name), effect);

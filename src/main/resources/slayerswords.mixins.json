@@ -3,7 +3,7 @@
 	"package": "net.slayers.slayerswords.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"HeartTypeMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
