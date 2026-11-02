@@ -5,6 +5,10 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.resources.Identifier;
 
+import net.minecraft.world.entity.SpawnPlacementTypes;
+import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.animal.Animal;
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.block.entity.ModBlockEntities;
 import net.slayers.slayerswords.creativemodetab.ModCreativeModeTabs;
@@ -39,6 +43,9 @@ public class SlayerSwords implements ModInitializer {
 		ModWorldGeneration.generateModWorldGen();
 
 		ModEntities.register();
+
+		SpawnPlacements.register(ModEntities.WILD_BOAR, SpawnPlacementTypes.ON_GROUND,
+				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Animal::checkAnimalSpawnRules);
 
 		FabricDefaultAttributeRegistry.register(ModEntities.WILD_BOAR, WildBoarEntity.createAttributes());
 	}
