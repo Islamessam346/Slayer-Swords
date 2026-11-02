@@ -1,5 +1,8 @@
 package net.slayers.slayerswords.entity.client;
 
+import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.client.renderer.SubmitNodeCollector;
+import net.minecraft.client.renderer.state.level.CameraRenderState;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.entity.custom.WildBoarEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -26,5 +29,16 @@ public class WildBoarRenderer extends MobRenderer<WildBoarEntity, WildBoarRender
         super.extractRenderState(entity, state, partialTicks);
 
         state.idleAnimationState.copyFrom(entity.idleAnimationState);
+    }
+
+    @Override
+    public void submit(WildBoarRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
+        if(state.isBaby) {
+            poseStack.scale(0.5f, 0.5f, 0.5f);
+        } else {
+            poseStack.scale(1f, 1f, 1f);
+        }
+
+        super.submit(state, poseStack, submitNodeCollector, camera);
     }
 }
