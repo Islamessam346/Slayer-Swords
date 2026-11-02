@@ -16,7 +16,7 @@ public class ModEntities {
 
     public static final EntityType<WildBoarEntity> WILD_BOAR = Registry.register(BuiltInRegistries.ENTITY_TYPE,
             Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "wild_boar"),
-            EntityType.Builder.of(WildBoarEntity::new, MobCategory.CREATURE).sized(0.75f, 0.5f).build(WILD_BOAR_KEY));
+            EntityType.Builder.of(WildBoarEntity::new, MobCategory.CREATURE).sized(1.5f, 1f).build(WILD_BOAR_KEY));
 
     public static void register() {
         SlayerSwords.LOGGER.info("Registering Mod Entities for " + SlayerSwords.MOD_ID);

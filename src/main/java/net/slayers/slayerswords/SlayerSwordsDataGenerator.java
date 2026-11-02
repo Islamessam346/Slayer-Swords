@@ -26,6 +26,7 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModPaintingTagsProvider::new);
 		pack.addProvider(ModAdvancementsProvider::new);
 		pack.addProvider(ModVillagerTradeTags::new);
+		pack.addProvider(ModEntityLootTableProvider::new);
 	}
 
 	@Override
