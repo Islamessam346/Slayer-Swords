@@ -180,5 +180,7 @@
   "advancements.slayerswords.basic_stone.description": "Craft the fundamental Stone Nichirin",
 
   "entity.slayerswords.wild_boar": "Wild Boar",
-  "item.slayerswords.wild_boar_spwan_egg": "Wild Boar Spawn Egg"
+  "item.slayerswords.wild_boar_spwan_egg": "Wild Boar Spawn Egg",
+
+  "sounds.slayerswords.demon": "Demon"
 }

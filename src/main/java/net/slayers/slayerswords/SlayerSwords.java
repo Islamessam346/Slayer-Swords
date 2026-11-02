@@ -17,6 +17,7 @@ import net.slayers.slayerswords.effect.ModEffects;
 import net.slayers.slayerswords.entity.ModEntities;
 import net.slayers.slayerswords.entity.custom.WildBoarEntity;
 import net.slayers.slayerswords.item.ModItems;
+import net.slayers.slayerswords.sound.ModSounds;
 import net.slayers.slayerswords.tooltips.ModTooltips;
 import net.slayers.slayerswords.worldgen.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -34,6 +35,8 @@ public class SlayerSwords implements ModInitializer {
 		ModItems.register();
 		ModBlocks.register();
 		ModTooltips.register();
+
+		ModSounds.register();
 
 		ModBlockEntities.registerBlockEntities();
 
