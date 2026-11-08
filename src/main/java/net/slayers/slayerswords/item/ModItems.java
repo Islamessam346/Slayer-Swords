@@ -2,6 +2,7 @@ package net.slayers.slayerswords.item;
 
 import com.mojang.blaze3d.systems.GpuQueryPool;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
+import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.core.Registry;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -369,6 +370,8 @@ public class ModItems {
     public static final Item DEMON_SLAYER_4_MUSIC_DISC = registerItem("demon_slayer_4_music_disc",
             properties -> new Item(properties.jukeboxPlayable(ModJukeboxSongs.DEMON_SLAYER_4_KEY).stacksTo(1).rarity(Rarity.UNCOMMON)));
 
+    public static final Item DEMON_SLAYER_OST_1_MUSIC_DISC = registerItem("demon_slayer_ost_1_music_disc",
+            properties -> new Item(properties.jukeboxPlayable(ModJukeboxSongs.DEMON_SLAYER_OST_1_KEY).stacksTo(1).rarity(Rarity.UNCOMMON)));
 
 
 

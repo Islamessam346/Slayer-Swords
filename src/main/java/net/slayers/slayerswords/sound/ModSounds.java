@@ -20,6 +20,8 @@ public class ModSounds {
 
     public static final Holder.Reference<SoundEvent> DEMON_SLAYER_4 = registerJukeBoxSong("demon_slayer_4");
 
+    public static final Holder.Reference<SoundEvent> DEMON_SLAYER_OST_1 = registerJukeBoxSong("demon_slayer_ost_1");
+
     private static Holder.Reference<SoundEvent> registerJukeBoxSong(String name){
         Identifier id = Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name);
         return Registry.registerForHolder(BuiltInRegistries.SOUND_EVENT, id, SoundEvent.createVariableRangeEvent(id));

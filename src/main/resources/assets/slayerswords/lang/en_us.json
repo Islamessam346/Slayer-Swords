@@ -205,5 +205,10 @@
   "jukebox_song.slayerswords.demon_slayer_4_music_disc": "Demon Slayer OP4 Music Disc",
   "jukebox_song.slayerswords.demon_slayer_4_music_disc.desc": "Kimetsu no Yaiba",
   "jukebox_song.slayerswords.demon_slayer_4": "Kimetsu no Yaiba Season 4 Opening",
-  "item.slayerswords.demon_slayer_4_music_disc": "Demon Slayer OP4 Music Disc"
+  "item.slayerswords.demon_slayer_4_music_disc": "Demon Slayer OP4 Music Disc",
+
+  "jukebox_song.slayerswords.demon_slayer_ost_1_music_disc": "Yoriichi Theme Music Disc",
+  "jukebox_song.slayerswords.demon_slayer_ost_1_music_disc.desc": "Kimetsu no Yaiba",
+  "jukebox_song.slayerswords.demon_slayer_ost_1": "Kimetsu no Yaiba Yoriichi Theme Music Disc",
+  "item.slayerswords.demon_slayer_ost_1_music_disc": "Demon Slayer Yoriichi Theme Music Disc"
 }

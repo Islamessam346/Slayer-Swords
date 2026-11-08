@@ -40,5 +40,14 @@
       }
     ],
     "subtitle": "subtitles.slayerswords.demon_slayer_4"
+  },
+  "demon_slayer_ost_1": {
+    "sounds": [
+      {
+        "name": "slayerswords:demon_slayer_ost_1",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.slayerswords.demon_slayer_ost_1"
   }
 }
