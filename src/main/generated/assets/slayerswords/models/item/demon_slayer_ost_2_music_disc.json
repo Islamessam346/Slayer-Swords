@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "slayerswords:item/demon_slayer_ost_2_music_disc"
+  }
+}

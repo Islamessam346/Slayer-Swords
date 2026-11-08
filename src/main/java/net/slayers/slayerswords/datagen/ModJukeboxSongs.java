@@ -1,5 +1,6 @@
 package net.slayers.slayerswords.datagen;
 
+import net.fabricmc.fabric.api.client.datagen.v1.builder.SoundTypeBuilder;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -28,6 +29,9 @@ public class ModJukeboxSongs {
     public static final ResourceKey<JukeboxSong>    DEMON_SLAYER_OST_1_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"demon_slayer_ost_1"));
 
+    public static final ResourceKey<JukeboxSong>    DEMON_SLAYER_OST_2_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"demon_slayer_ost_2"));
+
 
 
 
@@ -39,6 +43,7 @@ public class ModJukeboxSongs {
         register(context, DEMON_SLAYER_3_KEY, ModSounds.DEMON_SLAYER_3, 125,15);
         register(context, DEMON_SLAYER_4_KEY, ModSounds.DEMON_SLAYER_4, 123,15);
         register(context, DEMON_SLAYER_OST_1_KEY, ModSounds.DEMON_SLAYER_OST_1, 273,15);
+        register(context, DEMON_SLAYER_OST_2_KEY, ModSounds.DEMON_SLAYER_OST_2,315,15);
     }
 
 

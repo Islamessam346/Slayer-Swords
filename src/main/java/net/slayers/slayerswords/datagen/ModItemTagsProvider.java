@@ -101,6 +101,7 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_3_MUSIC_DISC));
         tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_4_MUSIC_DISC));
         tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_OST_1_MUSIC_DISC));
+        tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_OST_2_MUSIC_DISC));
 
 
 
