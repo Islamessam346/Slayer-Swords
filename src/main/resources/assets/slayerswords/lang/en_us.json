@@ -146,6 +146,7 @@
   "block.slayerswords.wisteria_planks": "Wisteria Planks",
 
   "block.slayerswords.pedestal_block":  "Pedestal Block",
+  "block.slayerswords.demonifier": "Demonifier",
 
   "block.slayerswords.blue_spider_lily": "Blue Spider Lily",
   "block.slayerswords.potted_blue_spider_lily": "Potted Blue Spider Lily",
@@ -186,8 +187,7 @@
 
 
   "jukebox_song.slayerswords.demon_slayer_1_music_disc": "Demon Slayer OP1 Music Disc",
-  "jukebox_song.slayerswords.demon_slayer_1_music_disc.desc": "Kemtsu no Yaiba",
-  "jukebox_song.slayerswords.demon_slayer_1": "Kemtsu no Yaiba Season 1 Openning",
+  "jukebox_song.slayerswords.demon_slayer_1_music_disc.desc": "Kimetsu no Yaiba",
+  "jukebox_song.slayerswords.demon_slayer_1": "Kimetsu no Yaiba Season 1 Opening",
   "item.slayerswords.demon_slayer_1_music_disc": "Demon Slayer OP1 Music Disc"
-
 }

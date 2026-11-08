@@ -29,7 +29,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                         ModBlocks.getRK(ModBlocks.SCARLETMETAL_BLOCK),
                         ModBlocks.getRK(ModBlocks.VOLCANIC_CLUSTER),
                         ModBlocks.getRK(ModBlocks.DRY_MAGMA),
-                        ModBlocks.getRK(ModBlocks.PEDESTAL_BLOCK)
+                        ModBlocks.getRK(ModBlocks.PEDESTAL_BLOCK),
+                        ModBlocks.getRK(ModBlocks.DEMONIFIER)
                 );
 
 
@@ -53,7 +54,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                         ModBlocks.getRK(ModBlocks.DRY_MAGMA));
 
         tag(ModTags.Blocks.NEEDS_DEMON_TOOL)
-                .add(ModBlocks.getRK(ModBlocks.VOLCANIC_CLUSTER));
+                .add(ModBlocks.getRK(ModBlocks.VOLCANIC_CLUSTER))
+                .add(ModBlocks.getRK(ModBlocks.DEMONIFIER));
 
         tag(ModTags.Blocks.INCORRECT_FOR_DEMON_TOOL);
 

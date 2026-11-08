@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "slayerswords:block/demonifier_bottom",
+    "front": "slayerswords:block/demonifier_front",
+    "side": "slayerswords:block/demonifier_side",
+    "top": "slayerswords:block/demonifier_top"
+  }
+}

@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.block.custom.PedestalBlock;
+import net.slayers.slayerswords.block.custom.DemonifierBlock;
 
 import java.util.function.Function;
 
@@ -73,6 +74,9 @@ public class ModBlocks {
 
     public static final Block PEDESTAL_BLOCK = registerBlock("pedestal_block",
             properties -> new PedestalBlock(properties.strength(3f).requiresCorrectToolForDrops()));
+
+    public static final Block DEMONIFIER = registerBlock("demonifier",
+            properties -> new DemonifierBlock(properties.strength(5f).requiresCorrectToolForDrops()));
 
 
     public static ResourceKey<Block> getRK(Block block) {

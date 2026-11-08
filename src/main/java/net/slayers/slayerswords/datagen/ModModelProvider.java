@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TexturedModel;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModArmorMaterials;
 import net.slayers.slayerswords.item.ModItems;
@@ -30,6 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.WISTERIA_PLANKS);
         blockModelGenerators.createPlantWithDefaultItem(ModBlocks.BLUE_SPIDER_LILY, ModBlocks.POTTED_BLUE_SPIDER_LILY, BlockModelGenerators.PlantType.NOT_TINTED);
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.PEDESTAL_BLOCK);
+        blockModelGenerators.createHorizontallyRotatedBlock(ModBlocks.DEMONIFIER, TexturedModel.ORIENTABLE);
     }
 
     @Override
