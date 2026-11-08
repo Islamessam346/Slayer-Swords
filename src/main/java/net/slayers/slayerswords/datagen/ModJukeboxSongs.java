@@ -22,11 +22,17 @@ public class ModJukeboxSongs {
     public static final ResourceKey<JukeboxSong>    DEMON_SLAYER_3_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"demon_slayer_3"));
 
+    public static final ResourceKey<JukeboxSong>    DEMON_SLAYER_4_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demon_slayer_4"));
+
+
+
 
     public static void bootstrap(BootstrapContext<JukeboxSong> context) {
         register(context, DEMON_SLAYER_1_KEY, ModSounds.DEMON_SLAYER_1, 90, 15);
         register(context, DEMON_SLAYER_2_KEY, ModSounds.DEMON_SLAYER_2, 123,15);
         register(context, DEMON_SLAYER_3_KEY, ModSounds.DEMON_SLAYER_3, 125,15);
+        register(context, DEMON_SLAYER_4_KEY, ModSounds.DEMON_SLAYER_4, 123,15);
     }
 
 

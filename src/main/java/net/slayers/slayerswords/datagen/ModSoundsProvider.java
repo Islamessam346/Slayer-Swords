@@ -28,9 +28,13 @@ public class ModSoundsProvider extends FabricSoundsProvider {
         exporter.add(ModSounds.DEMON_SLAYER_2, SoundTypeBuilder.of(ModSounds.DEMON_SLAYER_2.value())
                 .sound(SoundTypeBuilder.RegistrationBuilder.ofFile(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demon_slayer_2")).stream(true)));
 
-
         exporter.add(ModSounds.DEMON_SLAYER_3, SoundTypeBuilder.of(ModSounds.DEMON_SLAYER_3.value())
                 .sound(SoundTypeBuilder.RegistrationBuilder.ofFile(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demon_slayer_3")).stream(true)));
+
+        exporter.add(ModSounds.DEMON_SLAYER_4, SoundTypeBuilder.of(ModSounds.DEMON_SLAYER_4.value())
+                .sound(SoundTypeBuilder.RegistrationBuilder.ofFile(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demon_slayer_4")).stream(true)));
+
+
 
     }
 

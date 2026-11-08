@@ -366,6 +366,8 @@ public class ModItems {
     public static final Item DEMON_SLAYER_3_MUSIC_DISC = registerItem("demon_slayer_3_music_disc",
             properties -> new Item(properties.jukeboxPlayable(ModJukeboxSongs.DEMON_SLAYER_3_KEY).stacksTo(1).rarity(Rarity.UNCOMMON)));
 
+    public static final Item DEMON_SLAYER_4_MUSIC_DISC = registerItem("demon_slayer_4_music_disc",
+            properties -> new Item(properties.jukeboxPlayable(ModJukeboxSongs.DEMON_SLAYER_4_KEY).stacksTo(1).rarity(Rarity.UNCOMMON)));
 
 
 
