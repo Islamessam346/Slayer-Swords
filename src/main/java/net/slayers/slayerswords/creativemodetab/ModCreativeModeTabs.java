@@ -132,6 +132,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DRY_MAGMA);
                         output.accept(ModBlocks.WISTERIA_LOG);
                         output.accept(ModBlocks.WISTERIA_PLANKS);
+                        output.accept(ModBlocks.WISTERIA_STAIRS);
+                        output.accept(ModBlocks.WISTERIA_SLAB);
 
                         output.accept(ModBlocks.BLUE_SPIDER_LILY);
 
@@ -220,6 +222,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DRY_MAGMA);
                         output.accept(ModBlocks.WISTERIA_LOG);
                         output.accept(ModBlocks.WISTERIA_PLANKS);
+                        output.accept(ModBlocks.WISTERIA_STAIRS);
+                        output.accept(ModBlocks.WISTERIA_SLAB);
                         output.accept(ModBlocks.PEDESTAL_BLOCK);
                         output.accept(ModBlocks.DEMONIFIER);
                     }).build());

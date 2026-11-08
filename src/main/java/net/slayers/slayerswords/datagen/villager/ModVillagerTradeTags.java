@@ -58,7 +58,10 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_WIND_LEGGINGS.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_WIND_BOOTS.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_SOUND_BOOTS.identifier()))
-                .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_SOUND_LEGGINGS.identifier()));
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_SOUND_LEGGINGS.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_WATER_BOOTS.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_4_DIAMOND_WATER_LEGGINGS.identifier()));
+
 
         getOrCreateRawBuilder(VillagerTradeTags.ARMORER_LEVEL_5)
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_SUN_HELMET.identifier()))
@@ -76,7 +79,9 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_WIND_HELMET.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_WIND_CHESTPLATE.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_SOUND_CHESTPLATE.identifier()))
-                .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_SOUND_HELMET.identifier()));
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_SOUND_HELMET.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_WATER_HELMET.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.ARMORER_5_DIAMOND_WATER_CHESTPLATE.identifier()));
 
 
 

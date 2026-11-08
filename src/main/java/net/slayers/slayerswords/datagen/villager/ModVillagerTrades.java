@@ -69,6 +69,10 @@ public class ModVillagerTrades {
     public static final ResourceKey<VillagerTrade> ARMORER_5_DIAMOND_SOUND_CHESTPLATE = createKey("armorer/5/diamond_sound_chestplate");
     public static final ResourceKey<VillagerTrade> ARMORER_4_DIAMOND_SOUND_BOOTS = createKey("armorer/4/diamond_sound_boots");
     public static final ResourceKey<VillagerTrade> ARMORER_4_DIAMOND_SOUND_LEGGINGS = createKey("armorer/4/diamond_sound_leggings");
+    public static final ResourceKey<VillagerTrade> ARMORER_4_DIAMOND_WATER_BOOTS = createKey("armorer/4/diamond_water_boots");
+    public static final ResourceKey<VillagerTrade> ARMORER_4_DIAMOND_WATER_LEGGINGS = createKey("armorer/4/diamond_water_leggings");
+    public static final ResourceKey<VillagerTrade> ARMORER_5_DIAMOND_WATER_HELMET = createKey("armorer/5/diamond_water_helmet");
+    public static final ResourceKey<VillagerTrade> ARMORER_5_DIAMOND_WATER_CHESTPLATE = createKey("armorer/5/diamond_water_chestplate");
 
 
     public static void bootstrap(BootstrapContext<VillagerTrade> context){
@@ -384,6 +388,30 @@ public class ModVillagerTrades {
         context.register(ARMORER_4_DIAMOND_SOUND_LEGGINGS, new VillagerTrade(
                 new TradeCost(Items.DIAMOND, 20),
                 new ItemStackTemplate(ModItems.SOUND_LEGGINGS),
+                5, 20, 0.1f,
+                Optional.empty(), List.of()));
+
+        context.register(ARMORER_4_DIAMOND_WATER_BOOTS, new VillagerTrade(
+                new TradeCost(Items.DIAMOND, 20),
+                new ItemStackTemplate(ModItems.WATER_BOOTS),
+                5, 20, 0.1f,
+                Optional.empty(), List.of()));
+
+        context.register(ARMORER_4_DIAMOND_WATER_LEGGINGS, new VillagerTrade(
+                new TradeCost(Items.DIAMOND, 30),
+                new ItemStackTemplate(ModItems.WATER_LEGGINGS),
+                5, 20, 0.1f,
+                Optional.empty(), List.of()));
+
+        context.register(ARMORER_5_DIAMOND_WATER_HELMET, new VillagerTrade(
+                new TradeCost(Items.DIAMOND, 20),
+                new ItemStackTemplate(ModItems.WATER_HELMET),
+                5, 20, 0.1f,
+                Optional.empty(), List.of()));
+
+        context.register(ARMORER_5_DIAMOND_WATER_CHESTPLATE, new VillagerTrade(
+                new TradeCost(Items.DIAMOND, 35),
+                new ItemStackTemplate(ModItems.WATER_CHESTPLATE),
                 5, 20, 0.1f,
                 Optional.empty(), List.of()));
 

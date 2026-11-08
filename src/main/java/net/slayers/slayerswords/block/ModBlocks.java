@@ -78,6 +78,13 @@ public class ModBlocks {
     public static final Block DEMONIFIER = registerBlock("demonifier",
             properties -> new DemonifierBlock(properties.strength(5f).requiresCorrectToolForDrops()));
 
+    public static final Block WISTERIA_STAIRS = registerBlock("wisteria_stairs",
+            properties -> new StairBlock(ModBlocks.WISTERIA_PLANKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
+
+    public static final Block WISTERIA_SLAB = registerBlock("wisteria_slab",
+            properties -> new SlabBlock(properties.strength(5f).requiresCorrectToolForDrops()));
+
 
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
