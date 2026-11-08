@@ -189,5 +189,10 @@
   "jukebox_song.slayerswords.demon_slayer_1_music_disc": "Demon Slayer OP1 Music Disc",
   "jukebox_song.slayerswords.demon_slayer_1_music_disc.desc": "Kimetsu no Yaiba",
   "jukebox_song.slayerswords.demon_slayer_1": "Kimetsu no Yaiba Season 1 Opening",
-  "item.slayerswords.demon_slayer_1_music_disc": "Demon Slayer OP1 Music Disc"
+  "item.slayerswords.demon_slayer_1_music_disc": "Demon Slayer OP1 Music Disc",
+
+  "jukebox_song.slayerswords.demon_slayer_2_music_disc": "Demon Slayer OP2 Music Disc",
+  "jukebox_song.slayerswords.demon_slayer_2_music_disc.desc": "Kimetsu no Yaiba",
+  "jukebox_song.slayerswords.demon_slayer_2": "Kimetsu no Yaiba Season 2 Opening",
+  "item.slayerswords.demon_slayer_2_music_disc": "Demon Slayer OP2 Music Disc"
 }

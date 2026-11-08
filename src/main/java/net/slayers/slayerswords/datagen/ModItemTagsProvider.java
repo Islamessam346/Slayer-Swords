@@ -3,6 +3,7 @@ package net.slayers.slayerswords.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 
+import net.fabricmc.fabric.impl.datagen.TagAliasGenerator;
 import net.minecraft.tags.BlockItemTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
@@ -96,6 +97,7 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.TOXIC_BOOTS));
 
         tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_1_MUSIC_DISC));
+        tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_2_MUSIC_DISC));
 
 
 

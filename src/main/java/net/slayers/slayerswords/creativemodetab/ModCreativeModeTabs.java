@@ -140,6 +140,7 @@ public class ModCreativeModeTabs {
 
 
                         output.accept(ModItems.DEMON_SLAYER_1_MUSIC_DISC);
+                        output.accept(ModItems.DEMON_SLAYER_2_MUSIC_DISC);
                     }).build());
 
 

@@ -15,10 +15,15 @@ import net.slayers.slayerswords.sound.ModSounds;
 public class ModJukeboxSongs {
     public static final ResourceKey<JukeboxSong>    DEMON_SLAYER_1_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
             Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"demon_slayer_1"));
+    public static final ResourceKey<JukeboxSong>    DEMON_SLAYER_2_KEY = ResourceKey.create(Registries.JUKEBOX_SONG,
+            Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID,"demon_slayer_2"));
 
     public static void bootstrap(BootstrapContext<JukeboxSong> context) {
-        register(context, DEMON_SLAYER_1_KEY, ModSounds.DEMON_SLAYER_1, 162, 15);
+        register(context, DEMON_SLAYER_1_KEY, ModSounds.DEMON_SLAYER_1, 90, 15);
+        register(context, DEMON_SLAYER_2_KEY, ModSounds.DEMON_SLAYER_2, 123,15);
     }
+
+
 
 
 

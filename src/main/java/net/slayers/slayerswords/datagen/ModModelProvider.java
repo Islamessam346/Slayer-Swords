@@ -9,6 +9,7 @@ import net.minecraft.client.data.models.model.TexturedModel;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModArmorMaterials;
 import net.slayers.slayerswords.item.ModItems;
+import net.slayers.slayerswords.sound.ModSounds;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricPackOutput output) {
@@ -211,5 +212,6 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_1_MUSIC_DISC, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_2_MUSIC_DISC, ModelTemplates.FLAT_ITEM);
     }
 }
