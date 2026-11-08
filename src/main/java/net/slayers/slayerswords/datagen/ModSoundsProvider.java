@@ -2,6 +2,7 @@ package net.slayers.slayerswords.datagen;
 
 import net.fabricmc.fabric.api.client.datagen.v1.builder.SoundTypeBuilder;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricSoundsProvider;
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.Identifier;
@@ -26,6 +27,11 @@ public class ModSoundsProvider extends FabricSoundsProvider {
 
         exporter.add(ModSounds.DEMON_SLAYER_2, SoundTypeBuilder.of(ModSounds.DEMON_SLAYER_2.value())
                 .sound(SoundTypeBuilder.RegistrationBuilder.ofFile(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demon_slayer_2")).stream(true)));
+
+
+        exporter.add(ModSounds.DEMON_SLAYER_3, SoundTypeBuilder.of(ModSounds.DEMON_SLAYER_3.value())
+                .sound(SoundTypeBuilder.RegistrationBuilder.ofFile(Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demon_slayer_3")).stream(true)));
+
     }
 
     @Override

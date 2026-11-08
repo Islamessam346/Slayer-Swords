@@ -213,5 +213,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_1_MUSIC_DISC, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_2_MUSIC_DISC, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_3_MUSIC_DISC, ModelTemplates.FLAT_ITEM);
     }
 }

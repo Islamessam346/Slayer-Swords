@@ -22,5 +22,14 @@
       }
     ],
     "subtitle": "subtitles.slayerswords.demon_slayer_2"
+  },
+  "demon_slayer_3": {
+    "sounds": [
+      {
+        "name": "slayerswords:demon_slayer_3",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.slayerswords.demon_slayer_3"
   }
 }
