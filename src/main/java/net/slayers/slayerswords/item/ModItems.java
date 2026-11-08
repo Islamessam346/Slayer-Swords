@@ -9,12 +9,10 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.slayers.slayerswords.SlayerSwords;
+import net.slayers.slayerswords.datagen.ModJukeboxSongs;
 import net.slayers.slayerswords.effect.EffectOnHitItem;
 import net.slayers.slayerswords.entity.ModEntities;
 import net.slayers.slayerswords.food.ModFoods;
@@ -356,6 +354,11 @@ public class ModItems {
 
     public static final Item WILD_BOAR_SPAWN_EGG = registerItem("wild_boar_spwan_egg",
             properties -> new SpawnEggItem(properties.spawnEgg(ModEntities.WILD_BOAR)));
+
+
+
+    public static final Item DEMON_SLAYER_1_MUSIC_DISC = registerItem("demon_slayer_1_music_disc",
+            properties -> new Item(properties.jukeboxPlayable(ModJukeboxSongs.DEMON_SLAYER_1_KEY).stacksTo(1).rarity(Rarity.UNCOMMON)));
 
 
 

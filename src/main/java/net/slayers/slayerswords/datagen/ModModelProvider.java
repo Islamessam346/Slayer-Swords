@@ -204,5 +204,10 @@ public class ModModelProvider extends FabricModelProvider {
                 ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_BOOTS, ModArmorMaterials.TOXIC_KEY,
                 ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
+
+
+
+        itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_1_MUSIC_DISC, ModelTemplates.FLAT_ITEM);
     }
 }

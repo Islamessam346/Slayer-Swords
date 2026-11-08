@@ -1,5 +1,6 @@
 package net.slayers.slayerswords.datagen;
 
+import com.mojang.datafixers.TypeRewriteRule;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
 import net.minecraft.core.HolderLookup;
@@ -21,6 +22,8 @@ public class ModRegistryDataProvider extends FabricDynamicRegistryProvider {
         entries.addAll(registries.lookupOrThrow(Registries.PLACED_FEATURE));
         entries.addAll(registries.lookupOrThrow(Registries.DAMAGE_TYPE));
         entries.addAll(registries.lookupOrThrow(Registries.VILLAGER_TRADE));
+
+        entries.addAll(registries.lookupOrThrow(Registries.JUKEBOX_SONG));
     }
 
     @Override

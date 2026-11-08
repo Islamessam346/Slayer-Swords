@@ -136,6 +136,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLUE_SPIDER_LILY);
 
                         output.accept(ModBlocks.PEDESTAL_BLOCK);
+
+
+                        output.accept(ModItems.DEMON_SLAYER_1_MUSIC_DISC);
                     }).build());
 
 

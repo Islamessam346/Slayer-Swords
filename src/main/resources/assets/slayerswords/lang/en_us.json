@@ -182,5 +182,12 @@
   "entity.slayerswords.wild_boar": "Wild Boar",
   "item.slayerswords.wild_boar_spwan_egg": "Wild Boar Spawn Egg",
 
-  "sounds.slayerswords.demon": "Demon"
+  "sounds.slayerswords.demon": "Demon",
+
+
+  "jukebox_song.slayerswords.demon_slayer_1_music_disc": "Demon Slayer OP1 Music Disc",
+  "jukebox_song.slayerswords.demon_slayer_1_music_disc.desc": "Kemtsu no Yaiba",
+  "jukebox_song.slayerswords.demon_slayer_1": "Kemtsu no Yaiba Season 1 Openning",
+  "item.slayerswords.demon_slayer_1_music_disc": "Demon Slayer OP1 Music Disc"
+
 }

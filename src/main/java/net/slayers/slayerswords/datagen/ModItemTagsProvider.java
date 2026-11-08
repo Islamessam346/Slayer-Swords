@@ -95,6 +95,8 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.LEG_ARMOR).add(ModItems.getRK(ModItems.TOXIC_LEGGINGS));
         tag(ItemTags.FOOT_ARMOR).add(ModItems.getRK(ModItems.TOXIC_BOOTS));
 
+        tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_1_MUSIC_DISC));
+
 
 
         tag(BlockItemTags.SMALL_FLOWERS.item()).add(ModItems.getRK(ModBlocks.BLUE_SPIDER_LILY.asItem()));

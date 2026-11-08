@@ -37,5 +37,6 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 		registryBuilder.add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 		registryBuilder.add(Registries.DAMAGE_TYPE, ModDamageTypesProvider::bootstrap);
 		registryBuilder.add(Registries.VILLAGER_TRADE, ModVillagerTrades::bootstrap);
+		registryBuilder.add(Registries.JUKEBOX_SONG, ModJukeboxSongs::bootstrap);
 	}
 }

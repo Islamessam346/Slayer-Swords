@@ -4,5 +4,14 @@
       "slayerswords:demon"
     ],
     "subtitle": "sounds.slayerswords.demon"
+  },
+  "demon_slayer_1": {
+    "sounds": [
+      {
+        "name": "slayerswords:demon_slayer_1",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.slayerswords.demon_slayer_1"
   }
 }
