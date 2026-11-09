@@ -10,13 +10,13 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.world.Containers;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -27,6 +27,7 @@ import net.slayers.slayerswords.block.entity.ImplementedInventory;
 import net.slayers.slayerswords.block.entity.ModBlockEntities;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.menu.custom.DemonifierMenu;
+import net.slayers.slayerswords.tags.ModTags;
 import org.jspecify.annotations.Nullable;
 
 public class DemonifierBlockEntity extends BlockEntity implements ExtendedMenuProvider<BlockPos>, ImplementedInventory {
@@ -123,8 +124,8 @@ public class DemonifierBlockEntity extends BlockEntity implements ExtendedMenuPr
     }
 
     private boolean hasRecipe() {
-        ItemStack output = new ItemStack(ModItems.SUN_INGOT);
-        Item input = ModItems.SUN_ORE;
+        ItemStack output = new ItemStack(ModItems.DEMON_FLESH);
+        TagKey input = ModTags.Items.MEATS;
 
         boolean hasCorrectInput = inventory.get(INPUT_SLOT).is(input);
         boolean isItemOutputRight = canInsertItemIntoOutputSlot(output);
@@ -146,7 +147,7 @@ public class DemonifierBlockEntity extends BlockEntity implements ExtendedMenuPr
     }
 
      public void craftItem() {
-        ItemStack output = new ItemStack(ModItems.SUN_INGOT);
+        ItemStack output = new ItemStack(ModItems.DEMON_FLESH);
 
         inventory.set(INPUT_SLOT, inventory.get(INPUT_SLOT).copyWithCount(inventory.get(INPUT_SLOT).getCount() -1));
         inventory.set(OUTPUT_SLOT, output.copyWithCount(inventory.get(OUTPUT_SLOT).getCount() + output.getCount()));

@@ -7,6 +7,7 @@ import net.fabricmc.fabric.impl.datagen.TagAliasGenerator;
 import net.minecraft.tags.BlockItemTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModArmorMaterials;
 import net.slayers.slayerswords.item.ModItems;
@@ -102,6 +103,14 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_4_MUSIC_DISC));
         tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_OST_1_MUSIC_DISC));
         tag(ItemTags.CREEPER_DROP_MUSIC_DISCS).add(ModItems.getRK(ModItems.DEMON_SLAYER_OST_2_MUSIC_DISC));
+
+        tag(ModTags.Items.MEATS)
+                .add(ModItems.getRK(Items.BEEF),
+                        ModItems.getRK(Items.PORKCHOP),
+                        ModItems.getRK(Items.CHICKEN),
+                        ModItems.getRK(Items.MUTTON),
+                        ModItems.getRK(Items.RABBIT),
+                        ModItems.getRK(Items.ROTTEN_FLESH));
 
 
 
