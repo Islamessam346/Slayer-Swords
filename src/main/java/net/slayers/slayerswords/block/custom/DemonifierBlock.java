@@ -18,6 +18,8 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.BlockHitResult;
+import net.slayers.slayerswords.block.entity.ModBlockEntities;
+import net.slayers.slayerswords.block.entity.custom.DemonifierBlockEntity;
 import org.jspecify.annotations.Nullable;
 
 public class DemonifierBlock extends BaseEntityBlock{
@@ -40,27 +42,40 @@ public class DemonifierBlock extends BaseEntityBlock{
 
     @Override
     protected MapCodec<? extends BaseEntityBlock> codec() {
-        return null;
+        return CODEC;
     }
 
     @Override
     public @Nullable BlockEntity newBlockEntity(BlockPos worldPosition, BlockState blockState) {
-        return null;
+        return new DemonifierBlockEntity(worldPosition, blockState);
     }
 
     @Override
     public void playerDestroy(Level level, Player player, BlockPos pos, BlockState state,
                               @Nullable BlockEntity blockEntity, ItemStack destroyWith) {
+        if(level.getBlockEntity(pos) instanceof DemonifierBlockEntity demonifierBlockEntity) {
+            demonifierBlockEntity.drops();
+        }
         super.playerDestroy(level, player, pos, state, blockEntity, destroyWith);
     }
 
     @Override
     protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
-        return super.useWithoutItem(state, level, pos, player, hitResult);
+        if(!level.isClientSide()) {
+            if(level.getBlockEntity(pos) instanceof DemonifierBlockEntity demonifierBlockEntity) {
+                player.openMenu(demonifierBlockEntity);
+            }
+        }
+        return InteractionResult.SUCCESS;
     }
 
     @Override
     public @Nullable <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState blockState, BlockEntityType<T> type) {
-        return super.getTicker(level, blockState, type);
+        if(level.isClientSide()) {
+            return null;
+        }
+
+        return createTickerHelper(type, ModBlockEntities.DEMONIFIER_BLOCK_ENTITY,
+                (level1, pos, state, entity) -> entity.tick(level1, pos, state));
     }
 }

@@ -35,6 +35,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.BLUE_SPIDER_LILY);
         dropPottedContents(ModBlocks.POTTED_BLUE_SPIDER_LILY);
         dropSelf(ModBlocks.PEDESTAL_BLOCK);
-        dropSelf(ModBlocks.DEMONIFIER);
+        dropSelf(ModBlocks.DEMONIFIER_BLOCK);
     }
 }

@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityT
 import net.minecraft.resources.Identifier;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.block.ModBlocks;
+import net.slayers.slayerswords.block.entity.custom.DemonifierBlockEntity;
 import net.slayers.slayerswords.block.entity.custom.PedestalBlockEntity;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -13,6 +14,11 @@ public class ModBlockEntities {
     public static final BlockEntityType<PedestalBlockEntity> PEDESTAL_BLOCK_ENTITY = Registry.register(
             BuiltInRegistries.BLOCK_ENTITY_TYPE, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "pedestal_block_entity"),
                     FabricBlockEntityTypeBuilder.create(PedestalBlockEntity::new, ModBlocks.PEDESTAL_BLOCK).build()
+    );
+
+    public static final BlockEntityType<DemonifierBlockEntity> DEMONIFIER_BLOCK_ENTITY = Registry.register(
+            BuiltInRegistries.BLOCK_ENTITY_TYPE, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demonifier_block_entity"),
+                    FabricBlockEntityTypeBuilder.create(DemonifierBlockEntity::new, ModBlocks.DEMONIFIER_BLOCK).build()
     );
 
     public static void registerBlockEntities() {

@@ -2,6 +2,7 @@ package net.slayers.slayerswords.menu;
 
 import net.fabricmc.fabric.api.menu.v1.ExtendedMenuType;
 import net.slayers.slayerswords.SlayerSwords;
+import net.slayers.slayerswords.menu.custom.DemonifierMenu;
 import net.slayers.slayerswords.menu.custom.PedestalMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
@@ -10,9 +11,14 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.inventory.MenuType;
 
 public class ModMenuTypes {
-    public static final MenuType<PedestalMenu> PEDESTAL_MENU = Registry.register(BuiltInRegistries.MENU, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "pedestal_menu"),
+    public static final MenuType<PedestalMenu> PEDESTAL_MENU =
+            Registry.register(BuiltInRegistries.MENU, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "pedestal_menu"),
             new ExtendedMenuType<>(PedestalMenu::new, BlockPos.STREAM_CODEC)
+    );
 
+    public static final MenuType<DemonifierMenu> DEMONIFIER_MENU =
+            Registry.register(BuiltInRegistries.MENU, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "demonifier_menu"),
+            new ExtendedMenuType<>(DemonifierMenu::new, BlockPos.STREAM_CODEC)
     );
 
     public static void registerModMenuTypes() {

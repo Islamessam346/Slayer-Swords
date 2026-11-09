@@ -75,7 +75,7 @@ public class ModBlocks {
     public static final Block PEDESTAL_BLOCK = registerBlock("pedestal_block",
             properties -> new PedestalBlock(properties.strength(3f).requiresCorrectToolForDrops()));
 
-    public static final Block DEMONIFIER = registerBlock("demonifier",
+    public static final Block DEMONIFIER_BLOCK = registerBlock("demonifier",
             properties -> new DemonifierBlock(properties.strength(5f).requiresCorrectToolForDrops()));
 
     public static final Block WISTERIA_STAIRS = registerBlock("wisteria_stairs",

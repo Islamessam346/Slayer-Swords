@@ -32,7 +32,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.WISTERIA_PLANKS);
         blockModelGenerators.createPlantWithDefaultItem(ModBlocks.BLUE_SPIDER_LILY, ModBlocks.POTTED_BLUE_SPIDER_LILY, BlockModelGenerators.PlantType.NOT_TINTED);
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.PEDESTAL_BLOCK);
-        blockModelGenerators.createHorizontallyRotatedBlock(ModBlocks.DEMONIFIER, TexturedModel.ORIENTABLE);
+        blockModelGenerators.createHorizontallyRotatedBlock(ModBlocks.DEMONIFIER_BLOCK, TexturedModel.ORIENTABLE);
     }
 
     @Override

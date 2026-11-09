@@ -12,6 +12,7 @@ import net.slayers.slayerswords.entity.client.ModModelLayerLocations;
 import net.slayers.slayerswords.entity.client.WildBoarModel;
 import net.slayers.slayerswords.entity.client.WildBoarRenderer;
 import net.slayers.slayerswords.menu.ModMenuTypes;
+import net.slayers.slayerswords.menu.custom.DemonifierScreen;
 import net.slayers.slayerswords.menu.custom.PedestalScreen;
 
 public class SlayerSwordsClient implements ClientModInitializer {
@@ -20,6 +21,7 @@ public class SlayerSwordsClient implements ClientModInitializer {
         BlockEntityRenderers.register(ModBlockEntities.PEDESTAL_BLOCK_ENTITY, PedestalBlockEntityRenderer::new);
 
         MenuScreens.register(ModMenuTypes.PEDESTAL_MENU, PedestalScreen::new);
+        MenuScreens.register(ModMenuTypes.DEMONIFIER_MENU, DemonifierScreen::new);
 
         ModelLayerRegistry.registerModelLayer(ModModelLayerLocations.WILD_BOAR, WildBoarModel::createBodyLayer);
         EntityRenderers.register(ModEntities.WILD_BOAR, WildBoarRenderer::new);

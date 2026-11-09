@@ -138,7 +138,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLUE_SPIDER_LILY);
 
                         output.accept(ModBlocks.PEDESTAL_BLOCK);
-                        output.accept(ModBlocks.DEMONIFIER);
+                        output.accept(ModBlocks.DEMONIFIER_BLOCK);
 
 
                         output.accept(ModItems.DEMON_SLAYER_1_MUSIC_DISC);
@@ -227,7 +227,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WISTERIA_STAIRS);
                         output.accept(ModBlocks.WISTERIA_SLAB);
                         output.accept(ModBlocks.PEDESTAL_BLOCK);
-                        output.accept(ModBlocks.DEMONIFIER);
+                        output.accept(ModBlocks.DEMONIFIER_BLOCK);
                     }).build());
 
     public static final CreativeModeTab SLAYERSWORDS_ARMOR = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
