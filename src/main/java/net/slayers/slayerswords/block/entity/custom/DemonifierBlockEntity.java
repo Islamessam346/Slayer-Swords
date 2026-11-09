@@ -23,6 +23,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
+import net.slayers.slayerswords.block.custom.DemonifierBlock;
 import net.slayers.slayerswords.block.entity.ImplementedInventory;
 import net.slayers.slayerswords.block.entity.ModBlockEntities;
 import net.slayers.slayerswords.item.ModItems;
@@ -112,6 +113,7 @@ public class DemonifierBlockEntity extends BlockEntity implements ExtendedMenuPr
     public void tick(Level level, BlockPos pos, BlockState state) {
         if(hasRecipe() && isOutputSlotEmptyOrReceivable()) {
             increaseCraftingProgress();
+            level.setBlockAndUpdate(pos, state.setValue(DemonifierBlock.LIT, true));
             setChanged(level, pos, state);
 
             if(hasCraftingFinished()) {
@@ -120,6 +122,7 @@ public class DemonifierBlockEntity extends BlockEntity implements ExtendedMenuPr
             }
         } else {
             resetProgress();
+            level.setBlockAndUpdate(pos, state.setValue(DemonifierBlock.LIT, false));
         }
     }
 
