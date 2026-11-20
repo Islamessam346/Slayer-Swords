@@ -68,7 +68,7 @@ public interface HitEffect {
             Vec3 velocity = attacker.getDeltaMovement();
             ExplosionShield.run(attacker, () ->
                     level.explode(attacker, target.getX(), target.getY() + 1, target.getZ(),
-                    power, Level.ExplosionInteraction.NONE));
+                    power, Level.ExplosionInteraction.BLOCK));
 
             attacker.setDeltaMovement(velocity);
             attacker.hurtMarked = true;
