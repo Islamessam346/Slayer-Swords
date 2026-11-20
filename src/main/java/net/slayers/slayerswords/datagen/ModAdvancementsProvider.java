@@ -129,6 +129,6 @@ public class ModAdvancementsProvider extends FabricAdvancementProvider {
                 )
                 .addCriterion("has_basic_nichirin_stone", InventoryChangeTrigger.TriggerInstance.hasItems(
                         ItemPredicate.Builder.item().of(items, ModItems.BASIC_NICHIRIN_STONE)))
-                .save(output, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, ":slayerswords/basic_stone"));
+                .save(output, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, "slayerswords/basic_stone"));
     }
 }
