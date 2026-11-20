@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:wind_helmet"
+        "recipes": "slayerswords:wind_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

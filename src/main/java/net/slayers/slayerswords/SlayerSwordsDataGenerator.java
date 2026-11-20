@@ -8,7 +8,7 @@ import net.slayers.slayerswords.datagen.*;
 import net.slayers.slayerswords.datagen.*;
 import net.slayers.slayerswords.datagen.villager.ModVillagerTradeTags;
 import net.slayers.slayerswords.datagen.villager.ModVillagerTrades;
-import net.slayers.slayerswords.worldgen.ModConfiguredFeatures;
+import net.slayers.slayerswords.worldgen.ModFeatures;
 import net.slayers.slayerswords.worldgen.ModPlacedFeatures;
 
 public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
@@ -33,7 +33,7 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void buildRegistry(RegistrySetBuilder registryBuilder) {
 		registryBuilder.add(Registries.PAINTING_VARIANT, ModPaintingsProvider::bootstrap);
-		registryBuilder.add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.add(Registries.FEATURE, ModFeatures::bootstrap);
 		registryBuilder.add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 		registryBuilder.add(Registries.DAMAGE_TYPE, ModDamageTypesProvider::bootstrap);
 		registryBuilder.add(Registries.VILLAGER_TRADE, ModVillagerTrades::bootstrap);

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:serpent_helmet"
+        "recipes": "slayerswords:serpent_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

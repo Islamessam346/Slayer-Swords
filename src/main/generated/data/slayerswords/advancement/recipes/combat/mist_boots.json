@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:mist_boots"
+        "recipes": "slayerswords:mist_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

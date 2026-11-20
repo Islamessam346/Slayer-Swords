@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:beast_nichirin"
+        "recipes": "slayerswords:beast_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

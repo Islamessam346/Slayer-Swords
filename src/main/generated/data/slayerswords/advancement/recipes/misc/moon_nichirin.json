@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:moon_nichirin"
+        "recipes": "slayerswords:moon_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

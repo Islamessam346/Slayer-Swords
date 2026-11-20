@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:water_boots"
+        "recipes": "slayerswords:water_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

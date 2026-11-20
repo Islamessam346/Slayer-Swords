@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:sound_boots"
+        "recipes": "slayerswords:sound_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:toxic_chestplate"
+        "recipes": "slayerswords:toxic_chestplate"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

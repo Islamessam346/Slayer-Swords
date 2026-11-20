@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:water_leggings"
+        "recipes": "slayerswords:water_leggings"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:scarlet_ore"
+        "recipes": "slayerswords:scarlet_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

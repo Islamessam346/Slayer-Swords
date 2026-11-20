@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:sound_nichirin"
+        "recipes": "slayerswords:sound_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:lightning_boots"
+        "recipes": "slayerswords:lightning_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:flower_nichirin"
+        "recipes": "slayerswords:flower_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:beast_leggings"
+        "recipes": "slayerswords:beast_leggings"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

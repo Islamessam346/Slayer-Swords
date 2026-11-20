@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:black_thunder_nichirin"
+        "recipes": "slayerswords:black_thunder_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

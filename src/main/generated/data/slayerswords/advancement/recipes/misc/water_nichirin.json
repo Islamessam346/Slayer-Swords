@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:water_nichirin"
+        "recipes": "slayerswords:water_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

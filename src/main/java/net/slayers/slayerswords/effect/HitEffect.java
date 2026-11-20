@@ -71,7 +71,7 @@ public interface HitEffect {
                     power, Level.ExplosionInteraction.BLOCK));
 
             attacker.setDeltaMovement(velocity);
-            attacker.hurtMarked = true;
+            attacker.syncVelocity = true;
         };
     }
 
@@ -81,7 +81,7 @@ public interface HitEffect {
             double dz = target.getZ() - attacker.getZ();
             double length = Math.sqrt(dx*dx + dz*dz);
             target.push(dx / length * power, lift, dz / length * power);
-            target.hurtMarked = true;
+            target.syncVelocity = true;
         };
     }
 

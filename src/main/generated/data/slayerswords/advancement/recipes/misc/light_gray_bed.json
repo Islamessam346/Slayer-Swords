@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:light_gray_bed"
+        "recipes": "slayerswords:light_gray_bed"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:flame_chestplate"
+        "recipes": "slayerswords:flame_chestplate"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

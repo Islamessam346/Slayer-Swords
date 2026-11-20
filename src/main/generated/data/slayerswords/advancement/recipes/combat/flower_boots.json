@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:flower_boots"
+        "recipes": "slayerswords:flower_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

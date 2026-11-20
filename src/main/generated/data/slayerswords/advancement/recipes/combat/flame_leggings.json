@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:flame_leggings"
+        "recipes": "slayerswords:flame_leggings"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

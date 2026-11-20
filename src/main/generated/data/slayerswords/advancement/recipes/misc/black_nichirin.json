@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:black_nichirin"
+        "recipes": "slayerswords:black_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

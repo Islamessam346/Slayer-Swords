@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:moon_leggings"
+        "recipes": "slayerswords:moon_leggings"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

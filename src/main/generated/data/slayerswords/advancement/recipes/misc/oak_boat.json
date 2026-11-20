@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:oak_boat"
+        "recipes": "slayerswords:oak_boat"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

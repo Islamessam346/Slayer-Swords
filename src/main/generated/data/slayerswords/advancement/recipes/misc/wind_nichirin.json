@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:wind_nichirin"
+        "recipes": "slayerswords:wind_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

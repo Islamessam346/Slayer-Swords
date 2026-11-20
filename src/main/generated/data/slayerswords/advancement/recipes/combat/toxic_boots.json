@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:toxic_boots"
+        "recipes": "slayerswords:toxic_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

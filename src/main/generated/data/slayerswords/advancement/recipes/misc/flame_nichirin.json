@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:flame_nichirin"
+        "recipes": "slayerswords:flame_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:love_helmet"
+        "recipes": "slayerswords:love_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

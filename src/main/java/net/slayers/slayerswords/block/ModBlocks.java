@@ -70,7 +70,7 @@ public class ModBlocks {
             properties -> new FlowerBlock(MobEffects.ABSORPTION, 5f, properties.noCollision().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).lightLevel(state -> 10)));
 
     public static final Block POTTED_BLUE_SPIDER_LILY = registerBlock("potted_blue_spider_lily",
-            properties -> new FlowerPotBlock(BLUE_SPIDER_LILY, properties.instabreak().noOcclusion().pushReaction(PushReaction.DESTROY).lightLevel(state -> 10)));
+            properties -> new FlowerPotBlock(BLUE_SPIDER_LILY, properties.instabreak().noOcclusion().pushReaction(PushReaction.POPPED).lightLevel(state -> 10)));
 
     public static final Block PEDESTAL_BLOCK = registerBlock("pedestal_block",
             properties -> new PedestalBlock(properties.strength(3f).requiresCorrectToolForDrops()));

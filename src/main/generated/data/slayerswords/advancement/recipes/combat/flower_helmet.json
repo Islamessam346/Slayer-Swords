@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:flower_helmet"
+        "recipes": "slayerswords:flower_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

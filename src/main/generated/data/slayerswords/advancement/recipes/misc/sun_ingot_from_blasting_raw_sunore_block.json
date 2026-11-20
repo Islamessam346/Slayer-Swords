@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:sun_ingot_from_blasting_raw_sunore_block"
+        "recipes": "slayerswords:sun_ingot_from_blasting_raw_sunore_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

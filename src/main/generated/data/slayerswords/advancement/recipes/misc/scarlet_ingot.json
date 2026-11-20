@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:scarlet_ingot"
+        "recipes": "slayerswords:scarlet_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

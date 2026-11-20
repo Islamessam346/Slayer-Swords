@@ -9,7 +9,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.placement.*;
 import net.slayers.slayerswords.SlayerSwords;
 
@@ -24,32 +24,32 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> BLUE_SPIDER_LILY_PLACED_KEY = registerKey("blue_spider_lily_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
-        var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        var configuredFeatures = context.lookup(Registries.FEATURE);
 
-        register(context, OVERWORLD_SUN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_SUN_ORE_KEY),
+        register(context, OVERWORLD_SUN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModFeatures.OVERWORLD_SUN_ORE_KEY),
                 OrePlacements.commonOrePlacement(12,
                         HeightRangePlacement.triangle(VerticalAnchor.absolute(20), VerticalAnchor.absolute(320))));
 
-        register(context, NETHER_DRY_MAGMA_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_DRY_MAGMA_KEY),
+        register(context, NETHER_DRY_MAGMA_PLACED_KEY, configuredFeatures.getOrThrow(ModFeatures.NETHER_DRY_MAGMA_KEY),
                 OrePlacements.commonOrePlacement(5,
                         HeightRangePlacement.triangle(VerticalAnchor.absolute(10), VerticalAnchor.absolute(60))));
 
-        register(context, NETHER_VOLCANIC_CLUSTER_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_VOLCANIC_CLUSTER_KEY),
+        register(context, NETHER_VOLCANIC_CLUSTER_PLACED_KEY, configuredFeatures.getOrThrow(ModFeatures.NETHER_VOLCANIC_CLUSTER_KEY),
                 OrePlacements.commonOrePlacement(5,
                         HeightRangePlacement.triangle(VerticalAnchor.absolute(68), VerticalAnchor.absolute(120))));
 
-        register(context, END_SHINY_METEORITE_DEBRIS_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_SHINY_METEORITE_DEBRIS_KEY),
+        register(context, END_SHINY_METEORITE_DEBRIS_PLACED_KEY, configuredFeatures.getOrThrow(ModFeatures.END_SHINY_METEORITE_DEBRIS_KEY),
                 OrePlacements.commonOrePlacement(25,
                         HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(70))));
 
-        register(context, BLUE_SPIDER_LILY_PLACED_KEY,configuredFeatures.getOrThrow(ModConfiguredFeatures.BLUE_SPIDER_LILY_KEY),
+        register(context, BLUE_SPIDER_LILY_PLACED_KEY,configuredFeatures.getOrThrow(ModFeatures.BLUE_SPIDER_LILY_KEY),
                 List.of(
                         RarityFilter.onAverageOnceEvery(128),
                         InSquarePlacement.spread(),
                         PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
                         BiomeFilter.biome(),
                         CountPlacement.of(12),
-                        RandomOffsetPlacement.ofTriangle(4, 2),
+                        OffsetPlacement.ofTriangle(4, 2),
                         BlockPredicateFilter.forPredicate(BlockPredicate.ONLY_IN_AIR_PREDICATE)
                 )
         );
@@ -60,7 +60,7 @@ public class ModPlacedFeatures {
     }
 
     private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key,
-                                 Holder<ConfiguredFeature<?, ?>> configuration, List<PlacementModifier> modifiers) {
+                                 Holder<Feature> configuration, List<PlacementModifier> modifiers) {
         context.register(key, new PlacedFeature(configuration, List.copyOf(modifiers)));
     }
 }

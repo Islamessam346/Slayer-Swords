@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:block_of_sunore"
+        "recipes": "slayerswords:block_of_sunore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

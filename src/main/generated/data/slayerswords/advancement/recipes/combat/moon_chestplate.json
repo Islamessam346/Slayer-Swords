@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:moon_chestplate"
+        "recipes": "slayerswords:moon_chestplate"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

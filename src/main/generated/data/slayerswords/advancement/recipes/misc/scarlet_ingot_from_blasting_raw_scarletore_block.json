@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:scarlet_ingot_from_blasting_raw_scarletore_block"
+        "recipes": "slayerswords:scarlet_ingot_from_blasting_raw_scarletore_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:meteorite_ore"
+        "recipes": "slayerswords:meteorite_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

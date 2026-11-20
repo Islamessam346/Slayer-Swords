@@ -11,6 +11,8 @@ import net.slayers.slayerswords.item.ModArmorMaterials;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.sound.ModSounds;
 
+import java.util.Map;
+
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricPackOutput output) {
         super(output);
@@ -81,135 +83,20 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.WIND_CORE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.WILD_BOAR_SPAWN_EGG, ModelTemplates.FLAT_ITEM);
 
-
-        itemModelGenerators.generateTrimmableItem(ModItems.SUN_HELMET, ModArmorMaterials.SUN_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SUN_CHESTPLATE, ModArmorMaterials.SUN_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SUN_LEGGINGS, ModArmorMaterials.SUN_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SUN_BOOTS, ModArmorMaterials.SUN_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_HELMET, ModArmorMaterials.SOUND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_CHESTPLATE, ModArmorMaterials.SOUND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_LEGGINGS, ModArmorMaterials.SOUND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SOUND_BOOTS, ModArmorMaterials.SOUND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.WIND_HELMET, ModArmorMaterials.WIND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.WIND_CHESTPLATE, ModArmorMaterials.WIND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.WIND_LEGGINGS, ModArmorMaterials.WIND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.WIND_BOOTS, ModArmorMaterials.WIND_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.WATER_HELMET, ModArmorMaterials.WATER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.WATER_CHESTPLATE, ModArmorMaterials.WATER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.WATER_LEGGINGS, ModArmorMaterials.WATER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.WATER_BOOTS, ModArmorMaterials.WATER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.MIST_HELMET, ModArmorMaterials.MIST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.MIST_CHESTPLATE, ModArmorMaterials.MIST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.MIST_LEGGINGS, ModArmorMaterials.MIST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.MIST_BOOTS, ModArmorMaterials.MIST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_HELMET, ModArmorMaterials.FLAME_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_CHESTPLATE, ModArmorMaterials.FLAME_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_LEGGINGS, ModArmorMaterials.FLAME_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.FLAME_BOOTS, ModArmorMaterials.FLAME_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.LOVE_HELMET, ModArmorMaterials.LOVE_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.LOVE_CHESTPLATE, ModArmorMaterials.LOVE_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.LOVE_LEGGINGS, ModArmorMaterials.LOVE_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.LOVE_BOOTS, ModArmorMaterials.LOVE_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.SERPENT_HELMET, ModArmorMaterials.SERPENT_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SERPENT_CHESTPLATE, ModArmorMaterials.SERPENT_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SERPENT_LEGGINGS, ModArmorMaterials.SERPENT_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.SERPENT_BOOTS, ModArmorMaterials.SERPENT_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_HELMET, ModArmorMaterials.LIGHTNING_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_CHESTPLATE, ModArmorMaterials.LIGHTNING_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_LEGGINGS, ModArmorMaterials.LIGHTNING_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.LIGHTNING_BOOTS, ModArmorMaterials.LIGHTNING_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.BLACK_THUNDER_HELMET, ModArmorMaterials.BLACK_THUNDER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.BLACK_THUNDER_CHESTPLATE, ModArmorMaterials.BLACK_THUNDER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.BLACK_THUNDER_LEGGINGS, ModArmorMaterials.BLACK_THUNDER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.BLACK_THUNDER_BOOTS, ModArmorMaterials.BLACK_THUNDER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.FLOWER_HELMET, ModArmorMaterials.FLOWER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.FLOWER_CHESTPLATE, ModArmorMaterials.FLOWER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.FLOWER_LEGGINGS, ModArmorMaterials.FLOWER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.FLOWER_BOOTS, ModArmorMaterials.FLOWER_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_HELMET, ModArmorMaterials.BEAST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_CHESTPLATE, ModArmorMaterials.BEAST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_LEGGINGS, ModArmorMaterials.BEAST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.BEAST_BOOTS, ModArmorMaterials.BEAST_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.MOON_HELMET, ModArmorMaterials.MOON_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.MOON_CHESTPLATE, ModArmorMaterials.MOON_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.MOON_LEGGINGS, ModArmorMaterials.MOON_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.MOON_BOOTS, ModArmorMaterials.MOON_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_HELMET, ModArmorMaterials.TOXIC_KEY,
-                ItemModelGenerators.TRIM_PREFIX_HELMET, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_CHESTPLATE, ModArmorMaterials.TOXIC_KEY,
-                ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_LEGGINGS, ModArmorMaterials.TOXIC_KEY,
-                ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
-        itemModelGenerators.generateTrimmableItem(ModItems.TOXIC_BOOTS, ModArmorMaterials.TOXIC_KEY,
-                ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
-
-
-
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.SUN_HELMET, ModItems.SUN_CHESTPLATE, ModItems.SUN_LEGGINGS, ModItems.SUN_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.SOUND_HELMET, ModItems.SOUND_CHESTPLATE, ModItems.SOUND_LEGGINGS, ModItems.SOUND_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.WIND_HELMET, ModItems.WIND_CHESTPLATE, ModItems.WIND_LEGGINGS, ModItems.WIND_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.WATER_HELMET, ModItems.WATER_CHESTPLATE, ModItems.WATER_LEGGINGS, ModItems.WATER_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.MIST_HELMET, ModItems.MIST_CHESTPLATE, ModItems.MIST_LEGGINGS, ModItems.MIST_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.FLAME_HELMET, ModItems.FLAME_CHESTPLATE, ModItems.FLAME_LEGGINGS, ModItems.FLAME_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.LOVE_HELMET, ModItems.LOVE_CHESTPLATE, ModItems.LOVE_LEGGINGS, ModItems.LOVE_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.SERPENT_HELMET, ModItems.SERPENT_CHESTPLATE, ModItems.SERPENT_LEGGINGS, ModItems.SERPENT_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.LIGHTNING_HELMET, ModItems.LIGHTNING_CHESTPLATE, ModItems.LIGHTNING_LEGGINGS, ModItems.LIGHTNING_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.BLACK_THUNDER_HELMET, ModItems.BLACK_THUNDER_CHESTPLATE, ModItems.BLACK_THUNDER_LEGGINGS, ModItems.BLACK_THUNDER_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.FLOWER_HELMET, ModItems.FLOWER_CHESTPLATE, ModItems.FLOWER_LEGGINGS, ModItems.FLOWER_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.BEAST_HELMET, ModItems.BEAST_CHESTPLATE, ModItems.BEAST_LEGGINGS, ModItems.BEAST_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.MOON_HELMET, ModItems.MOON_CHESTPLATE, ModItems.MOON_LEGGINGS, ModItems.MOON_BOOTS, false, Map.of());
+        itemModelGenerators.generateTrimmableArmorSet(ModItems.TOXIC_HELMET, ModItems.TOXIC_CHESTPLATE, ModItems.TOXIC_LEGGINGS, ModItems.TOXIC_BOOTS, false, Map.of());
 
         itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_1_MUSIC_DISC, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.DEMON_SLAYER_2_MUSIC_DISC, ModelTemplates.FLAT_ITEM);

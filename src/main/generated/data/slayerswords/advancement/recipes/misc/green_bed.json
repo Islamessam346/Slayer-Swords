@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:green_bed"
+        "recipes": "slayerswords:green_bed"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

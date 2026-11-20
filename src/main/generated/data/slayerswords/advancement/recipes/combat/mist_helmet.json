@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:mist_helmet"
+        "recipes": "slayerswords:mist_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

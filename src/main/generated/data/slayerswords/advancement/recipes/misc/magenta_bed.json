@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:magenta_bed"
+        "recipes": "slayerswords:magenta_bed"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

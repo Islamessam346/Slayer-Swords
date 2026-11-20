@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:toxic_helmet"
+        "recipes": "slayerswords:toxic_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

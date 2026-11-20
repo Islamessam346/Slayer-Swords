@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:cyan_bed"
+        "recipes": "slayerswords:cyan_bed"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

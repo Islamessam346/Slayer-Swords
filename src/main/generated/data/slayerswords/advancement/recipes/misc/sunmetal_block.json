@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:sunmetal_block"
+        "recipes": "slayerswords:sunmetal_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

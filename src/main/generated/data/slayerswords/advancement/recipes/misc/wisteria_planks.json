@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:wisteria_planks"
+        "recipes": "slayerswords:wisteria_planks"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

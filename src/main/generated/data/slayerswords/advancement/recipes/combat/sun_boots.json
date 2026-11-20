@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:sun_boots"
+        "recipes": "slayerswords:sun_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

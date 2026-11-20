@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:love_nichirin"
+        "recipes": "slayerswords:love_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

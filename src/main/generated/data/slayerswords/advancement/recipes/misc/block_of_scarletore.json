@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:block_of_scarletore"
+        "recipes": "slayerswords:block_of_scarletore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

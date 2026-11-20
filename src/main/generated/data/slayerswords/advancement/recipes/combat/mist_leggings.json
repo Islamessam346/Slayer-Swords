@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:mist_leggings"
+        "recipes": "slayerswords:mist_leggings"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:basic_nichirin"
+        "recipes": "slayerswords:basic_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

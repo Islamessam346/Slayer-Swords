@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:love_boots"
+        "recipes": "slayerswords:love_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

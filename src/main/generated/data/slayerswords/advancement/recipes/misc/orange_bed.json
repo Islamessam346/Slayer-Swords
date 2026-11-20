@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:orange_bed"
+        "recipes": "slayerswords:orange_bed"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:black_thunder_boots"
+        "recipes": "slayerswords:black_thunder_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

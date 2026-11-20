@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:serpent_boots"
+        "recipes": "slayerswords:serpent_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

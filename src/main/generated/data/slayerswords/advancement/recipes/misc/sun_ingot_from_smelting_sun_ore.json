@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:sun_ingot_from_smelting_sun_ore"
+        "recipes": "slayerswords:sun_ingot_from_smelting_sun_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

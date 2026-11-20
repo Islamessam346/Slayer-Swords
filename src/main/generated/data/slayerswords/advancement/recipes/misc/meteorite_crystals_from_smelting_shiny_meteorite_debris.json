@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:meteorite_crystals_from_smelting_shiny_meteorite_debris"
+        "recipes": "slayerswords:meteorite_crystals_from_smelting_shiny_meteorite_debris"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:water_helmet"
+        "recipes": "slayerswords:water_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

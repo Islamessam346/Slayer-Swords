@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:toxic_nichirin"
+        "recipes": "slayerswords:toxic_nichirin"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:wind_leggings"
+        "recipes": "slayerswords:wind_leggings"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

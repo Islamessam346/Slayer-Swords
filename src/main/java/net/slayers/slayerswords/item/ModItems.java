@@ -1,8 +1,6 @@
 package net.slayers.slayerswords.item;
 
-import com.mojang.blaze3d.systems.GpuQueryPool;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
-import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.core.Registry;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.BuiltInRegistries;

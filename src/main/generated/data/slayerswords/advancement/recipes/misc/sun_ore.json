@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:sun_ore"
+        "recipes": "slayerswords:sun_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

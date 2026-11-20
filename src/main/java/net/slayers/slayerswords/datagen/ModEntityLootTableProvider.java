@@ -10,8 +10,8 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.EnchantedCountIncreaseFunction;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition;
-import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
-import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraft.world.level.storage.loot.providers.number.floats.ContextFloatProviders;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntProviders;
 import net.slayers.slayerswords.entity.ModEntities;
 
 import java.util.concurrent.CompletableFuture;
@@ -26,10 +26,10 @@ public class ModEntityLootTableProvider extends FabricEntityLootSubProvider {
     public void generate() {
     this.add(ModEntities.WILD_BOAR,
             LootTable.lootTable().withPool(LootPool.lootPool()
-                    .setRolls(ConstantValue.exactly(1))
+                    .setRolls(ContextIntProviders.exactly(1))
                     .add(LootItem.lootTableItem(Items.PORKCHOP)
-                            .apply(SetItemCountFunction.setCount(UniformGenerator.between(2, 3)))
-                            .apply(EnchantedCountIncreaseFunction.lootingMultiplier(this.registries, UniformGenerator.between(1f, 2f)))
+                            .apply(SetItemCountFunction.setCount(ContextIntProviders.between(2, 3)))
+                            .apply(EnchantedCountIncreaseFunction.lootingMultiplier(enchantments, ContextFloatProviders.between(1f, 2f)))
                     ).when(LootItemKilledByPlayerCondition.killedByPlayer())));
     }
 }

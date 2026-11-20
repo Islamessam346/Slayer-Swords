@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "slayerswords:scarletmetal_block"
+        "recipes": "slayerswords:scarletmetal_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
