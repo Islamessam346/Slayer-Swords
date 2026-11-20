@@ -14,6 +14,7 @@ import net.minecraft.world.level.material.PushReaction;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.block.custom.PedestalBlock;
 import net.slayers.slayerswords.block.custom.DemonifierBlock;
+import net.slayers.slayerswords.block.custom.SlayerPortalBlock;
 
 import java.util.function.Function;
 
@@ -77,6 +78,9 @@ public class ModBlocks {
 
     public static final Block DEMONIFIER_BLOCK = registerBlock("demonifier",
             properties -> new DemonifierBlock(properties.strength(5f).requiresCorrectToolForDrops()));
+
+    public static final Block SLAYER_PORTAL = registerBlock("slayer_portal",
+            properties -> new SlayerPortalBlock(properties.strength(3f)));
 
     public static final Block WISTERIA_STAIRS = registerBlock("wisteria_stairs",
             properties -> new StairBlock(ModBlocks.WISTERIA_PLANKS.defaultBlockState(),

@@ -139,6 +139,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.PEDESTAL_BLOCK);
                         output.accept(ModBlocks.DEMONIFIER_BLOCK);
+                        output.accept(ModBlocks.SLAYER_PORTAL);
 
 
                         output.accept(ModItems.DEMON_SLAYER_1_MUSIC_DISC);

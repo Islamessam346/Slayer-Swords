@@ -24,6 +24,9 @@ public class ModRegistryDataProvider extends FabricDynamicRegistryProvider {
         entries.addAll(registries.lookupOrThrow(Registries.VILLAGER_TRADE));
 
         entries.addAll(registries.lookupOrThrow(Registries.JUKEBOX_SONG));
+
+        entries.addAll(registries.lookupOrThrow(Registries.DIMENSION_TYPE));
+        entries.addAll(registries.lookupOrThrow(Registries.LEVEL_STEM));
     }
 
     @Override

@@ -10,6 +10,7 @@ import net.slayers.slayerswords.datagen.villager.ModVillagerTradeTags;
 import net.slayers.slayerswords.datagen.villager.ModVillagerTrades;
 import net.slayers.slayerswords.worldgen.ModFeatures;
 import net.slayers.slayerswords.worldgen.ModPlacedFeatures;
+import net.slayers.slayerswords.worldgen.dimension.ModDimensions;
 
 public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -38,5 +39,10 @@ public class SlayerSwordsDataGenerator implements DataGeneratorEntrypoint {
 		registryBuilder.add(Registries.DAMAGE_TYPE, ModDamageTypesProvider::bootstrap);
 		registryBuilder.add(Registries.VILLAGER_TRADE, ModVillagerTrades::bootstrap);
 		registryBuilder.add(Registries.JUKEBOX_SONG, ModJukeboxSongs::bootstrap);
+
+		registryBuilder.add(Registries.LEVEL_STEM, ModDimensions::bootstrapStem);
+		registryBuilder.add(Registries.DIMENSION_TYPE, ModDimensions::bootstrapType);
+
+
 	}
 }

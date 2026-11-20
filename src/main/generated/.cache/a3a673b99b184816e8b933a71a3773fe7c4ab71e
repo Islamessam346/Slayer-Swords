@@ -1,5 +1,7 @@
 // 26.2	-999999999-01-01T00:00:00	Slayer Swords/SlayerSwords Data Provider
 9f5606f7f14f8c27106f9b63d86160f8a53b7498 data/slayerswords/damage_type/blood_curse.json
+2244e129833dd223454dbde45ffcc3c42b47138f data/slayerswords/dimension/slayerdim.json
+f091541b7f6d5c0b33acc6c957a45eecf5c67518 data/slayerswords/dimension_type/slayerdim_type.json
 ddf3ca8bb357119fae6bf6b5968027e0bc39cdbd data/slayerswords/jukebox_song/demon_slayer_1.json
 df02d91191cc2882e43f20243337808be645521b data/slayerswords/jukebox_song/demon_slayer_2.json
 0666bee14c020b66777f3a5ea27d5b5e7577b865 data/slayerswords/jukebox_song/demon_slayer_3.json
