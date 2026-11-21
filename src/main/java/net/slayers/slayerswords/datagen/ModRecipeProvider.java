@@ -62,6 +62,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("sun ores")
                         .save(output);
 
+                shaped(RecipeCategory.MISC, ModBlocks.SLAYER_PORTAL)
+                        .pattern("ABC")
+                        .pattern("DEF")
+                        .pattern("GHI")
+                        .define('A', ModItems.VORTEX_EMBER)
+                        .define('B', ModItems.WIND_CORE)
+                        .define('C', ModItems.SERPENT_SCALES)
+                        .define('D', ModItems.MARINE_STONE)
+                        .define('E', ModItems.MIST_CORE)
+                        .define('F', ModItems.LOVE_CRYSTAL)
+                        .define('G', ModItems.VOLCANIC_STONE)
+                        .define('H', ModItems.FLASHY_CORE)
+                        .define('I', ModItems.WISTERIA_FLOWER)
+                        .unlockedBy(getHasName(ModItems.VORTEX_EMBER), has(ModItems.VORTEX_EMBER))
+                        .unlockedBy(getHasName(ModItems.WIND_CORE), has(ModItems.WIND_CORE))
+                        .unlockedBy(getHasName(ModItems.SERPENT_SCALES), has(ModItems.SERPENT_SCALES))
+                        .unlockedBy(getHasName(ModItems.MARINE_STONE), has(ModItems.MARINE_STONE))
+                        .unlockedBy(getHasName(ModItems.MIST_CORE), has(ModItems.MIST_CORE))
+                        .unlockedBy(getHasName(ModItems.LOVE_CRYSTAL), has(ModItems.LOVE_CRYSTAL))
+                        .unlockedBy(getHasName(ModItems.VOLCANIC_STONE), has(ModItems.VOLCANIC_STONE))
+                        .unlockedBy(getHasName(ModItems.FLASHY_CORE), has(ModItems.FLASHY_CORE))
+                        .unlockedBy(getHasName(ModItems.WISTERIA_FLOWER), has(ModItems.WISTERIA_FLOWER))
+                        .group("slayer portal")
+                        .save(output);
+
+
+
 
 
                 shaped(RecipeCategory.MISC, ModBlocks.SUNMETAL_BLOCK)
@@ -1041,6 +1068,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.WISTERIA_FLOWER), has(ModItems.WISTERIA_FLOWER))
                         .group("toxic armor")
                         .save(output);
+
 
 
 

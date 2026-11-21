@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flashy_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:flashy_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_love_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:love_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_marine_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:marine_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mist_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:mist_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_serpent_scales": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:serpent_scales"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "slayerswords:slayer_portal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_volcanic_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:volcanic_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_vortex_ember": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:vortex_ember"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_wind_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:wind_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_wisteria_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slayerswords:wisteria_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vortex_ember",
+      "has_wind_core",
+      "has_serpent_scales",
+      "has_marine_stone",
+      "has_mist_core",
+      "has_love_crystal",
+      "has_volcanic_stone",
+      "has_flashy_core",
+      "has_wisteria_flower"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slayerswords:slayer_portal"
+    ]
+  }
+}

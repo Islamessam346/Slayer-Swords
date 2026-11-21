@@ -31,6 +31,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                         ModBlocks.getRK(ModBlocks.DRY_MAGMA),
                         ModBlocks.getRK(ModBlocks.PEDESTAL_BLOCK),
                         ModBlocks.getRK(ModBlocks.DEMONIFIER_BLOCK)
+
                 );
 
 

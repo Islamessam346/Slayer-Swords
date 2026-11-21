@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "slayer portal",
+  "key": {
+    "A": "slayerswords:vortex_ember",
+    "B": "slayerswords:wind_core",
+    "C": "slayerswords:serpent_scales",
+    "D": "slayerswords:marine_stone",
+    "E": "slayerswords:mist_core",
+    "F": "slayerswords:love_crystal",
+    "G": "slayerswords:volcanic_stone",
+    "H": "slayerswords:flashy_core",
+    "I": "slayerswords:wisteria_flower"
+  },
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "result": {
+    "id": "slayerswords:slayer_portal"
+  }
+}
