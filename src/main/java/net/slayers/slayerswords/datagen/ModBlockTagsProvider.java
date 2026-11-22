@@ -40,8 +40,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
         tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.getRK(ModBlocks.WISTERIA_LOG),
-                        ModBlocks.getRK(ModBlocks.WISTERIA_PLANKS)
-                        );
+                        ModBlocks.getRK(ModBlocks.WISTERIA_PLANKS),
+                        ModBlocks.getRK(ModBlocks.WISTERIA_SLAB),
+                        ModBlocks.getRK(ModBlocks.WISTERIA_STAIRS)
+                );
 
 
         tag(BlockTags.NEEDS_IRON_TOOL)
@@ -52,13 +54,24 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                         ModBlocks.getRK(ModBlocks.SUNMETAL_BLOCK),
                         ModBlocks.getRK(ModBlocks.BLOCK_OF_SCARLETORE),
                         ModBlocks.getRK(ModBlocks.SCARLETMETAL_BLOCK),
-                        ModBlocks.getRK(ModBlocks.DRY_MAGMA));
+                        ModBlocks.getRK(ModBlocks.DRY_MAGMA)
+                );
 
         tag(ModTags.Blocks.NEEDS_DEMON_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.VOLCANIC_CLUSTER))
-                .add(ModBlocks.getRK(ModBlocks.DEMONIFIER_BLOCK));
+                .add(ModBlocks.getRK(ModBlocks.DEMONIFIER_BLOCK)
+                );
 
         tag(ModTags.Blocks.INCORRECT_FOR_DEMON_TOOL);
+
+        tag(ModTags.Blocks.WISTERIA_LOGS)
+                .add(ModBlocks.getRK(ModBlocks.WISTERIA_LOG));
+
+        tag(BlockTags.LOGS)
+                .addTag(ModTags.Blocks.WISTERIA_LOGS);
+
+        tag(BlockTags.PLANKS)
+                .add(ModBlocks.getRK(ModBlocks.WISTERIA_PLANKS));
 
         for (TagKey<Block> incorrectTag : List.of(
                 BlockTags.INCORRECT_FOR_WOODEN_TOOL,
@@ -71,6 +84,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         )) {
             tag(incorrectTag).addTag(ModTags.Blocks.NEEDS_DEMON_TOOL);
         }
+
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.WISTERIA_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.WISTERIA_SLAB));
 
         tag(BlockTags.SMALL_FLOWERS).add(ModBlocks.getRK(ModBlocks.BLUE_SPIDER_LILY));
         tag(BlockTags.BEE_ATTRACTIVE).add(ModBlocks.getRK(ModBlocks.BLUE_SPIDER_LILY));

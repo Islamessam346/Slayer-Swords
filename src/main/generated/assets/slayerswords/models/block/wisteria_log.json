@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "slayerswords:block/wisteria_log"
+    "end": "slayerswords:block/wisteria_log_top",
+    "side": "slayerswords:block/wisteria_log"
   }
 }

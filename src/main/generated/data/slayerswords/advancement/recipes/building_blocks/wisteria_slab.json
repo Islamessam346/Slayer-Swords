@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipes": "slayerswords:crafting_table"
+        "recipes": "slayerswords:wisteria_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "slayerswords:crafting_table"
+      "slayerswords:wisteria_slab"
     ]
   }
 }

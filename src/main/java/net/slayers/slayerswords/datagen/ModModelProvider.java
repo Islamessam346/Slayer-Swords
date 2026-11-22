@@ -30,8 +30,12 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.SCARLETMETAL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.VOLCANIC_CLUSTER);
         blockModelGenerators.createTrivialCube(ModBlocks.DRY_MAGMA);
-        blockModelGenerators.createTrivialCube(ModBlocks.WISTERIA_LOG);
-        blockModelGenerators.createTrivialCube(ModBlocks.WISTERIA_PLANKS);
+        blockModelGenerators.woodProvider(ModBlocks.WISTERIA_LOG).log(ModBlocks.WISTERIA_LOG);
+
+        blockModelGenerators.family(ModBlocks.WISTERIA_PLANKS)
+                        .stairs(ModBlocks.WISTERIA_STAIRS)
+                        .slab(ModBlocks.WISTERIA_SLAB);
+
         blockModelGenerators.createPlantWithDefaultItem(ModBlocks.BLUE_SPIDER_LILY, ModBlocks.POTTED_BLUE_SPIDER_LILY, BlockModelGenerators.PlantType.NOT_TINTED);
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.PEDESTAL_BLOCK);
         blockModelGenerators.createHorizontallyRotatedBlock(ModBlocks.DEMONIFIER_BLOCK, TexturedModel.ORIENTABLE);

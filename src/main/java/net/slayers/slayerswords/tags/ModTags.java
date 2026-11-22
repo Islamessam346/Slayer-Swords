@@ -17,6 +17,8 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_DEMON_TOOL = createTag("needs_demon_tool");
         public static final TagKey<Block> INCORRECT_FOR_HASHIRA_TOOL = createTag("incorrect_for_hashira_tool");
 
+        public static final TagKey<Block> WISTERIA_LOGS = createTag("wisteria_logs");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(SlayerSwords.MOD_ID, name));
         }
@@ -42,6 +44,8 @@ public class ModTags {
         public static final TagKey<Item> TOXIC_REPAIR = createTag("toxic_repair");
 
         public static final TagKey<Item> MEATS = createTag("meats");
+
+        public static final TagKey<Item> WISTERIA_LOGS = createTag("wisteria_logs");
 
 
         private static TagKey<Item> createTag(String name) {

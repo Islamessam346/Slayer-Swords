@@ -1,6 +1,8 @@
 {
   "values": [
     "slayerswords:wisteria_log",
-    "slayerswords:wisteria_planks"
+    "slayerswords:wisteria_planks",
+    "slayerswords:wisteria_slab",
+    "slayerswords:wisteria_stairs"
   ]
 }

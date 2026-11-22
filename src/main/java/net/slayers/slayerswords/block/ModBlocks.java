@@ -60,7 +60,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
 
     public static final Block WISTERIA_LOG = registerBlock("wisteria_log",
-            properties -> new Block(properties.strength(4f)
+            properties -> new RotatedPillarBlock(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.CHERRY_WOOD)));
 
     public static final Block WISTERIA_PLANKS = registerBlock("wisteria_planks",

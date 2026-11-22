@@ -2,18 +2,13 @@ package net.slayers.slayerswords.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
-
-import net.fabricmc.fabric.impl.datagen.TagAliasGenerator;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.BlockItemTags;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.slayers.slayerswords.block.ModBlocks;
-import net.slayers.slayerswords.item.ModArmorMaterials;
 import net.slayers.slayerswords.item.ModItems;
 import net.slayers.slayerswords.tags.ModTags;
-
-import net.minecraft.core.HolderLookup;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -112,7 +107,11 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                         ModItems.getRK(Items.RABBIT),
                         ModItems.getRK(Items.ROTTEN_FLESH));
 
+        tag(ModTags.Items.WISTERIA_LOGS)
+                .add(ModItems.getRK(ModBlocks.WISTERIA_LOG.asItem()));
 
+        tag(ItemTags.PLANKS)
+                .add(ModItems.getRK(ModBlocks.WISTERIA_PLANKS.asItem()));
 
         tag(BlockItemTags.SMALL_FLOWERS.item()).add(ModItems.getRK(ModBlocks.BLUE_SPIDER_LILY.asItem()));
     }

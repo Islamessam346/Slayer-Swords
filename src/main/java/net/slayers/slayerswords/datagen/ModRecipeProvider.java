@@ -10,11 +10,13 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.slayers.slayerswords.block.ModBlocks;
 import net.slayers.slayerswords.item.ModItems;
+import net.slayers.slayerswords.tags.ModTags;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -328,14 +330,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("basic nichirin")
                         .save(output);
 
-                shaped(RecipeCategory.MISC, Blocks.CRAFTING_TABLE)
-                        .pattern("   ")
-                        .pattern("RR ")
-                        .pattern("RR ")
-                                .define('R', ModBlocks.WISTERIA_PLANKS)
-                                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
-                                                .group("crafting table")
-                                                        .save(output);
+                planksFromLogs(ModBlocks.WISTERIA_PLANKS, ModTags.Items.WISTERIA_LOGS, 4);
 
                 shaped(RecipeCategory.MISC, Items.OAK_BUTTON)
                         .pattern("   ")
@@ -1116,27 +1111,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
 
-                shapeless(RecipeCategory.MISC, ModBlocks.WISTERIA_PLANKS, 4)
-                        .requires(ModBlocks.WISTERIA_LOG)
-                        .unlockedBy(getHasName(ModBlocks.WISTERIA_LOG), has(ModBlocks.WISTERIA_LOG))
-                        .group("wisteria planks")
+
+                stairBuilder(ModBlocks.WISTERIA_STAIRS, Ingredient.of(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("wisteria")
                         .save(output);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WISTERIA_SLAB, ModBlocks.WISTERIA_PLANKS);
             }
         };
     }

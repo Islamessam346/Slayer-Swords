@@ -22,12 +22,15 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.VOLCANIC_CLUSTER, createOreDrop(ModBlocks.VOLCANIC_CLUSTER, ModItems.VOLCANIC_STONE));
         add(ModBlocks.DRY_MAGMA, createOreDrop(ModBlocks.DRY_MAGMA, ModItems.VORTEX_EMBER));
 
-        add(ModBlocks.BLOCK_OF_SUNORE, createOreDrop(ModBlocks.BLOCK_OF_SUNORE, ModBlocks.BLOCK_OF_SUNORE.asItem()));
-        add(ModBlocks.SUNMETAL_BLOCK, createOreDrop(ModBlocks.SUNMETAL_BLOCK, ModBlocks.SUNMETAL_BLOCK.asItem()));
-        add(ModBlocks.BLOCK_OF_SCARLETORE, createOreDrop(ModBlocks.BLOCK_OF_SCARLETORE, ModBlocks.BLOCK_OF_SCARLETORE.asItem()));
-        add(ModBlocks.SCARLETMETAL_BLOCK, createOreDrop(ModBlocks.SCARLETMETAL_BLOCK, ModBlocks.SCARLETMETAL_BLOCK.asItem()));
-        add(ModBlocks.WISTERIA_LOG, createOreDrop(ModBlocks.WISTERIA_LOG, ModBlocks.WISTERIA_LOG.asItem()));
-        add(ModBlocks.WISTERIA_PLANKS, createOreDrop(ModBlocks.WISTERIA_PLANKS, ModBlocks.WISTERIA_PLANKS.asItem()));
+        dropSelf(ModBlocks.BLOCK_OF_SUNORE);
+        dropSelf(ModBlocks.SUNMETAL_BLOCK);
+        dropSelf(ModBlocks.BLOCK_OF_SCARLETORE);
+        dropSelf(ModBlocks.SCARLETMETAL_BLOCK);
+
+        dropSelf(ModBlocks.WISTERIA_LOG);
+        dropSelf(ModBlocks.WISTERIA_PLANKS);
+        dropSelf(ModBlocks.WISTERIA_STAIRS);
+        add(ModBlocks.WISTERIA_SLAB, this::createSlabItemTable);
 
         dropSelf(ModBlocks.BLUE_SPIDER_LILY);
         dropPottedContents(ModBlocks.POTTED_BLUE_SPIDER_LILY);
