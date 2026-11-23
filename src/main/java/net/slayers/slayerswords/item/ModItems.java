@@ -351,7 +351,7 @@ public class ModItems {
     public static final Item TOXIC_BOOTS = registerItem("toxic_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TOXIC_ARMOR_MATERIAL,ArmorType.BOOTS)));
 
-    public static final Item WILD_BOAR_SPAWN_EGG = registerItem("wild_boar_spwan_egg",
+    public static final Item WILD_BOAR_SPAWN_EGG = registerItem("wild_boar_spawn_egg",
             properties -> new SpawnEggItem(properties.spawnEgg(ModEntities.WILD_BOAR)));
 
 

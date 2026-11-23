@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "slayerswords:item/wild_boar_spwan_egg"
+    "layer0": "slayerswords:item/wild_boar_spawn_egg"
   }
 }

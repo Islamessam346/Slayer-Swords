@@ -230,6 +230,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WISTERIA_PLANKS);
                         output.accept(ModBlocks.WISTERIA_STAIRS);
                         output.accept(ModBlocks.WISTERIA_SLAB);
+                        output.accept(ModBlocks.WISTERIA_BUTTON);
+                        output.accept(ModBlocks.WISTERIA_PRESSURE_PLATE);
                         output.accept(ModBlocks.PEDESTAL_BLOCK);
                         output.accept(ModBlocks.DEMONIFIER_BLOCK);
                     }).build());
