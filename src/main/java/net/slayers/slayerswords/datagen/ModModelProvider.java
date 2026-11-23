@@ -34,7 +34,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockModelGenerators.family(ModBlocks.WISTERIA_PLANKS)
                         .stairs(ModBlocks.WISTERIA_STAIRS)
-                        .slab(ModBlocks.WISTERIA_SLAB);
+                        .slab(ModBlocks.WISTERIA_SLAB)
+                        .button(ModBlocks.WISTERIA_BUTTON)
+                        .pressurePlate(ModBlocks.WISTERIA_PRESSURE_PLATE);
+
 
         blockModelGenerators.createPlantWithDefaultItem(ModBlocks.BLUE_SPIDER_LILY, ModBlocks.POTTED_BLUE_SPIDER_LILY, BlockModelGenerators.PlantType.NOT_TINTED);
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.PEDESTAL_BLOCK);

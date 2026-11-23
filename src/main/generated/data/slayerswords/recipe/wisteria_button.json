@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wisteria",
+  "ingredients": [
+    "slayerswords:wisteria_planks"
+  ],
+  "result": {
+    "id": "slayerswords:wisteria_button"
+  }
+}

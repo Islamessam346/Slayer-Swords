@@ -87,6 +87,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
         tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.WISTERIA_STAIRS));
         tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.WISTERIA_SLAB));
+        tag(BlockTags.BUTTONS).add(ModBlocks.getRK(ModBlocks.WISTERIA_BUTTON));
+        tag(BlockTags.PRESSURE_PLATES).add(ModBlocks.getRK(ModBlocks.WISTERIA_PRESSURE_PLATE));
 
         tag(BlockTags.SMALL_FLOWERS).add(ModBlocks.getRK(ModBlocks.BLUE_SPIDER_LILY));
         tag(BlockTags.BEE_ATTRACTIVE).add(ModBlocks.getRK(ModBlocks.BLUE_SPIDER_LILY));

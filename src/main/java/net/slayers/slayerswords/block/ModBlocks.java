@@ -10,6 +10,9 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.slayers.slayerswords.SlayerSwords;
 import net.slayers.slayerswords.block.custom.PedestalBlock;
@@ -66,6 +69,15 @@ public class ModBlocks {
     public static final Block WISTERIA_PLANKS = registerBlock("wisteria_planks",
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.CHERRY_WOOD)));
+
+    public static final Block WISTERIA_BUTTON = registerBlock("wisteria_button",
+            properties -> new ButtonBlock(BlockSetType.IRON,20,
+                    properties.strength(3f).noCollision()));
+
+    public static final Block WISTERIA_PRESSURE_PLATE = registerBlock("wisteria_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.IRON,
+                    properties.mapColor(MapColor.COLOR_PURPLE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block BLUE_SPIDER_LILY = registerBlock("blue_spider_lily",
             properties -> new FlowerBlock(MobEffects.ABSORPTION, 5f, properties.noCollision().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).lightLevel(state -> 10)));

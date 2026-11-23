@@ -1117,6 +1117,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("wisteria")
                         .save(output);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WISTERIA_SLAB, ModBlocks.WISTERIA_PLANKS);
+
+                buttonBuilder(ModBlocks.WISTERIA_BUTTON, Ingredient.of(ModBlocks.WISTERIA_PLANKS))
+                        .unlockedBy(getHasName(ModBlocks.WISTERIA_PLANKS), has(ModBlocks.WISTERIA_PLANKS))
+                        .group("wisteria")
+                        .save(output);
+                pressurePlate(ModBlocks.WISTERIA_PRESSURE_PLATE, ModBlocks.WISTERIA_PLANKS);
             }
         };
     }

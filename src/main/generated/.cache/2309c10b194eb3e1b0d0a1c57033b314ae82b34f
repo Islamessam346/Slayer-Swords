@@ -1,5 +1,6 @@
 // 26.3	-999999999-01-01T00:00:00	Slayer Swords/Tags for minecraft:block
 eb3e27221974d446326800ece38aa1e27c66775a data/minecraft/tags/block/bee_attractive.json
+c68d16935ff41991fab9d15f14d03ccf7b5d0545 data/minecraft/tags/block/buttons.json
 39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_copper_tool.json
 39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_diamond_tool.json
 39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_gold_tool.json
@@ -7,10 +8,16 @@ eb3e27221974d446326800ece38aa1e27c66775a data/minecraft/tags/block/bee_attractiv
 39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_netherite_tool.json
 39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_stone_tool.json
 39f2575b890e3eba0d8baee07e624eab2c0f9ea5 data/minecraft/tags/block/incorrect_for_wooden_tool.json
-7b3f200276d35c061c339bdb177ca5b82ea248be data/minecraft/tags/block/mineable/axe.json
+bd44f6072e1a5583ebda2ed2bf9e183cfc50c32a data/minecraft/tags/block/logs.json
+68dbd5bb3a1fb7be8a6627e67f0ac5157ea53d29 data/minecraft/tags/block/mineable/axe.json
 658f7db2189c9f682a35c26ec52eb24e394ec158 data/minecraft/tags/block/mineable/hoe.json
 7286b49b4749b09ff1b81c8dc6062dcba32c4226 data/minecraft/tags/block/mineable/pickaxe.json
 5b3b10ca69b217dcc978b5d6cc8b93226cacb34f data/minecraft/tags/block/needs_iron_tool.json
+dd753cfee4ffb4c69f1a982b7ef82947f60f27de data/minecraft/tags/block/planks.json
+0d7e483ccb40a927b7e60486f1d1288d78817923 data/minecraft/tags/block/pressure_plates.json
+92f3b69fb8134294673ba376208dc5c8bc011ce0 data/minecraft/tags/block/slabs.json
 eb3e27221974d446326800ece38aa1e27c66775a data/minecraft/tags/block/small_flowers.json
+804220462860a839d288d66c1786f164b729542e data/minecraft/tags/block/stairs.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/slayerswords/tags/block/incorrect_for_demon_tool.json
 13622d9abcfc5ea052a96afeb15fc8ea34dd8eee data/slayerswords/tags/block/needs_demon_tool.json
+e580db9a46d6d8f45b9e2d131b81fabf88f29bca data/slayerswords/tags/block/wisteria_logs.json

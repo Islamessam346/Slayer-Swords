@@ -31,6 +31,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.WISTERIA_PLANKS);
         dropSelf(ModBlocks.WISTERIA_STAIRS);
         add(ModBlocks.WISTERIA_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.WISTERIA_BUTTON);
+        dropSelf(ModBlocks.WISTERIA_PRESSURE_PLATE);
 
         dropSelf(ModBlocks.BLUE_SPIDER_LILY);
         dropPottedContents(ModBlocks.POTTED_BLUE_SPIDER_LILY);
